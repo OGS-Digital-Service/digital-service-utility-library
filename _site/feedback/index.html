@@ -163,7 +163,7 @@ function searchTerm () {
 }
 const thumbsDown = document.getElementById('nysds-feedback-no');
 const thumbsUp = document.getElementById('nysds-feedback-yes');
-const urlUp = feedbackForm + "?thumbs=Up&referrerUrl=" + fragmentPath + searchTerm()
+const urlUp = feedbackForm + "?thumbs=Up&referrerUrl=" + fragmentPath + searchTerm() 
 const urlDown = feedbackForm + "?thumbs=Down&referrerUrl=" + fragmentPath + searchTerm()
 function replaceUrl () {
     thumbsUp.href = urlUp;
