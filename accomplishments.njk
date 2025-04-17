@@ -158,11 +158,11 @@ title: NYS Digital Service accomplishments link
                     </div>
                 </div>
             </div>
-            <div class="a-text__html nysds-accomplishments-link">
+            {# <div class="a-text__html nysds-accomplishments-link">
                 <p class="text-align-center">
                      <a class="styled-link nysds-text-yellow" href="https://www.governor.ny.gov/putting-money-your-pockets" data-once="nygovExitModal">See more on how Governor Hochul is putting money in your pockets</a>
                 </p>
-            </div>
+            </div> #}
         </div>
     </div>
 </div>
@@ -307,11 +307,11 @@ title: NYS Digital Service accomplishments link
                     </div>
                 </div>
             </div>
-            <div class="a-text__html nysds-accomplishments-link">
+            {# <div class="a-text__html nysds-accomplishments-link">
                 <p class="text-align-center">
                      <a class="styled-link nysds-text-blue" href="https://www.governor.ny.gov/protecting-new-yorkers" data-once="nygovExitModal">Learn More about how Governor Hochul is protecting new yorkers</a>
                 </p>
-            </div>
+            </div> #}
         </div>
     </div>
 </div>
@@ -467,14 +467,26 @@ title: NYS Digital Service accomplishments link
                     </div>
                 </div>
             </div>
-            <div class="a-text__html nysds-accomplishments-link">
+            {# <div class="a-text__html nysds-accomplishments-link">
                 <p class="text-align-center">
                      <a class="styled-link nysds-text-yellow" href="https://www.governor.ny.gov/building-stronger-state" data-once="nygovExitModal">Learn More about how Governor Hochul is building a stronger state</a>
                 </p>
-            </div>
+            </div> #}
         </div>
     </div>
 </div>
 
 
 
+<script>
+    const cardQueues = document.getElementsByClassName('t_quickCard__content');
+    const pockets = '<div class="a-text__html nysds-accomplishments-link"><p class="text-align-center"><a class="styled-link nysds-text-blue" href="https://www.governor.ny.gov/putting-money-your-pockets" data-once="nygovExitModal">See more <span class="sr-only">on how Governor Hochul is putting money in your pockets</span></a></p></div>';
+    const protect = '<div class="a-text__html nysds-accomplishments-link"><p class="text-align-center"><a class="styled-link nysds-text-blue" href="https://www.governor.ny.gov/protecting-new-yorkers" data-once="nygovExitModal">See more <span class="sr-only">about how Governor Hochul is protecting new yorkers</span></a></p></div>'
+    const building = '<div class="a-text__html nysds-accomplishments-link"><p class="text-align-center"><a class="styled-link nysds-text-blue" href="https://www.governor.ny.gov/building-stronger-state" data-once="nygovExitModal">See more <span class="sr-only"> about how Governor Hochul is building a stronger state</span></a></p></div>'
+    function addLink() {
+        cardQueues[0].insertAdjacentHTML('beforeend', pockets);
+        cardQueues[1].insertAdjacentHTML('beforeend', protect);
+        cardQueues[2].insertAdjacentHTML('beforeend', building);
+    }
+    document.addEventListener('DOMContentLoaded', addLink())
+</script>
