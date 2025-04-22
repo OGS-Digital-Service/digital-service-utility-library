@@ -1,5 +1,5 @@
 ---
-layout: nygov.njk
+layout: render.njk
 title: NYSDS Feedback Component
 ---
 {% from './_includes/_components.njk' import feedback  %}
@@ -8,7 +8,7 @@ title: NYSDS Feedback Component
     feedback({
         thumbsUp:"https://forms.ny.gov/s3/Thank-you-for-your-Feedback?thumbs=Up",
         thumbsDown:"https://forms.ny.gov/s3/Thank-you-for-your-Feedback?thumbs=Down",
-        fullPage: false
+        fullPage: true
     })
 }}
 <script>
