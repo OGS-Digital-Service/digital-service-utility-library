@@ -1,0 +1,33 @@
+.nysds-twitter-quote {
+    display: flex;
+    flex-direction: column;
+    background: var(--light-gray);
+    color: var(--black);
+    align-items: center;
+    padding: 20px 40px;
+    /* border: 1px solid var(--primary-core-blue); */
+    border-radius: 25px;
+}
+
+.nysds-twitter-quote-text {
+    margin: 0 0 15px 0;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+
+/* tablet */
+@media (min-width: 768px) {
+
+
+}
+
+
+
+
+/* desktop */
+@media (min-width: 1280px) {
+
+}

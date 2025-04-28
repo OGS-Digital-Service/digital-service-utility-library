@@ -1,0 +1,19 @@
+---
+layout: nygov.njk
+title: Twiiter Gov Quote Embed
+---
+{% from './_includes/_components.njk' import twitterQuote  %}
+<style>{% include './_includes/twitterQuote/_twitterQuote.css'  %}</style>
+{{
+    twitterQuote({
+      quote:"My message to Suffolk County as we recover from this summer’s extreme weather is simple: Your state is here for you. And we’re not going anywhere until the job is done.",
+      credit:"Governor Kathy Hochul",
+      handle:" @GovKathyHochul",
+      postUrl:"https://twitter.com/GovKathyHochul/status/1828917843213070595?ref_src=twsrc%5Etfw",
+      image:"https://t.co/qXcOAJ9nUW"
+
+    })
+}}
+
+{# 
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">My message to Suffolk County as we recover from this summer’s extreme weather is simple: Your state is here for you. And we’re not going anywhere until the job is done. <a href="https://t.co/qXcOAJ9nUW">pic.twitter.com/qXcOAJ9nUW</a></p>&mdash; Governor Kathy Hochul (@GovKathyHochul) <a href="https://twitter.com/GovKathyHochul/status/1828917843213070595?ref_src=twsrc%5Etfw">August 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> #}

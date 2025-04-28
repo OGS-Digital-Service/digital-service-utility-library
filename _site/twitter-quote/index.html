@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{title}}">
+    <meta name="description" content="Twiiter Gov Quote Embed">
     <meta name="generator" content="11ty/eleventy">    
    <link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_RyBbcD_aYxQO4-iBggim80KgfWl4EEFElDc-Y_ijJaw.css?delta=0&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVy0EOgzAMRNELBXKkypCRG8mOq0wApadHoqtuvt7mc3LA8yZE2k3I-WcHKQqmPTpyi-5i9YvUpsb5Gm84slpsYgvHtNo0nRUX89PVoxyG31z68RFbSxULvQHb_y5J" />
 <link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_RunoynkdsjnbAEMjeT35DP_kVc0cAPZUhnqV2XrKZkc.css?delta=1&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVy0EOgzAMRNELBXKkypCRG8mOq0wApadHoqtuvt7mc3LA8yZE2k3I-WcHKQqmPTpyi-5i9YvUpsb5Gm84slpsYgvHtNo0nRUX89PVoxyG31z68RFbSxULvQHb_y5J" />
@@ -34,14 +34,61 @@
 </style>
   
     <link href="/css/fonts.css" rel="stylesheet">
-    <title>{{ title }}</title>
+    <title>Twiiter Gov Quote Embed</title>
   </head>
   <body class="path-frontpage page-node-type-landing-page">
     <main class="" id="main-site-content-for-skiplink">
       <article class="node node--type-landing-page node--promoted node--view-mode-full">
         <article class="p-landing-page -full-page ">
           <div class="t-section -container">
-            {{ content | safe }}
+            
+<style>.nysds-twitter-quote {
+    display: flex;
+    flex-direction: column;
+    background: var(--light-gray);
+    color: var(--black);
+    align-items: center;
+    padding: 20px 40px;
+    /* border: 1px solid var(--primary-core-blue); */
+    border-radius: 25px;
+}
+
+.nysds-twitter-quote-text {
+    margin: 0 0 15px 0;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+
+/* tablet */
+@media (min-width: 768px) {
+
+
+}
+
+
+
+
+/* desktop */
+@media (min-width: 1280px) {
+
+}</style>
+<blockquote 
+    class="nysds-twitter-quote"
+    cite="https://twitter.com/GovKathyHochul/status/1828917843213070595?ref_src=twsrc%5Etfw"
+    >
+    <p class="nysds-twitter-quote-text">My message to Suffolk County as we recover from this summer’s extreme weather is simple: Your state is here for you. And we’re not going anywhere until the job is done.</p>
+    <div class="nysds-twitter-credit">
+        <span class="nysds-twitter-name">- Governor Kathy Hochul</span> 
+        <a class="nysds-twitter-handle" href=""> @GovKathyHochul</a>
+    </div>
+
+</blockquote>
+
+
+
           </div>
         </article>
       </article>
