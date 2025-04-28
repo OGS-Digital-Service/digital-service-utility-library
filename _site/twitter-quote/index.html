@@ -49,12 +49,15 @@
 <style>.nysds-twitter-quote {
     display: flex;
     flex-direction: column;
-    background: var(--light-gray);
+    background: var(--tertiary-core-blue);
     color: var(--black);
     align-items: center;
     padding: 20px 40px;
-    /* border: 1px solid var(--primary-core-blue); */
+    /* border: 3px solid var(--primary-core-blue); */
     border-radius: 25px;
+    max-width: 1160px;
+    /* margin: 0 auto; */
+
 }
 
 .nysds-twitter-quote-text {
@@ -65,6 +68,68 @@
     font-style: italic;
 }
 
+.nysds-twitter-icon {
+    font-size: 48px;
+    opacity: 0.2;
+    margin: 20px 0 -10px 0;
+    color: #000;
+}
+
+.nysds-twitter-icon:hover, :focus {
+    opacity: 1;
+    color: #1DA1F2;
+}
+
+
+.nysds-twitter-quote-not-calling-it-x {
+    display: flex;
+    flex-direction: column;
+    /* background: var(--light-gray); */
+    padding: 20px;
+    max-width: 550px;
+    margin: 0 auto;
+
+}
+
+.nysds-twitter-credit-not-x {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nysds-twitter-avatar-not-x {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.nysds-twitter-details-not-x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.nysds-twitter-name-not-x {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.nysds-twitter-handle-not-x {
+    font-size: 0.8em;
+    padding-top: 2px;
+}
+
+.nysds-twitter-icon-not-x {
+    color: #000;
+    font-size: 2.5em;
+    opacity: 0.2;
+    margin-left: auto;
+}
+
+.nysds-twitter-quote-text-not-x {
+    line-height: 1.5em;
+}
 
 /* tablet */
 @media (min-width: 768px) {
@@ -79,17 +144,43 @@
 @media (min-width: 1280px) {
 
 }</style>
+
+
 <blockquote 
     class="nysds-twitter-quote"
     cite="https://twitter.com/GovKathyHochul/status/1828917843213070595?ref_src=twsrc%5Etfw"
     >
-    <p class="nysds-twitter-quote-text">My message to Suffolk County as we recover from this summer’s extreme weather is simple: Your state is here for you. And we’re not going anywhere until the job is done.</p>
+    <p class="nysds-twitter-quote-text">"My message to Suffolk County as we recover from this summer’s extreme weather is simple: Your state is here for you. And we’re not going anywhere until the job is done."</p>
     <div class="nysds-twitter-credit">
         <span class="nysds-twitter-name">- Governor Kathy Hochul</span> 
-        <a class="nysds-twitter-handle" href=""> @GovKathyHochul</a>
+        <a class="nysds-twitter-handle" href="https://twitter.com/GovKathyHochul">@GovKathyHochul</a>
     </div>
-
+    <a class="nysds-twitter-icon" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 </blockquote>
+
+
+
+
+
+
+<blockquote 
+    class="nysds-twitter-quote-not-calling-it-x"
+    cite="https://twitter.com/GovKathyHochul/status/1828917843213070595?ref_src=twsrc%5Etfw"
+    >
+    <div class="nysds-twitter-credit-not-x">
+        <img class="nysds-twitter-avatar-not-x" src="https://www.governor.ny.gov/sites/default/files/styles/hero_mobile/public/2023-01/GovKathyHochul_FeatureBio_Photo.jpg?h=8a7fc05e&amp;itok=oUSGERtO&amp;focal_point_preview_value=50x50" alt="" />
+        <div class="nysds-twitter-details-not-x">
+            <span class="nysds-twitter-name-not-x">Governor Kathy Hochul</span> 
+            <a class="nysds-twitter-handle-not-x" href="https://twitter.com/GovKathyHochul">@GovKathyHochul</a>
+        </div>
+        <a class="nysds-twitter-icon-not-x" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    </div>
+    <p class="nysds-twitter-quote-text-not-x">My message to Suffolk County as we recover from this summer’s extreme weather is simple: Your state is here for you. And we’re not going anywhere until the job is done.</p>
+    
+    
+</blockquote>
+
+
 
 
 

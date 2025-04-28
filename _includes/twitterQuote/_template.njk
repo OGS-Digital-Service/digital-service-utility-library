@@ -1,11 +1,34 @@
+{% if params.looksLikeTwitter === true %}
+<blockquote 
+    class="nysds-twitter-quote-not-calling-it-x"
+    cite="{{params.postUrl}}"
+    >
+    <div class="nysds-twitter-credit-not-x">
+        <img class="nysds-twitter-avatar-not-x" src="{{params.image}}" alt="{{params.alt}}" />
+        <div class="nysds-twitter-details-not-x">
+            <span class="nysds-twitter-name-not-x">{{params.credit}}</span> 
+            <a class="nysds-twitter-handle-not-x" href="https://twitter.com/{{params.handle}}">@{{params.handle}}</a>
+        </div>
+        <a class="nysds-twitter-icon-not-x" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+    </div>
+    <p class="nysds-twitter-quote-text-not-x">{{params.quote}}</p>
+    
+    
+</blockquote>
+
+
+{% else %}
+
 <blockquote 
     class="nysds-twitter-quote"
     cite="{{params.postUrl}}"
     >
-    <p class="nysds-twitter-quote-text">{{params.quote}}</p>
+    <p class="nysds-twitter-quote-text">"{{params.quote}}"</p>
     <div class="nysds-twitter-credit">
         <span class="nysds-twitter-name">- {{params.credit}}</span> 
-        <a class="nysds-twitter-handle" href="{{params.handleUrl}}">{{params.handle}}</a>
+        <a class="nysds-twitter-handle" href="https://twitter.com/{{params.handle}}">@{{params.handle}}</a>
     </div>
-
+    <a class="nysds-twitter-icon" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
 </blockquote>
+
+{% endif %}

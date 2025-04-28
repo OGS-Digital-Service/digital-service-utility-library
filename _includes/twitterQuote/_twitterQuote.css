@@ -1,12 +1,15 @@
 .nysds-twitter-quote {
     display: flex;
     flex-direction: column;
-    background: var(--light-gray);
+    background: var(--tertiary-core-blue);
     color: var(--black);
     align-items: center;
     padding: 20px 40px;
-    /* border: 1px solid var(--primary-core-blue); */
+    /* border: 3px solid var(--primary-core-blue); */
     border-radius: 25px;
+    max-width: 1160px;
+    /* margin: 0 auto; */
+
 }
 
 .nysds-twitter-quote-text {
@@ -17,6 +20,68 @@
     font-style: italic;
 }
 
+.nysds-twitter-icon {
+    font-size: 48px;
+    opacity: 0.2;
+    margin: 20px 0 -10px 0;
+    color: #000;
+}
+
+.nysds-twitter-icon:hover, :focus {
+    opacity: 1;
+    color: #1DA1F2;
+}
+
+
+.nysds-twitter-quote-not-calling-it-x {
+    display: flex;
+    flex-direction: column;
+    /* background: var(--light-gray); */
+    padding: 20px;
+    max-width: 550px;
+    margin: 0 auto;
+
+}
+
+.nysds-twitter-credit-not-x {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.nysds-twitter-avatar-not-x {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+.nysds-twitter-details-not-x {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
+}
+
+.nysds-twitter-name-not-x {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.nysds-twitter-handle-not-x {
+    font-size: 0.8em;
+    padding-top: 2px;
+}
+
+.nysds-twitter-icon-not-x {
+    color: #000;
+    font-size: 2.5em;
+    opacity: 0.2;
+    margin-left: auto;
+}
+
+.nysds-twitter-quote-text-not-x {
+    line-height: 1.5em;
+}
 
 /* tablet */
 @media (min-width: 768px) {
