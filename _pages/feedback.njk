@@ -1,9 +1,10 @@
 ---
 layout: render.njk
 title: NYSDS Feedback Component
+permalink: "feedback/"
 ---
-{% from './_includes/_components.njk' import feedback  %}
-<style>{% include './_includes/feedback/_feedback.css'  %}</style>
+{% from '../_includes/_components.njk' import feedback  %}
+<style>{% include '../_includes/feedback/_feedback.css'  %}</style>
 {{
     feedback({
         thumbsUp:"https://forms.ny.gov/s3/Thank-you-for-your-Feedback?thumbs=Up",
@@ -12,5 +13,5 @@ title: NYSDS Feedback Component
     })
 }}
 <script>
-{% include './_includes/feedback/_feedback.js'  %}
+{% include '../_includes/feedback/_feedback.js'  %}
 </script>

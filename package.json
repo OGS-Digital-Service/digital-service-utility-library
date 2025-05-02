@@ -1,9 +1,10 @@
 {
   "scripts": {
     "start": "npx @11ty/eleventy --serve & npx tailwindcss -i tailwind-setup.css -o css/tailwind.css --minify --watch",
-    "eleventyOnly": "npx @11ty/eleventy --serve",
+    "11ty": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "test": "pa11y-ci"
+    "test": "pa11y-ci",
+    "pagefind":"npx -y pagefind --site _site  --serve"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",

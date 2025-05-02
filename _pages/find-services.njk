@@ -1,9 +1,10 @@
 ---
 layout: nygov.njk
 title: NY.gov Services Search
+permalink: "find-services/"
 ---
-{% from './_includes/_components.njk' import findServices  %}
-<style>{% include './_includes/findServices/_findServices.css'  %}</style>
+{% from '../_includes/_components.njk' import findServices  %}
+<style>{% include '../_includes/findServices/_findServices.css'  %}</style>
 
 
 {{
@@ -31,4 +32,4 @@ title: NY.gov Services Search
         ]
     })
 }}    
-<script> {% include './_includes/findServices/_findServices.js'  %}</script> 
+<script> {% include '../_includes/findServices/_findServices.js'  %}</script> 

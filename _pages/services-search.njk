@@ -1,9 +1,10 @@
 ---
 layout: render.njk
 title: NY.gov Services Search
+permalink: "services-search/"
 ---
-{% from './_includes/_components.njk' import searchHero  %}
-<style>{% include './_includes/searchHero/_searchHero.css'  %}</style>
+{% from '../_includes/_components.njk' import searchHero  %}
+<style>{% include '../_includes/searchHero/_searchHero.css'  %}</style>
 
 {{
     searchHero({
@@ -28,4 +29,4 @@ title: NY.gov Services Search
         image:"https://www.ny.gov/sites/default/files/2025-01/ServiceSearch_Hero_01.jpg"
     })
 }}      #}
-<script> {% include './_includes/searchHero/_searchHero.js'  %}</script>
+<script> {% include '../_includes/searchHero/_searchHero.js'  %}</script>
