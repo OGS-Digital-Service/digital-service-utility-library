@@ -1,0 +1,56 @@
+---
+layout: render.njk
+title: NYS Digital Service 
+permalink: "iconframe/"
+---
+{% from '../_includes/_components.njk' import pillars, iconframe, avatar  %}
+<style>
+    {# {% include './_includes/pillars/_pillars.css'  %}
+      {% include './_includes/avatar/_avatar.css'  %} #}
+      {% include '../_includes/iconframe/_iconframe.css'  %}
+
+</style>
+
+
+
+{{ iconframe({
+    title:"How We Work",
+    color:"",
+    process:"",
+    description:"",
+    cta:"",
+    ctalink:"",
+    ctaaria:"",
+    iconcards: [
+        {
+            icon:"https://www.ny.gov/sites/default/files/2025-02/Website.svg",
+            iconalt:"a mock layout of a website in a web browser",
+            title: "Websites",
+            titlelink:"https://www.ny.gov/our-work#websites",
+            content:"Provide vision and support for our state website ny.gov and Governor Hochul’s website "
+        },
+        {
+            icon:"https://www.ny.gov/sites/default/files/2025-02/ContentStrategy.svg",
+            iconalt:"a diagram showing connection of media and text to form content strategies",
+            title: "Content Strategy",
+            titlelink:"https://www.ny.gov/our-work#content_strategy",
+            content:"To improve user experience, the team works with agencies to implement plain language wherever possible and optimize the customer journey"
+        },
+        {
+            icon:"https://www.ny.gov/sites/default/files/2025-02/FeedbackThumbsUpThumbsDown.svg",
+            iconalt:"thumbs up and thumbs down indicating the options for feedback typically presented on a website",
+            title: "Feedback",
+            titlelink:"https://www.ny.gov/our-work#feedback",
+            content:"Use surveys and analytics to understand our customers needs and improve our digital footprint"
+        },
+        {
+            icon:"https://www.ny.gov/sites/default/files/2025-02/HTML.svg",
+            iconalt:"open and close tags indicating code, likely html",
+            title: "Accessibility",
+            titlelink:"https://www.ny.gov/our-work#solutions_and_accessibility_engineering",
+            content:"Create easily viewed and read simple html webpages for large PDFs and reports to make information accessible to all as well as provide technical solutions "
+        }
+
+    ]
+})
+}}

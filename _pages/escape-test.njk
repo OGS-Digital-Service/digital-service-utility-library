@@ -1,0 +1,86 @@
+---
+layout: layout.njk
+title: NYSDS Quick Escape Test
+url: nysds.dev/escape-test
+domain: nysds.dev
+permalink: "escape-test/"
+---
+{% from '../_includes/_components.njk' import hero,categorytiles,card,bio,textarea,highlight,iconframe,quicklinks,sponsor  %}
+<h1 class="text-2xl font-bold my-4"> Comparison of Escape Options</h1>
+<section class="flex flex-col">
+
+<h2 class="font-bold text-xl"> 1. Use a Button </h2>
+<div class="flex flex-col lg:flex-row items-center bg-slate-200 p-4 justify-around">
+<button type="button" class="bg-white p-4 my-4 border-black border hover:underline lg:w-80" id="escapebutton">This is a quick escape BUTTON element </button>
+<pre class="hidden lg:block">
+<code class="w-1/2">var button = document.getElementById('escapebutton')
+button.addEventListener("click", replacebutton)
+  function replacebutton () {
+    window.location.replace('https://apple.com')
+  }</code>
+</pre>
+</div>
+
+<h3 class="font-bold text-xl mt-4"> What are the problems specific to the BUTTON approach?</h3>
+<ol class="lg:mx-8">
+<li><strong>A button shouldn't act as a link.</strong> This goes against the intended use of a button element. The HTML spec as well as accessibility advocates would argue that actual "buttons" should perform an action, like submitting data or opening a modal or dialogue. </li>
+<li>Buttons have specific meaning to users of assistive technology and different methods of use (enter, spacebar). When a screenreader announces to a user that they are on a button they may expect different behaviors than we are providing here.</li>
+<li> This relies on javascript to do anything at all. Without js enabled this button does nothing.</li>
+</ol>
+
+
+
+<h2 class="font-bold text-xl"> 2. Use an Anchor (link) </h2>
+<div class="flex flex-col lg:flex-row items-center bg-yellow-200 p-4 justify-around">
+<a href="https://google.com" class="bg-white p-4 my-4 border-black border hover:underline lg:w-80" id="escapeanchor">This is a quick escape ANCHOR element</a>
+<pre class="hidden lg:block">
+<code class="w-1/2"> var link = document.getElementById('escapeanchor')
+link.addEventListener("click", replacelink)
+  function replacelink (e) {
+    e.preventDefault();
+    window.location.replace('https://apple.com')
+  }</code>
+</pre> 
+</div>
+<h3 class="font-bold text-xl"> What are the problems specific to the ANCHOR approach?</h3>
+<ol class="lg:mx-8">
+<li><strong>We're breaking the native function of a link.</strong> In order to use the <code>window.location.replace</code> method, we have to intercept the native function of the link. This is already a concern and anti-pattern. We're stopping the browser from interpreting the native semantics of a link by using <code> stopPropagation </code> and then re-assigning it a location. Technically, this might not be a concern as long as the two locations are the same, but we're literally re-inventing the wheel here.</li>
+<li> As long as we still provide an <code> href </code> then this isn't technically invalid html and wouldn't require javascript to still "work" as a link. Although the history modification wouldn't be functional.</li>
+</ol>
+
+<h2 class="font-bold text-xl"> A problem with <u>BOTH</u> options </h2>
+<div class="lg:mx-8">
+<p class="my-2"> <strong>You can't reliably modify browser history beyond a single level.</strong></p>
+<p> Both of these options use the <code> window.location.replace </code> method which does replace the current browser location with the url that you've specified. Meaning that if you hit the back button it will have nowhere to go back to.</p>
+<p class="my-2"> <strong>So what's the problem? </strong></p>
+<p> <u>This is only useful if you've gone to a single page on a website and no others</u>. If a user has searched google for OPDV, navigated to the homepage, and clicked on a page of content on the OPDV website, then clicks the escape link, this method can only remove the final action from that list. A bad actor hits the back button and the browser will go back to the OPDV homepage in this user journey.</p>
+<p class="mt-2"> We can't reliably know how many pages a user has clicked on within the website and be able to remove, rename, or re-assign those pages to other locations, except for the current page. Browsers have some powerful history modification API tools available - think <code> history.pushState()</code> or <code> history.replaceState()</code> - however they aren't really useful without knowing where, when, and how much of the history to modify based on user action. We can't easily know that. </p>
+</div>
+
+<h2 class="font-bold text-xl mt-4 text-admin-first"> OGS Digital Services Recommendation </h2>
+<p class="lg:mx-8"> Given the accessibility and functionality drawbacks of both approaches, it might be just as effective to keep the current solution in place. Of the two options above, we'd recommend using the ANCHOR link method despite the iffy technical implications of doing so as it has a native fallback without javascript. Removing a single layer of history could benefit some users, so the drawbacks may be worthwhile.</p>
+<h3 class="font-bold text-xl mt-4">Suggested Supplemental Reading </h3>
+<div class="nysds-textarea">
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey#accessibility_concerns">MDN Analysis of the <code>accesskey</code> attributes accessibility concerns</a></li>
+<li><a href="https://www.w3.org/TR/WCAG20-TECHS/H33.html">WCAG 2.0: Supplementing link text with the title attribute</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/history">MDN History Object</a></li>
+
+
+</ul>
+</div>
+</section>
+<script>
+  var button = document.getElementById('escapebutton')
+  button.addEventListener("click", replacebutton)
+   function replacebutton () {
+    window.location.replace('https://apple.com')
+  }
+  var link = document.getElementById('escapeanchor')
+  link.addEventListener("click", replacelink)
+  function replacelink (e) {
+    e.preventDefault();
+    window.location.replace('https://apple.com')
+  }
+ 
+</script>

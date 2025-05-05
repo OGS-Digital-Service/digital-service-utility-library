@@ -1,0 +1,224 @@
+---
+layout: render.njk
+title: NY.gov budget table checklist
+url: nysds.dev/table-checklist
+domain: nysds.dev
+facebook:
+    title:  Demo of a budget table checklist
+    description: Demo of a budget table checklist
+    image: nygov-logo.png
+twitter:
+    title: Demo of a budget table checklist
+    description: Demo of a budget table checklist
+    image: nygov-logo.png
+permalink: "table-checklist/"
+---
+{% from '../_includes/_components.njk' import tablechecklist  %}
+<style>{% include '../_includes/table-checklist/_table-checklist.css'  %}</style>
+
+
+
+<section class="budget-checklist-container">
+
+{{
+    tablechecklist({
+        heading:"Fiscal Responsibility",
+        cells:[
+            {
+                data:"No income tax increases"
+            },
+            {
+                data:"Reserves at 15%"
+            }
+            
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Housing",
+        cells:[
+            {
+                data:"485-x incentive"
+            },
+            {
+                data:"Extend 421-a"
+            },
+            {
+                data:"Office conversions"
+            },
+            {
+                data:"Lift FAR 12 cap"
+            },
+            {
+                data:"Unlock vacant units"
+            },
+            {
+                data:"Anti-price gouging"
+            },
+            {
+                data:"Statewide incentives"
+            },
+            {
+                data:"Pro-Housing communities"
+            },
+            {
+                data:"Build on State-owned sites"
+            },
+            {
+                data:"Stop deed theft"
+            }
+            
+        ]
+    })
+}}
+
+
+{{
+    tablechecklist({
+        heading:"Public Safety",
+        cells:[
+            {
+                data:"Retail theft"
+            },
+            {
+                data:"Unlicensed cannabis"
+            },
+            {
+                data:"Sammy’s Law"
+            },
+            {
+                data:"Gun violence"
+            },
+            {
+                data:"Hate Crimes"
+            },
+            {
+                data:"Domestic Violence"
+            },
+            {
+                data:"Ghost Cars"
+            }   
+            
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Education",
+        cells:[
+            {
+                data:"Back to Basics reading"
+            },
+            {
+                data:"Record School Aid"
+            },
+            {
+                data:"Update funding formula"
+            },
+            {
+                data:"TAP increases"
+            },
+            {
+                data:"Mayoral control"
+            }
+
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Mental Health",
+        cells:[
+            {
+                data:"School-based clinics"
+            },
+            {
+                data:"200 new inpatient beds"
+            },
+            {
+                data:"Mental health courts"
+            }
+
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Healthcare",
+        cells:[
+            {
+                data:"Modernize hospitals"
+            },
+            {
+                data:"Pre-natal leave"
+            },
+            {
+                data:"Maternal care"
+            },
+            {
+                data:"Medicaid funding"
+            },
+            {
+                data:"NY SWIMS"
+            },
+            {
+                data:"Reduce costs"
+            }
+
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Cost of Living",
+        cells:[
+            {
+                data:"Ban insulin co-pays"
+            },
+            {
+                data:"Medical debt protections"
+            },
+            {
+                data:"Property tax relief"
+            }
+
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Sustainaibility",
+        cells:[
+            {
+                data:"25 million trees"
+            },
+            {
+                data:"Clean Water"
+            }
+
+        ]
+    })
+}}
+
+{{
+    tablechecklist({
+        heading:"Innovation",
+        cells:[
+            {
+                data:"Empire AI"
+            },
+            {
+                data:"ON-RAMP"
+            }
+
+        ]
+    })
+}}
+</section>

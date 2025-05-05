@@ -1,0 +1,75 @@
+---
+layout: layout.njk
+title: NYSDS SDVOB Search Demo
+url: nysds.dev/sdvob-search-demo
+domain: nysds.dev
+permalink: "sdvob-search/"
+---
+<h2 class="text-xl font-bold my-4"> Progressive Disclosure Filter Example </h2>
+<div class="m-4 flex flex-col md:w-1/2" x-data="{ choice: '',  }">
+    <label class="" for="first-menu">
+        Filter By
+    </label>
+    <select 
+      class="m-4 p-4 border border-solid border-black bg-white" 
+      id="first-menu" 
+      name="languages" 
+      autocomplete="off"
+      x-model="choice">
+          <option  value="" disabled selected >Select one</option>
+          <option  
+          value="text"
+           >
+            Text Input 
+          </option>
+          <option value="option" >Option List</option>
+    </select>
+
+    
+
+
+    <template x-if="choice == 'text'">
+      <div class="flex flex-col">
+      <label for="text-input" class="sr-only"> Text input example </label>
+      <input 
+          class="m-4 p-4 border border-solid border-black" 
+          type="text"
+          id="text-input"
+          placeholder="Text input example"
+             />
+      </div>
+    </template>
+
+
+    <template x-if="choice == 'option'">
+      <div class="flex flex-col">
+      <label for="second-menu" class="sr-only"> Title of second criteria</label>
+      <select 
+        class="m-4 p-4 border border-solid border-black bg-white" 
+        id="second-menu" 
+        name="second" 
+        autocomplete="off"
+      >
+            <option  value="" disabled selected >Select a second criteria</option>
+            <option value="1" >Option 1</option>
+            <option value="2" >Option 2</option>
+            <option value="3" >Option 3</option>
+            <option value="4" >Option 4</option>
+            <option value="5" >Option 5</option>
+            <option value="6" >Option 6</option>
+      </select>
+      </div>
+    </template>
+
+
+    <template x-if="choice">
+      <div class="flex">
+      <button class="bg-admin-first w-48 p-2 font-bold m-4 text-white hover:bg-black focus:bg-black"> Apply Filter </button>
+      <button 
+      @click="choice = ! choice"
+      class="bg-admin-first w-48 p-2 font-bold m-4 text-white hover:bg-black focus:bg-black"> Reset Filter </button>
+      </div>
+    </template>
+</div>
+
+<div class="h-48"></div>

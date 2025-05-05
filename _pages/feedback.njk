@@ -1,0 +1,17 @@
+---
+layout: render.njk
+title: NYSDS Feedback Component
+permalink: "feedback/"
+---
+{% from '../_includes/_components.njk' import feedback  %}
+<style>{% include '../_includes/feedback/_feedback.css'  %}</style>
+{{
+    feedback({
+        thumbsUp:"https://forms.ny.gov/s3/Thank-you-for-your-Feedback?thumbs=Up",
+        thumbsDown:"https://forms.ny.gov/s3/Thank-you-for-your-Feedback?thumbs=Down",
+        fullPage: true
+    })
+}}
+<script>
+{% include '../_includes/feedback/_feedback.js'  %}
+</script>

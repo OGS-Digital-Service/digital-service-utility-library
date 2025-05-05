@@ -109,6 +109,13 @@ This is a static website. In the traditional sense, it's "just a website." HTML,
     ]
 })}} 
 
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+
 
 {{
     feedback({
