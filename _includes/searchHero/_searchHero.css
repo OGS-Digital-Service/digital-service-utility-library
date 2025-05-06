@@ -9,6 +9,22 @@
     background-color: #d0d0ce;
 }
 
+.nysds-search-hero-container-signup {
+    display: flex;
+    justify-content: center;
+    background-color: #d0d0ce;
+}
+
+.nysds-search-hero-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    max-width: 1160px;
+    border-radius: 0;
+}
+
 .nysds-search-hero-color {
     display: flex;
     flex-direction: column;
@@ -29,6 +45,14 @@
     border-radius: 0;
     background-color: #d0d0ce;
     text-align: center;
+}
+
+.nysds-search-hero-heading-signup {
+    font-size: 24px;
+    line-height: 1.15em;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 800;
+    margin: 0 0 15px 0;
 }
 
 .nysds-search-hero-heading {
@@ -64,7 +88,24 @@
     -webkit-border-bottom-right-radius: 0;
 }
 
+#nysds-service-search-input-signup {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+}
+
 #nysds-service-search-input:focus {
+    outline: 2px #FACE00 solid;
+    box-shadow:inset 0 0 0 4px
+}
+
+#nysds-service-search-input-signup:focus {
     outline: 2px #FACE00 solid;
     box-shadow:inset 0 0 0 4px
 }
@@ -97,6 +138,11 @@
     margin-top: 15px;
 }
 
+.nysds-search-container-signup {
+    display: flex;
+    width: 100%;
+}
+
 #nysds-service-search-form {
     width: 100%;
     display: flex;
@@ -124,6 +170,17 @@
         height: 512px;
         justify-content: flex-start;
     }
+    .nysds-search-hero-signup {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 25px 15px;
+        width: 100%;
+        max-width: 1160px;
+        border-radius: 0;
+    }
+
+
     .nysds-search-hero {
         align-items: flex-start;
         width: 580px;
@@ -134,6 +191,12 @@
         background: #fff;
         text-align: left !important;
     }
+
+    .nysds-search-hero-heading-signup { 
+        margin: 0;
+    }
+
+
     #nysds-service-search-form {
         justify-content: flex-start;
     }

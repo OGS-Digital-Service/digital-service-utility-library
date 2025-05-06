@@ -72,3 +72,33 @@
     </div>
 </section>
 {% endif %}
+{% if params.variant == "signUp" %}
+<section class="nysds-search-hero-container-signup" id="nysds-search-hero">
+    <div class="nysds-search-hero-signup">
+        <h2 class="nysds-search-hero-heading-signup nysds-text-{{params.color}}">
+            {{params.heading}}
+        </h2>
+       
+        <div class="nysds-search-container-signup">
+            <form id="nysds-service-search-form">
+                <label for="nysds-service-search-input" class="sr-only">
+                    Search All Services
+                </label>
+                <div class="nysds-search-box">
+                    <input 
+                        id="nysds-service-search-input-signup"
+                        placeholder="Search All Services" 
+                        size="8" 
+                        type="search" 
+                        enterkeyhint="search"
+                    >
+                    <button type="submit" id="nysds-service-search-submit"> 
+                    <span class="sr-only">  Search all state services </span>
+                        <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                    </button>  
+                </div>  
+            </form>
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -4,9 +4,25 @@ title: NY.gov Services Search
 permalink: "services-search/"
 ---
 {% from '../_includes/_components.njk' import searchHero  %}
+
 <style>{% include '../_includes/searchHero/_searchHero.css'  %}</style>
 
+
+
 {{
+    searchHero({
+        heading:"Search All Services",
+        searchBackground:"white",
+        background:"blue",
+        color: "black",
+        variant:"signUp"
+    })
+}}  
+
+
+
+
+{# {{
     searchHero({
         heading:"Search All New York State Services",
         description:"Explore the services available in New York State.",
@@ -16,7 +32,7 @@ permalink: "services-search/"
         variant:"colorHero",
         image:"https://www.ny.gov/sites/default/files/2025-01/ServiceSearch_Hero_01.jpg"
     })
-}}  
+}}   #}
 
 {# {{
     searchHero({
@@ -29,4 +45,5 @@ permalink: "services-search/"
         image:"https://www.ny.gov/sites/default/files/2025-01/ServiceSearch_Hero_01.jpg"
     })
 }}      #}
-<script> {% include '../_includes/searchHero/_searchHero.js'  %}</script>
+{# <script> {% include '../_includes/searchHero/_searchHero.js'  %}</script> #}
+<script> {% include '../_includes/searchHero/_searchSignup.js'  %}</script>

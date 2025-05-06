@@ -1,5 +1,6 @@
 
 
+
 <style>.nysds-search-hero-container {
     display: flex;
     justify-content: center;
@@ -9,6 +10,22 @@
     display: flex;
     justify-content: center;
     background-color: #d0d0ce;
+}
+
+.nysds-search-hero-container-signup {
+    display: flex;
+    justify-content: center;
+    background-color: #d0d0ce;
+}
+
+.nysds-search-hero-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    max-width: 1160px;
+    border-radius: 0;
 }
 
 .nysds-search-hero-color {
@@ -31,6 +48,14 @@
     border-radius: 0;
     background-color: #d0d0ce;
     text-align: center;
+}
+
+.nysds-search-hero-heading-signup {
+    font-size: 24px;
+    line-height: 1.15em;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 800;
+    margin: 0 0 15px 0;
 }
 
 .nysds-search-hero-heading {
@@ -66,7 +91,24 @@
     -webkit-border-bottom-right-radius: 0;
 }
 
+#nysds-service-search-input-signup {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+}
+
 #nysds-service-search-input:focus {
+    outline: 2px #FACE00 solid;
+    box-shadow:inset 0 0 0 4px
+}
+
+#nysds-service-search-input-signup:focus {
     outline: 2px #FACE00 solid;
     box-shadow:inset 0 0 0 4px
 }
@@ -99,6 +141,11 @@
     margin-top: 15px;
 }
 
+.nysds-search-container-signup {
+    display: flex;
+    width: 100%;
+}
+
 #nysds-service-search-form {
     width: 100%;
     display: flex;
@@ -126,6 +173,17 @@
         height: 512px;
         justify-content: flex-start;
     }
+    .nysds-search-hero-signup {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 25px 15px;
+        width: 100%;
+        max-width: 1160px;
+        border-radius: 0;
+    }
+
+
     .nysds-search-hero {
         align-items: flex-start;
         width: 580px;
@@ -136,30 +194,36 @@
         background: #fff;
         text-align: left !important;
     }
+
+    .nysds-search-hero-heading-signup { 
+        margin: 0;
+    }
+
+
     #nysds-service-search-form {
         justify-content: flex-start;
     }
 }</style>
 
 
-<section class="nysds-search-hero-container-color" id="nysds-search-hero">
-    <div class="nysds-search-hero-color">
-        <h1 class="nysds-search-hero-heading nysds-text-black">
-            Search All New York State Services
-        </h1>
-        
-        <p class="nysds-search-description nysds-text-black">
-            Explore the services available in New York State.
-        </p>
-        
-        <div class="nysds-search-container">
+
+
+
+
+<section class="nysds-search-hero-container-signup" id="nysds-search-hero">
+    <div class="nysds-search-hero-signup">
+        <h2 class="nysds-search-hero-heading-signup nysds-text-black">
+            Search All Services
+        </h2>
+       
+        <div class="nysds-search-container-signup">
             <form id="nysds-service-search-form">
                 <label for="nysds-service-search-input" class="sr-only">
                     Search All Services
                 </label>
                 <div class="nysds-search-box">
                     <input 
-                        id="nysds-service-search-input"
+                        id="nysds-service-search-input-signup"
                         placeholder="Search All Services" 
                         size="8" 
                         type="search" 
@@ -174,22 +238,31 @@
         </div>
     </div>
 </section>
-
   
 
 
-<script> document.addEventListener('DOMContentLoaded', function() {
-    const searchInput = document.getElementById('nysds-service-search-input');
+
+
+
+
+
+
+<script> 
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('nysds-service-search-input-signup');
     const submitSearch = document.getElementById('nysds-service-search-form');
     const searchHero = document.getElementById('nysds-search-hero');
+    const container = searchHero.closest(".t-section__content");
+    container.classList.add('-no-margin-top')
+
     function searchServices (e) {
         e.preventDefault();
         var searchTerm = searchInput.value; 
         if (!searchTerm) {
-           window.location.href ="https://ny.gov/all-services"
+           window.location.href ="/all-services"
         }
         else {
-            window.location.href ="https://ny.gov/all-services?search_api_fulltext_tablet=&search_api_fulltext="+searchTerm+"&items_per_page=10#views-exposed-form-filter-frame-services"
+            window.location.href ="/all-services?search_api_fulltext_tablet=&search_api_fulltext="+searchTerm+"&items_per_page=10#views-exposed-form-filter-frame-services"
         } 
     }
     submitSearch.addEventListener("submit", searchServices)
