@@ -12,7 +12,7 @@
 .nysds-search-hero-container-signup {
     display: flex;
     justify-content: center;
-    background-color: #d0d0ce;
+    background-color: #fff;
 }
 
 .nysds-search-hero-signup {
@@ -53,6 +53,8 @@
     font-family: "Proxima Nova", sans-serif;
     font-weight: 800;
     margin: 0 0 15px 0;
+    padding: 0 20px;
+    min-width: 25%;
 }
 
 .nysds-search-hero-heading {
