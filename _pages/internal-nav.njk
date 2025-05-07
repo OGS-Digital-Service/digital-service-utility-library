@@ -5,3 +5,25 @@ permalink: "internal-nav/"
 ---
 {% from '../_includes/_components.njk' import global  %}
 <style>{% include '../_includes/global/_global.css'  %}</style>
+
+
+{{
+    global({
+        siteName:"Internal",
+        links: [
+            {
+                text:"first",
+                url:"#"
+            },
+            {
+                text:"dropdown menu",
+                items:[
+                    {
+                        text:"something",
+                        url:"#"
+                    }
+                ]
+            }
+        ]
+    })
+}}

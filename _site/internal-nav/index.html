@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <!-- If you're reading this: help us obi-wan can-coder, you're our only hope. Apply today: ogs.ny.gov/employment -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NYS Digital Service Internal Site Nav demo">
+    <meta name="generator" content="11ty/eleventy">    
+   <link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_RyBbcD_aYxQO4-iBggim80KgfWl4EEFElDc-Y_ijJaw.css?delta=0&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVy0EOgzAMRNELBXKkypCRG8mOq0wApadHoqtuvt7mc3LA8yZE2k3I-WcHKQqmPTpyi-5i9YvUpsb5Gm84slpsYgvHtNo0nRUX89PVoxyG31z68RFbSxULvQHb_y5J" />
+<link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_RunoynkdsjnbAEMjeT35DP_kVc0cAPZUhnqV2XrKZkc.css?delta=1&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVy0EOgzAMRNELBXKkypCRG8mOq0wApadHoqtuvt7mc3LA8yZE2k3I-WcHKQqmPTpyi-5i9YvUpsb5Gm84slpsYgvHtNo0nRUX89PVoxyG31z68RFbSxULvQHb_y5J" />
+<link rel="stylesheet" media="all" href="https://www.ny.gov/profiles/contrib/nygov/themes/custom/nygov-theme/nygov_theme/../storybook/dist/styles.css?sp3q0g" />
+<link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_lf5s1G73sstlPH3RfPhxQ3rL4J9Qz8hf7dwsMBC1vx4.css?delta=3&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVy0EOgzAMRNELBXKkypCRG8mOq0wApadHoqtuvt7mc3LA8yZE2k3I-WcHKQqmPTpyi-5i9YvUpsb5Gm84slpsYgvHtNo0nRUX89PVoxyG31z68RFbSxULvQHb_y5J" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  :root {
+      --primary-core-blue: #154973;
+      --secondary-core-blue: #457AA5;
+      --link-blue: #004DD1;
+      --tertiary-core-blue: #EFF6FB;
+      --quaternary-blue: #007AC2;
+      --core-accent-yellow: #FACE00;
+      --yellow-alert: #FFE396;
+      --black: #000000;
+      --darkest-gray: #242424;
+      --dark-gray: #62666A;
+      --mid-gray: #D0D0CE;
+      --light-gray: #EDEDED;
+      --white: #FFFFFF;
+      --dark-red-alert: #B32E31;
+      --light-red-alert: #FEC3C3;
+      --success-green: #329d08;
+      --warning-orange: #d4820c;
+    }
+</style>
+<script src="/js/nysds-utilities.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  
+    <link href="/css/fonts.css" rel="stylesheet">
+    <title>NYS Digital Service Internal Site Nav demo</title>
+  </head>
+  <body class="path-frontpage page-node-type-landing-page">
+    <main class="" id="main-site-content-for-skiplink">
+      <article class="node node--type-landing-page node--promoted node--view-mode-full">
+        <article class="p-landing-page -full-page ">
+          <div class="t-section -container">
+            
+<style>
+.nysds-global-nav {
+  display:flex;
+  flex-direction: column;
+  background: var(--primary-core-blue);
+  justify-content: center;
+  font-family: Proxima Nova, Arial, sans-serif;
+}
+
+.nysds-global-mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-left: auto;
+  padding: 0.5em;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nysds-global-mobile-menu:focus {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(58%) saturate(1418%) hue-rotate(359deg) brightness(98%) contrast(101%);
+  outline: 1px solid var(--core-accent-yellow);
+}
+
+.nysds-global-mobile-menu:hover {
+  filter: brightness(0) saturate(100%) invert(80%) sepia(58%) saturate(1418%) hue-rotate(359deg) brightness(98%) contrast(101%);
+  outline: 1px solid var(--core-accent-yellow);
+}
+
+.nysds-global-menu-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3E%3Cpath d='M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+  filter: invert(100%);
+  height: 25px;
+  width: 23px;
+  background-repeat: no-repeat;
+}
+
+.nysds-global-caret-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3C!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3E%3Cpath d='M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z'/%3E%3C/svg%3E");
+  height: 18px;
+  width: 16px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  display: block;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(20%) saturate(3240%) hue-rotate(176deg) brightness(96%) contrast(91%);
+}
+
+.nysds-global-turn-arrow-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3E%3Cpath d='M350 177.5c3.8-8.8 2-19-4.6-26l-136-144C204.9 2.7 198.6 0 192 0s-12.9 2.7-17.4 7.5l-136 144c-6.6 7-8.4 17.2-4.6 26s12.5 14.5 22 14.5l88 0 0 192c0 17.7-14.3 32-32 32l-80 0c-17.7 0-32 14.3-32 32l0 32c0 17.7 14.3 32 32 32l80 0c70.7 0 128-57.3 128-128l0-192 88 0c9.6 0 18.2-5.7 22-14.5z'/%3E%3C/svg%3E");
+  transform: rotate(90deg);
+  height: 15px;
+  width: 13px;
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 2px;
+  margin-right: 15px;
+  filter: brightness(0) saturate(100%) invert(22%) sepia(20%) saturate(3240%) hue-rotate(176deg) brightness(96%) contrast(91%);
+}
+
+.nysds-global-close-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3C!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3E%3Cpath d='M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z'/%3E%3C/svg%3E");
+  filter: invert(100%);
+  height: 24px;
+  width: 18px;
+  background-repeat: no-repeat;
+}
+
+.nysds-global-site-name {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 20px 35px;
+}
+
+.nysds-global-home-link {
+  text-decoration: none;
+  color: var(--core-accent-yellow)
+}
+
+.nysds-global-home-link:hover { 
+  color:var(--core-accent-yellow);
+  text-decoration: underline;
+}
+
+.nysds-global-home-link:focus { 
+  color:var(--core-accent-yellow);
+  text-decoration: underline;
+}
+
+.nysds-global-nav-container {
+  display: none;
+  flex-direction: column;
+}
+
+.nysds-global-name-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid var(--mid-gray);
+}
+
+.nysds-global-link-list {
+  list-style-type: "";
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 20px;
+  background-color: var(--light-gray);
+}
+
+.nysds-global-link-sub-list {
+  list-style-type: "";
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-gray);
+  margin: 0;
+  padding: 0;
+}
+
+.nysds-global-list-child-item {
+  padding: 20px;
+}
+
+.nysds-global-list-item {
+  padding: 15px 25px 15px 10px;
+  border-top: 1px solid var(--mid-gray);
+}
+
+.nysds-global-list-item:first-of-type {
+  border-top: none;
+}
+
+.nysds-global-link {
+  color:var(--primary-core-blue);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 5px;
+  display: flex;
+}
+
+.nysds-global-button {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--primary-core-blue);
+  font-weight:bold;
+  display: flex;
+  width: 100%;
+}
+
+.nysds-global-link:hover {
+  color:var(--black);
+  text-decoration: underline;
+}
+
+.nysds-global-link:focus {
+  color:var(--black);
+  text-decoration: underline;
+  outline: 1px solid var(--primary-core-blue);
+  box-shadow: 0 0 0 1px var(--light-gray)
+}
+
+.nysds-global-link:hover .nysds-global-turn-arrow-icon {
+  filter: invert(0%) saturate(0%);
+}
+
+.nysds-global-link:focus .nysds-global-turn-arrow-icon {
+  filter: invert(0%) saturate(0%);
+}
+
+.nysds-global-link:focus .nysds-global-caret-icon {
+  filter: invert(0%)
+}
+
+.nysds-global-link:hover .nysds-global-caret-icon {
+  filter: invert(0%)
+} 
+
+.nysds-rotate-180 {
+  transform: rotate(180deg);
+}
+
+
+
+
+/* breakpoiiiint */
+@media (min-width: 1024px) {
+  .nysds-global-nav {
+    justify-content: initial;
+    flex-direction: row;
+  }
+
+  .nysds-global-nav-container {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0;
+  }
+  
+  .nysds-global-name-container {
+    width: fit-content;
+    align-items: center;
+    margin-right: 20px;
+    border-bottom: 0;
+  }
+
+  .nysds-global-link-list {
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--primary-core-blue);
+  }
+
+  .nysds-global-button {
+    color: var(--white);
+    padding: 0px 10px; 
+  }
+
+  .nysds-global-site-name {
+    margin: 20px 0 20px 60px;
+  }
+
+  .nysds-global-list-item {
+    border: 0;
+    padding: 10px 10px;
+    display: initial;
+  }
+
+  .nysds-global-link-sub-list {
+    border: 1px solid var(--mid-gray);
+    position: absolute;
+    margin: 20px 0;
+    padding: 0;
+    color: var(--black) !important;
+    background-color: var(--light-gray);
+  }
+
+  .nysds-global-mobile-menu  {
+    display: none;
+  }
+
+  .nysds-global-link {
+    color: var(--white);
+    font-size: 1rem;
+  }
+
+  .nysds-global-sublink {
+    color: var(--primary-core-blue);
+  }
+
+  .nysds-global-link:hover {
+    color:var(--core-accent-yellow);
+  }
+
+  .nysds-global-sublink:hover {
+    color: var(--black);
+  }
+
+  .nysds-global-sublink:focus {
+    color: var(--black) !important;
+    outline: 1px solid var(--primary-core-blue) !important;
+  }
+  
+  .nysds-global-link:focus {
+    color:var(--core-accent-yellow);
+    outline: 1px solid var(--core-accent-yellow);
+  }
+ 
+  .nysds-global-caret-icon {
+    filter: invert(100%)
+  }
+
+
+  .nysds-global-link:focus .nysds-global-caret-icon {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(66%) saturate(1269%) hue-rotate(357deg) brightness(96%) contrast(105%);
+  }
+
+  .nysds-global-link:hover .nysds-global-caret-icon {
+    filter: brightness(0) saturate(100%) invert(81%) sepia(66%) saturate(1269%) hue-rotate(357deg) brightness(96%) contrast(105%);
+  } 
+
+  .nysds-global-caret-icon { 
+    margin-left: 8px;
+  }
+}</style>
+
+
+
+    <nav class="nysds-global-nav" 
+     aria-labelledby="nysds-global-nav-label"
+     x-data="{ 
+                dropdownMenu: false,
+                mobileOpen: false,
+                closeIcon: false
+                }"  
+                
+     @click.outside="mobileOpen = false, closeIcon = false"
+     @keydown.escape.document="mobileOpen = false, closeIcon = false"
+     >
+    <span class="sr-only" id="nysds-global-nav-label"> main website navigation </span>
+    <div class="nysds-global-name-container">
+        <h1 class="nysds-global-site-name">
+            <a href="/" class="nysds-global-home-link">
+                Internal
+            </a>
+        </h1>
+        
+        <button class="nysds-global-mobile-menu"
+                @click="mobileOpen = ! mobileOpen, closeIcon = ! closeIcon"
+                aria-controls="nygov-nav-menu"
+                :aria-expanded="mobileOpen" 
+        >
+            <span class="nysds-global-menu-icon" x-show="! closeIcon"></span>
+            <span class="nysds-global-close-icon" x-show="closeIcon" x-cloak></span>
+            <span class="sr-only"> Toggle Website Navigation </span>
+        </button>
+        
+    </div>
+
+    <div class="nysds-global-nav-container"
+        :class="window.innerWidth < 1280 &&  mobileOpen ? 'nysds-flex' : ''"
+         x-cloak
+         id="nygov-nav-menu"  
+    >
+        <ul class="nysds-global-link-list"
+        >
+            
+                <li class="nysds-global-list-item"
+                    x-data="{
+                                dropdown: false
+                            }"
+                    >
+                    
+                        <a href="#" class="nysds-global-link">
+                            first
+                        </a>
+                    
+                </li>
+            
+                <li class="nysds-global-list-item"
+                    x-data="{
+                                dropdown: false
+                            }"
+                    >
+                    
+
+                        
+                        <button class="nysds-global-button nysds-global-link "  
+                            @click="dropdown = ! dropdown"
+                            :aria-expanded="dropdown"
+                            aria-controls="nysds-global-dropdown-menu2"
+                            @click.outside="dropdown=false"
+                            > 
+                            dropdown menu 
+                            <span class="nysds-global-caret-icon" :class="! dropdown ? '' : 'nysds-rotate-180'" ></span>
+                        </button>
+                        
+
+                        
+                        <ul class="nysds-global-link-sub-list" 
+                            @keydown.escape.document="dropdown=false"
+                            @focusin.outside="dropdown=false"
+                            x-show="dropdown"
+                            x-cloak 
+                            x-ref="submenu2" 
+                            id="nysds-global-dropdown-menu2"
+                            >
+                        
+                        
+                            <li class="nysds-global-list-child-item">
+                                <a href="#" class="nysds-global-sublink nysds-global-link" 
+                                >
+                                    <span class="nysds-global-turn-arrow-icon" aria-hidden="true"></span>
+                                    something
+                                </a>
+                                
+                            </li>
+                        
+                        </ul>
+                    
+                </li>
+            
+        </ul>
+    </div>
+</nav>
+
+          </div>
+        </article>
+      </article>
+    </main>
+
+  </body>
+</html>
