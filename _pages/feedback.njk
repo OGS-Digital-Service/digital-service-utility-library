@@ -1,9 +1,9 @@
 ---
-layout: render.njk
+layout: nygov.njk
 title: NYSDS Feedback Component
 permalink: "feedback/"
 ---
-{% from '../_includes/_components.njk' import feedback  %}
+{# {% from '../_includes/_components.njk' import feedback  %}
 <style>{% include '../_includes/feedback/_feedback.css'  %}</style>
 {{
     feedback({
@@ -14,4 +14,9 @@ permalink: "feedback/"
 }}
 <script>
 {% include '../_includes/feedback/_feedback.js'  %}
+</script> #}
+
+<script>
+    {% include '../_includes/feedback/_webcomponent.js'  %}
 </script>
+<digital-feedback></digital-feedback>
