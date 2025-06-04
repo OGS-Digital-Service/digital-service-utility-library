@@ -127,14 +127,13 @@ class digitalFeedback extends HTMLElement {
         const feedbackText = this.shadowRoot.getElementById('nysds-feedback-helpful');
         const feedbackArea = this.shadowRoot.getElementById('nysds-feedback-options-area');
         const feedbackLink = this.shadowRoot.querySelectorAll('a.nysds-feedback-link');
-        console.log(feedbackLink)
-    for (let i = 0; i < feedbackLink.length; i++) {
-        feedbackLink[i].addEventListener("click", feedbackChange) // change area on click
-            function feedbackChange () {
-                feedbackArea.setAttribute("style", "display:none;");
-                feedbackText.innerText = "Thank you for your feedback!"
-            }
-    }  
-  }
+        for (let i = 0; i < feedbackLink.length; i++) {
+            feedbackLink[i].addEventListener("click", feedbackChange) // change area on click
+                function feedbackChange () {
+                    feedbackArea.setAttribute("style", "display:none;");
+                    feedbackText.innerText = "Thank you for your feedback!"
+                }
+        }  
+    }
 }
 customElements.define("digital-feedback", digitalFeedback);
