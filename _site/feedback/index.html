@@ -55,10 +55,11 @@
     this.render();
   }
   render() {
+    const shadow = this.attachShadow({ mode: "open" });
     const feedbackUrl = 'https://forms.ny.gov/s3/Child-Support-Services-Feedback'
     const colorPrimary ='#43285d'
     const colorSecondary = '#d3d5e3'
-    this.innerHTML = `
+    shadow.innerHTML = `
         <style>
             .nysds-feedback {
                 display: flex;
@@ -171,14 +172,10 @@
             </div>
         </section>
       `;
-
-  }
-}
-customElements.define("digital-feedback", digitalFeedback);
-document.addEventListener('DOMContentLoaded', function() {
-    const feedbackText = document.getElementById('nysds-feedback-helpful');
-    const feedbackArea = document.getElementById('nysds-feedback-options-area');
-    const feedbackLink = document.getElementsByClassName('nysds-feedback-link');
+        const feedbackText = this.shadowRoot.getElementById('nysds-feedback-helpful');
+        const feedbackArea = this.shadowRoot.getElementById('nysds-feedback-options-area');
+        const feedbackLink = this.shadowRoot.querySelectorAll('a.nysds-feedback-link');
+        console.log(feedbackLink)
     for (let i = 0; i < feedbackLink.length; i++) {
         feedbackLink[i].addEventListener("click", feedbackChange) // change area on click
             function feedbackChange () {
@@ -186,7 +183,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 feedbackText.innerText = "Thank you for your feedback!"
             }
     }  
-})
+  }
+}
+customElements.define("digital-feedback", digitalFeedback);
+
 </script>
 <digital-feedback></digital-feedback>
           </div>
