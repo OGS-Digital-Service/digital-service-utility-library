@@ -11,6 +11,7 @@ class digitalFeedback extends HTMLElement {
     const feedbackUrl = 'https://forms.ny.gov/s3/Child-Support-Services-Feedback'
     const colorPrimary ='#43285d'
     const colorSecondary = '#d3d5e3'
+    const questionPrompt = 'Was it easy to enroll?'
     shadow.innerHTML = `
         <style>
             .nysds-feedback {
@@ -99,7 +100,7 @@ class digitalFeedback extends HTMLElement {
             }
         </style>
         <section class="nysds-feedback nysds-feedback-landing">
-            <h3 class="nysds-feedback-heading" id="nysds-feedback-helpful">Did you find this page helpful?</h3>
+            <h3 class="nysds-feedback-heading" id="nysds-feedback-helpful">${questionPrompt}</h3>
             <div class="nysds-feedback-options" id="nysds-feedback-options-area">
                 <a  href="${feedbackUrl}?thumbs=Up" 
                     class="nysds-feedback-link" 
