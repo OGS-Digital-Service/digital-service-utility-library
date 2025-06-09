@@ -56,12 +56,23 @@
   }
   render() {
     const shadow = this.attachShadow({ mode: "open" });
-    const feedbackUrl = 'https://forms.ny.gov/s3/Child-Support-Services-Feedback'
+    const feedbackUrl = 'https://forms.ny.gov/s3/Child-Support-Online-Enrollment-Feedback'
     const colorPrimary ='#43285d'
     const colorSecondary = '#d3d5e3'
     const questionPrompt = 'Was it easy to enroll?'
     shadow.innerHTML = `
         <style>
+            .sr-only {
+                position:absolute;
+                width:1px;
+                height:1px;
+                padding:0;
+                margin:-1px;
+                overflow:hidden;
+                clip:rect(0,0,0,0);
+                white-space:nowrap;
+                border-width:0
+            }
             .nysds-feedback {
                 display: flex;
                 flex-direction: column;
@@ -153,22 +164,22 @@
                 <a  href="${feedbackUrl}?thumbs=Up" 
                     class="nysds-feedback-link" 
                     data-feedback="yes"
-                    aria-label="Yes this page was helpful"
                     target="_blank"
                     id="nysds-feedback-yes"
                     >
                     <span class="nysds-feedback-thumbs" aria-hidden="true"></span>
                     Yes
+                    <span class="sr-only"> easy to enroll. Opens new window with survey. </span>
                 </a>
                 <a  href="${feedbackUrl}?thumbs=Down" 
                     class="nysds-feedback-link" 
                     data-feedback="no"
-                    aria-label="No this page was not helpful"
                     target="_blank"
                     id="nysds-feedback-no"
                     >
                     <span class="nysds-feedback-thumbs nysds-feedback-transform" aria-hidden="true"></span>
                     No
+                    <span class="sr-only"> not easy to enroll. Opens new window with survey.</span>
                 </a>
             </div>
         </section>
