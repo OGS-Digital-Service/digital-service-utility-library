@@ -62,22 +62,27 @@
     display: flex;
     flex-wrap: wrap;
     padding: 0;
+    margin-top: 25px;
     margin-bottom: 0;
 }
 
 .blog-chips-list li {
     min-width: fit-content;
-    margin: 10px;
+    margin: 10px 15px 10px 0;
 }
 
 .blog-chip-link {
-    font-size: 0.8em;
+    font-size: 14px;
     text-decoration: none;
     color: var(--black);
     background-color: var(--white);
-    padding: 7px 10px;
+    padding: 5px 10px;
     border-radius: 5px;
-    
+    border: 1px solid var(--mid-gray);
+}
+
+.blog-chip-link i {
+    font-size: 12px;
 }
 
 .blog-chip-link:hover, :focus{
@@ -85,15 +90,54 @@
     background-color: var(--black);
 }
 
+ .o-cardGlobalTablet .a-card__description p {
+    font-size: 16px;
+    line-height: 1.375em;
+
+ }
+
+ /* adjust a-card__label bottom margin across all featured cards - IMPORTANT: going to be done in NYG-1647 sprint 49 */
+.o-cardGlobalTablet .m-card__data .a-card__label {
+    margin:0 0 20px;
+ } 
+
+
+  /* adjust a-card__description top margin across all featured cards -  - IMPORTANT: going to be done in NYG-1647 sprint 49*/
+.o-cardGlobalTablet .a-card__description {
+    margin: 15px 0 0;
+   }
 
 /* tablet  */
 @media (min-width: 768px) {
+        /*hide image for the 769px-1023px breakpoint - this is specific to the blog card only and only this breakpoint  */
+      .o-cardGlobalTablet .o-cardLogo {
+        display: none;
+      }
+}
 
+/* laptop  */
+@media (min-width: 1024px) {
+   /* change line clamp to 2 lines at laptop breakpoint only - this is specific to the blog card only and only this breakpoint between 1025px and 1279px */
+      .o-cardGlobalTablet .a-card__description {
+        -webkit-line-clamp: 2;
+      }
+
+      /* re-display the card image above 1024px */
+      .o-cardGlobalTablet .o-cardLogo {
+        display: block;
+      }
 }
 
 /* desktop */
 @media (min-width: 1280px) {
-
+    /* card description truncation returns to 4 lines at desktop breakpoint as does all other card descriptions */
+    .o-cardGlobalTablet .a-card__description {
+        -webkit-line-clamp: 4;
+      }
+       /* adjust a-card__description paragraph font size across all featured cards -  - IMPORTANT: going to be done in NYG-1647 sprint 49*/
+    .o-cardGlobalTablet .a-card__description p {
+        font-size: 18px;
+    }
 
 }</style>
 
@@ -105,11 +149,11 @@
     <div class="t-headline -showTitleSubheadline">
         <h2 class="pTitleWrapper">
             <span class="a-pTitle a-card__title">
-                Featured
+                Pretend
             </span>
 
             <span class="a-pHeadline a-card__subHeadline">
-                News
+                These are Blogs instead of News
             </span>
         </h2>
     </div>
