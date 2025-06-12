@@ -1,0 +1,26 @@
+params:
+- name: frametitle
+  type: string
+  required: false 
+- name: cards
+  type: array
+  required: true
+  params:
+  - name: title
+    type: string
+    required: true  
+  - name: content
+    type: string
+    required: true
+  - name: link
+    type: string
+    required: true
+  - name: arialabel
+    type: string
+    required: true
+  - name: image
+    type: string
+    required: true
+  - name: imagealt
+    type: string
+    required: true

@@ -1,0 +1,47 @@
+.blog-categories {
+    display: flex;
+}
+
+.blog-chips {
+    width: 100%;
+}
+
+.blog-chips-list {
+    list-style-type: "";
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.blog-chips-list li {
+    min-width: fit-content;
+    margin: 10px;
+}
+
+.blog-chip-link {
+    font-size: 0.8em;
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--white);
+    padding: 7px 10px;
+    border-radius: 5px;
+    
+}
+
+.blog-chip-link:hover, :focus{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+
+/* tablet  */
+@media (min-width: 768px) {
+
+}
+
+/* desktop */
+@media (min-width: 1280px) {
+
+
+}

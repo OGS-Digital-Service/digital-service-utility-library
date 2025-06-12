@@ -1,0 +1,14 @@
+ <aside class="blog-categories" aria-labelledby="blog-category-label-{{params.index}}"> {# instead of using this param use a loop.index from the card loop #}
+    <span class="sr-only" id="blog-category-label-{{params.index}}"> Blog Categories</span>
+    <div class="blog-chips">
+        <ul class="blog-chips-list">
+            {% for chip in params.chips %}
+                <li>
+                    <a href="{{chip.link}}" class="blog-chip-link">
+                        <i class="fa-solid fa-tag"></i>
+                        <span> {{chip.text}}</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+</aside>
