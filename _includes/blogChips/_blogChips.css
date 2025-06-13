@@ -34,7 +34,12 @@
     font-size: 12px;
 }
 
-.blog-chip-link:hover, :focus{
+.blog-chip-link:hover{
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.blog-chip-link:focus{
     color: var(--white);
     background-color: var(--black);
 }
