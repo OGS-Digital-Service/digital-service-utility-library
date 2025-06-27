@@ -11,7 +11,7 @@ class digitalFeedback extends HTMLElement {
     const feedbackUrl = 'https://forms.ny.gov/s3/IES-Feedback'
     const colorPrimary ='#43285d'
     const colorSecondary = '#d3d5e3'
-    const questionPrompt = 'How was your experience?'
+    const questionPrompt = 'Did this experience meet your expectations?'
     const feedbackLocation = window.location;
     shadow.innerHTML = `
         <style>
