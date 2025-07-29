@@ -1,0 +1,22 @@
+
+{% set chartsData = params.dataSource %} {# this sets the charts data loop to the datasource set in the component#}
+<table class="">
+    <caption> {{params.caption}} </caption>
+
+    <thead>
+        {% for headerData in chartsData %}
+        <th scope="col"> {{headerData.year}} </th>
+        {% endfor %}
+    </thead>
+
+    <tbody>
+        {% for data in chartsData %}
+
+        {% endfor %}
+    </tbody>
+    
+
+</table>
+
+
+

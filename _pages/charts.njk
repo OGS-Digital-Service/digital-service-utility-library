@@ -1,0 +1,22 @@
+---
+layout: layout.njk
+title: NYSDS Charts
+permalink: "charts/"
+data: _olmstead
+---
+{% from '../_includes/_components.njk' import chartsTable  %}
+<style>{% include '../_includes/chartsTable/_chartsTable.css'  %}</style>
+
+<link href=" https://cdn.jsdelivr.net/npm/charts.css@1.2.0/dist/charts.min.css " rel="stylesheet">
+<h1> Testing charts </h1>
+
+{{
+    chartsTable({
+        dataSource:_olmstead,
+        caption:"Table caption",
+        intro:" ",
+        ctalink:"",
+        ctatext:""
+
+    })
+}}
