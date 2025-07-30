@@ -1,0 +1,95 @@
+.sr-only {
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border-width:0
+}
+
+.budget-checklist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-checklist-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 5px;
+    width: max-content;
+    border: 2px solid #154973;
+    
+}
+.table-checklist {
+    background: #154973;
+    color: #fff;
+    
+}
+
+.table-checklist-header-row {
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.table-checklist-header {
+    color: #154973 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fff !important;
+    font-size: 1.2em;
+    text-align: center !important;
+}
+
+.table-checklist-table-row {
+    border: 2px solid #fff !important;
+}
+
+.table-checklist-table-cell {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 5px !important;
+}
+
+.table-checklist-checkmark {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3E%3Cpath d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    display: block;
+    filter: invert(85%) sepia(35%) saturate(4425%) hue-rotate(5deg) brightness(102%) contrast(106%);
+}
+
+@media (min-width: 768px) {
+    .budget-checklist-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 1240px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .budget-checklist-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 790px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .budget-checklist-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 650px;
+    }
+
+}

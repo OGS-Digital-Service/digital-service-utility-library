@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" />
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" async></script>
+<script>
+    $(document).ready(function() {
+        $('#{{params.tableName}}').DataTable( {
+        "scrollX": true,
+        "lengthChange": false,
+        "pageLength": 10
+        } );
+    } );
+    function ClearFilters() {
+        $('.filterClear').val('');  
+        $('.dataTables_filter').val('');
+            var table = $('#{{params.tableName}}').DataTable();
+            table
+            .search( '' )
+            .columns().search( '' )
+            .draw();
+        }
+</script>
+
+{%set tableData = params.dataSource %}
+
+<table id="{{params.tableName}}" class="display">
+    <thead class="">
+        <tr>
+            {% for headers in params.tableHeaders %}
+            <th scope="col">{{headers.title}}</th>
+            {% endfor %}  
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for data in tableData %}
+            <tr>
+                <td> {{data.school_district}} </td>
+                <td> {{data.school_name}} </td>
+                <td> {{data.link}} </td>
+                <td> {{data.school_year}} </td>
+                <td> {{data.published_date}} </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+
+</table>

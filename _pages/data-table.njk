@@ -1,0 +1,35 @@
+---
+layout: nygov.njk
+title: NYS Digital Service Data Table
+permalink: "data-table/"
+data: _distractionFree
+---
+{% from '../_includes/_components.njk' import dataTable with context %}
+<style>{% include '../_includes/dataTable/_dataTable.css'  %}</style>
+<div style="width: 80%">
+{{
+    dataTable({
+        dataSource: _distractionFree,
+        tableName:"distraction",
+        title:"Distraction Free Schools Plans",
+        caption:"List of School Districts in New York State",
+        tableHeaders: [
+            {
+                title: "School District"
+            },
+            {
+                title: "School Name"
+            },
+            {
+                title: "Link"
+            },
+            {
+                title: "School Year"
+            },
+            {
+                title: "Date Published"
+            }
+        ]
+    })
+}}
+</div>

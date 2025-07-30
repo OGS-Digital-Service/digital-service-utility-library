@@ -1,0 +1,146 @@
+[
+  {
+    "school_district": "Ravena-Coeymans-Selkirk",
+    "school_name": "Pieter B Coeymans Elementary",
+    "link": "https://www.rcscsd.org/o/pb-coeymans",
+    "published_date": "8/1/25",
+    "school_year": "2025-26",
+    "state_region": "Capital District"
+  },
+  {
+    "school_district": "Ravena-Coeymans-Selkirk",
+    "school_name": "A.W. Becker Elementary",
+    "link": "https://www.rcscsd.org/o/aw-becker",
+    "published_date": "8/1/25",
+    "school_year": "2025-26",
+    "state_region": "Capital District"
+  },
+  {
+    "school_district": "Ravena-Coeymans-Selkirk",
+    "school_name": "RCS Middle School",
+    "link": "https://www.rcscsd.org/o/rcs-middle",
+    "published_date": "8/1/25",
+    "school_year": "2025-26",
+    "state_region": "Capital District"
+  },
+  {
+    "school_district": "Ravena-Coeymans-Selkirk",
+    "school_name": "RCS High School",
+    "link": "https://www.rcscsd.org/o/rcs-high",
+    "published_date": "8/1/25",
+    "school_year": "2025-26",
+    "state_region": "Capital District"
+  },
+  {
+    "school_district": "School District 1",
+    "school_name": "School Name 1",
+    "link": "https://ny.gov",
+    "published_date": "8/2/25",
+    "school_year": "2025-26",
+    "state_region": "Mid Hudson"
+  },
+  {
+    "school_district": "School District 2",
+    "school_name": "School Name 2",
+    "link": "https://ny.gov",
+    "published_date": "8/3/25",
+    "school_year": "2025-26",
+    "state_region": "Mid Hudson"
+  },
+  {
+    "school_district": "School District 3",
+    "school_name": "School Name 3",
+    "link": "https://ny.gov",
+    "published_date": "8/4/25",
+    "school_year": "2025-26",
+    "state_region": "Mid Hudson"
+  },
+  {
+    "school_district": "School District 4",
+    "school_name": "School Name 4",
+    "link": "https://ny.gov",
+    "published_date": "8/5/25",
+    "school_year": "2025-26",
+    "state_region": "Mid Hudson"
+  },
+  {
+    "school_district": "School District 5",
+    "school_name": "School Name 5",
+    "link": "https://ny.gov",
+    "published_date": "8/6/25",
+    "school_year": "2025-26",
+    "state_region": "Downstate"
+  },
+  {
+    "school_district": "School District 6",
+    "school_name": "School Name 6",
+    "link": "https://ny.gov",
+    "published_date": "8/7/25",
+    "school_year": "2025-26",
+    "state_region": "Downstate"
+  },
+  {
+    "school_district": "School District 7",
+    "school_name": "School Name 7",
+    "link": "https://ny.gov",
+    "published_date": "8/8/25",
+    "school_year": "2025-26",
+    "state_region": "Downstate"
+  },
+  {
+    "school_district": "School District 8",
+    "school_name": "School Name 8",
+    "link": "https://ny.gov",
+    "published_date": "8/9/25",
+    "school_year": "2025-26",
+    "state_region": "NYC"
+  },
+  {
+    "school_district": "School District 9",
+    "school_name": "School Name 9",
+    "link": "https://ny.gov",
+    "published_date": "8/10/25",
+    "school_year": "2025-26",
+    "state_region": "NYC"
+  },
+  {
+    "school_district": "School District 10",
+    "school_name": "School Name 10",
+    "link": "https://ny.gov",
+    "published_date": "8/11/25",
+    "school_year": "2025-26",
+    "state_region": "NYC"
+  },
+  {
+    "school_district": "School District 11",
+    "school_name": "School Name 11",
+    "link": "https://ny.gov",
+    "published_date": "8/12/25",
+    "school_year": "2025-26",
+    "state_region": "Western NY"
+  },
+  {
+    "school_district": "School District 12",
+    "school_name": "School Name 12",
+    "link": "https://ny.gov",
+    "published_date": "8/13/25",
+    "school_year": "2025-26",
+    "state_region": "Southern Tier"
+  },
+  {
+    "school_district": "School District 13",
+    "school_name": "School Name 13",
+    "link": "https://ny.gov",
+    "published_date": "8/14/25",
+    "school_year": "2025-26",
+    "state_region": "North Country"
+  },
+  {
+    "school_district": "School District 14",
+    "school_name": "School Name 14",
+    "link": "https://ny.gov",
+    "published_date": "8/15/25",
+    "school_year": "2025-26",
+    "state_region": "Central NY"
+  }
+]

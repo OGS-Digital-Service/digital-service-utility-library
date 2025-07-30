@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <!-- If you're reading this: help us obi-wan can-coder, you're our only hope. Apply today: ogs.ny.gov/employment -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NYS Digital Service Data Table">
+    <meta name="generator" content="11ty/eleventy">    
+<link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_k-U3L0dylO3UZA1t9BzNw9ZSoVOg8m8JQWp8DwqrnVs.css?delta=0&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVykEOwjAMRNELheZIyG1GJsiOq0xaCKdHglU3X3_xODngeRUibSbkvLyDFAXTFh25RXex-kFqU-O8jwccWS1WsRvHtNr0L0s_drFFnvJOZ8WL-dfFoxyGiylVLPQLIL80pw" />
+<link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_6k0F2wwGQwy51Ie1z_GC8e32kzNVcx8ncyKTFcq4iMA.css?delta=1&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVykEOwjAMRNELheZIyG1GJsiOq0xaCKdHglU3X3_xODngeRUibSbkvLyDFAXTFh25RXex-kFqU-O8jwccWS1WsRvHtNr0L0s_drFFnvJOZ8WL-dfFoxyGiylVLPQLIL80pw" />
+<link rel="stylesheet" media="all" href="https://www.ny.gov/profiles/contrib/nygov/themes/custom/nygov-theme/nygov_theme/../storybook/dist/styles.css?sx1scx" />
+<link rel="stylesheet" media="all" href="https://www.ny.gov/sites/default/files/css/css_twN4mdTIR7jYwaAhpyqVlvftFoYfYpIn3egg8obDobc.css?delta=3&amp;language=en&amp;theme=nygov_theme&amp;include=eJxVykEOwjAMRNELheZIyG1GJsiOq0xaCKdHglU3X3_xODngeRUibSbkvLyDFAXTFh25RXex-kFqU-O8jwccWS1WsRvHtNr0L0s_drFFnvJOZ8WL-dfFoxyGiylVLPQLIL80pw" />
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  :root {
+      --primary-core-blue: #154973;
+      --secondary-core-blue: #457AA5;
+      --link-blue: #004DD1;
+      --tertiary-core-blue: #EFF6FB;
+      --quaternary-blue: #007AC2;
+      --core-accent-yellow: #FACE00;
+      --yellow-alert: #FFE396;
+      --black: #000000;
+      --darkest-gray: #242424;
+      --dark-gray: #62666A;
+      --mid-gray: #D0D0CE;
+      --light-gray: #EDEDED;
+      --white: #FFFFFF;
+      --dark-red-alert: #B32E31;
+      --light-red-alert: #FEC3C3;
+      --success-green: #329d08;
+      --warning-orange: #d4820c;
+    }
+</style>
+<script src="/js/nysds-utilities.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  
+    <link href="/css/fonts.css" rel="stylesheet">
+    <title>NYS Digital Service Data Table</title>
+  </head>
+  <body class="path-frontpage page-node-type-landing-page">
+    <main class="" id="main-site-content-for-skiplink">
+      <article class="node node--type-landing-page node--promoted node--view-mode-full">
+        <article class="p-landing-page -full-page ">
+          <div class="t-section -container">
+            
+<style>.sr-only {
+    position:absolute;
+    width:1px;
+    height:1px;
+    padding:0;
+    margin:-1px;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border-width:0
+}
+
+.budget-checklist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-checklist-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 5px;
+    width: max-content;
+    border: 2px solid #154973;
+    
+}
+.table-checklist {
+    background: #154973;
+    color: #fff;
+    
+}
+
+.table-checklist-header-row {
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+
+.table-checklist-header {
+    color: #154973 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #fff !important;
+    font-size: 1.2em;
+    text-align: center !important;
+}
+
+.table-checklist-table-row {
+    border: 2px solid #fff !important;
+}
+
+.table-checklist-table-cell {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+    border: 1px solid #fff;
+    align-items: center;
+    padding: 5px !important;
+}
+
+.table-checklist-checkmark {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--%3E%3Cpath d='M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    display: block;
+    filter: invert(85%) sepia(35%) saturate(4425%) hue-rotate(5deg) brightness(102%) contrast(106%);
+}
+
+@media (min-width: 768px) {
+    .budget-checklist-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 1240px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .budget-checklist-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 790px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .budget-checklist-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 650px;
+    }
+
+}</style>
+<div style="width: 80%">
+<link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" />
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" async></script>
+<script>
+    $(document).ready(function() {
+        $('#distraction').DataTable( {
+        "scrollX": true,
+        "lengthChange": false,
+        "pageLength": 10
+        } );
+    } );
+    function ClearFilters() {
+        $('.filterClear').val('');  
+        $('.dataTables_filter').val('');
+            var table = $('#distraction').DataTable();
+            table
+            .search( '' )
+            .columns().search( '' )
+            .draw();
+        }
+</script>
+
+
+
+<table id="distraction" class="display">
+    <thead class="">
+        <tr>
+            
+            <th scope="col">School District</th>
+            
+            <th scope="col">School Name</th>
+            
+            <th scope="col">Link</th>
+            
+            <th scope="col">School Year</th>
+            
+            <th scope="col">Date Published</th>
+              
+        </tr>
+    </thead>
+
+    <tbody>
+        
+            <tr>
+                <td> Ravena-Coeymans-Selkirk </td>
+                <td> Pieter B Coeymans Elementary </td>
+                <td> https://www.rcscsd.org/o/pb-coeymans </td>
+                <td> 2025-26 </td>
+                <td> 8/1/25 </td>
+            </tr>
+        
+            <tr>
+                <td> Ravena-Coeymans-Selkirk </td>
+                <td> A.W. Becker Elementary </td>
+                <td> https://www.rcscsd.org/o/aw-becker </td>
+                <td> 2025-26 </td>
+                <td> 8/1/25 </td>
+            </tr>
+        
+            <tr>
+                <td> Ravena-Coeymans-Selkirk </td>
+                <td> RCS Middle School </td>
+                <td> https://www.rcscsd.org/o/rcs-middle </td>
+                <td> 2025-26 </td>
+                <td> 8/1/25 </td>
+            </tr>
+        
+            <tr>
+                <td> Ravena-Coeymans-Selkirk </td>
+                <td> RCS High School </td>
+                <td> https://www.rcscsd.org/o/rcs-high </td>
+                <td> 2025-26 </td>
+                <td> 8/1/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 1 </td>
+                <td> School Name 1 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/2/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 2 </td>
+                <td> School Name 2 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/3/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 3 </td>
+                <td> School Name 3 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/4/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 4 </td>
+                <td> School Name 4 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/5/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 5 </td>
+                <td> School Name 5 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/6/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 6 </td>
+                <td> School Name 6 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/7/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 7 </td>
+                <td> School Name 7 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/8/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 8 </td>
+                <td> School Name 8 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/9/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 9 </td>
+                <td> School Name 9 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/10/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 10 </td>
+                <td> School Name 10 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/11/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 11 </td>
+                <td> School Name 11 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/12/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 12 </td>
+                <td> School Name 12 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/13/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 13 </td>
+                <td> School Name 13 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/14/25 </td>
+            </tr>
+        
+            <tr>
+                <td> School District 14 </td>
+                <td> School Name 14 </td>
+                <td> https://ny.gov </td>
+                <td> 2025-26 </td>
+                <td> 8/15/25 </td>
+            </tr>
+        
+    </tbody>
+
+</table>
+</div>
+          </div>
+        </article>
+      </article>
+    </main>
+
+  </body>
+</html>
