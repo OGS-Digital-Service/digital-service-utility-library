@@ -3,21 +3,37 @@
 <script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" async></script>
 <script>
     $(document).ready(function() {
-        $('#{{params.tableName}}').DataTable( {
-        "scrollX": true,
-        "lengthChange": false,
-        "pageLength": 10
-        } );
+       new DataTable('#{{params.tableName}}', {
+            columnDefs: [{ 
+                orderable: true, 
+                targets: [0,1, 2, 3],  
+                render: function(data, type, row, meta) {
+                    if (type != 'display') {
+                    return data.replace( /<.*?>/g, '' );
+                    }
+                    return data;
+                    }
+
+                
+                
+                }],
+                layout: {
+                            
+                            top: {
+                                search: {
+                                    placeholder: 'Search by School Name or District'
+                                }
+                            },
+                            topEnd: 'info',
+                            bottomStart: 'paging',
+                            bottomEnd: null
+                        },
+            order: [[1, 'asc']],
+            scrollX: true
+           
+        });
     } );
-    function ClearFilters() {
-        $('.filterClear').val('');  
-        $('.dataTables_filter').val('');
-            var table = $('#{{params.tableName}}').DataTable();
-            table
-            .search( '' )
-            .columns().search( '' )
-            .draw();
-        }
+   
 </script>
 
 {%set tableData = params.dataSource %}
@@ -35,8 +51,7 @@
         {% for data in tableData %}
             <tr>
                 <td> {{data.school_district}} </td>
-                <td> {{data.school_name}} </td>
-                <td> {{data.link}} </td>
+                <td> <a href="{{data.link}}">{{data.school_name}} </a></td>
                 <td> {{data.school_year}} </td>
                 <td> {{data.published_date}} </td>
             </tr>
