@@ -1,7 +1,41 @@
+.nysds-data-table {
+    margin: 0 auto;
+    width: 80%;
+}
 
+.dt-layout-start {
+    width: 100%;
+}
+
+.dt-search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dt-search label {
+    font-weight: var(--nys-font-weight-bold);
+}
+
+.dt-input {
+    width: 95%;
+}
 
 @media (min-width: 768px) {
+    .dt-search {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .dt-layout-start {
+        width: 75%;
+    }
 
+    .dt-input {
+        width: 75%;
+    }
 
 }
 

@@ -7,7 +7,7 @@ data: _distractionFree
 {% from '../_includes/_components.njk' import dataTable with context %}
 <style> {% include '../css/@nysds-styles/nys-design-system.css' %} </style>
 <style>{% include '../_includes/dataTable/_dataTable.css'  %}</style>
-<div style="width: 80%">
+<div class="nysds-data-table">
 {{
     dataTable({
         dataSource: _distractionFree,
@@ -19,7 +19,7 @@ data: _distractionFree
                 title: "School District"
             },
             {
-                title: "School Name"
+                title: "School Name and Link"
             },
             {
                 title: "School Year"
