@@ -6,14 +6,14 @@
        new DataTable('#{{params.tableName}}', {
             columnDefs: [{ 
                 orderable: true, 
-                targets: [0,1, 2, 3],  
+                targets: [0,1,2],  
                 render: function(data, type, row, meta) {
                     if (type != 'display') {
                     return data.replace( /<.*?>/g, '' );
                     }
                     return data;
                     }
-
+                
                 
                 
                 }],
@@ -21,7 +21,7 @@
                             
                             topStart: {
                                 search: {
-                                    placeholder: 'Search by School Name or District'
+                                    placeholder: 'Search by School Name, Type, or County'
                                 }
                             },
                             topEnd: 'info',
@@ -50,10 +50,15 @@
     <tbody>
         {% for data in tableData %}
             <tr>
-                <td> {{data.school_district}} </td>
-                <td> <a href="{{data.link}}">{{data.school_name}} </a></td>
-                <td> {{data.school_year}} </td>
-                <td> {{data.published_date}} </td>
+                <td> 
+                    {% if data.Link %}
+                        <a href="{{data.Link}}">{{data.PopularName}}</a>
+                    {% else %}
+                    {{data.PopularName}}
+                    {% endif %}
+                </td>
+                <td> {{data.Type}} </td>
+                <td> {{data.County}} </td>
             </tr>
         {% endfor %}
     </tbody>

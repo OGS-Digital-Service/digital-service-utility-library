@@ -1,146 +1,5684 @@
 [
   {
-    "school_district": "Ravena-Coeymans-Selkirk",
-    "school_name": "Pieter B Coeymans Elementary",
-    "link": "https://www.rcscsd.org/o/pb-coeymans",
-    "published_date": "8/1/25",
-    "school_year": "2025-26",
-    "state_region": "Capital District"
+    "PopularName": "BROOME-DELAWARE-TIOGA BOCES",
+    "Type": "BOCES",
+    "County": "Broome",
+    "Link": "https://www.btboces.org/Downloads/7241%20-%20Students%20and%20Personal%20Electronic%20Devices.pdf#:~:text=As%20required%20by%20Education%20Law%20%C2%A72803%20this%20policy,facility%29%2C%20unless%20under%20an%20exception%20as%20outlined%20below."
   },
   {
-    "school_district": "Ravena-Coeymans-Selkirk",
-    "school_name": "A.W. Becker Elementary",
-    "link": "https://www.rcscsd.org/o/aw-becker",
-    "published_date": "8/1/25",
-    "school_year": "2025-26",
-    "state_region": "Capital District"
+    "PopularName": "CAPITAL REGION BOCES",
+    "Type": "BOCES",
+    "County": "Albany",
+    "Link": ""
   },
   {
-    "school_district": "Ravena-Coeymans-Selkirk",
-    "school_name": "RCS Middle School",
-    "link": "https://www.rcscsd.org/o/rcs-middle",
-    "published_date": "8/1/25",
-    "school_year": "2025-26",
-    "state_region": "Capital District"
+    "PopularName": "CATTAR-ALLEGANY-ERIE-WYOMING BOCES",
+    "Type": "BOCES",
+    "County": "Cattaraugus",
+    "Link": ""
   },
   {
-    "school_district": "Ravena-Coeymans-Selkirk",
-    "school_name": "RCS High School",
-    "link": "https://www.rcscsd.org/o/rcs-high",
-    "published_date": "8/1/25",
-    "school_year": "2025-26",
-    "state_region": "Capital District"
+    "PopularName": "CAYUGA-ONONDAGA BOCES",
+    "Type": "BOCES",
+    "County": "Cayuga",
+    "Link": ""
   },
   {
-    "school_district": "School District 1",
-    "school_name": "School Name 1",
-    "link": "https://ny.gov",
-    "published_date": "8/2/25",
-    "school_year": "2025-26",
-    "state_region": "Mid Hudson"
+    "PopularName": "CLINTON-ESSEX-WARREN-WASHING BOCES",
+    "Type": "BOCES",
+    "County": "Clinton",
+    "Link": ""
   },
   {
-    "school_district": "School District 2",
-    "school_name": "School Name 2",
-    "link": "https://ny.gov",
-    "published_date": "8/3/25",
-    "school_year": "2025-26",
-    "state_region": "Mid Hudson"
+    "PopularName": "DELAW-CHENANGO-MADISON-OTSEGO BOCES",
+    "Type": "BOCES",
+    "County": "Chenango",
+    "Link": ""
   },
   {
-    "school_district": "School District 3",
-    "school_name": "School Name 3",
-    "link": "https://ny.gov",
-    "published_date": "8/4/25",
-    "school_year": "2025-26",
-    "state_region": "Mid Hudson"
+    "PopularName": "DUTCHESS BOCES",
+    "Type": "BOCES",
+    "County": "Dutchess",
+    "Link": ""
   },
   {
-    "school_district": "School District 4",
-    "school_name": "School Name 4",
-    "link": "https://ny.gov",
-    "published_date": "8/5/25",
-    "school_year": "2025-26",
-    "state_region": "Mid Hudson"
+    "PopularName": "EASTERN SUFFOLK BOCES",
+    "Type": "BOCES",
+    "County": "Suffolk",
+    "Link": ""
   },
   {
-    "school_district": "School District 5",
-    "school_name": "School Name 5",
-    "link": "https://ny.gov",
-    "published_date": "8/6/25",
-    "school_year": "2025-26",
-    "state_region": "Downstate"
+    "PopularName": "ERIE 1 BOCES",
+    "Type": "BOCES",
+    "County": "Erie",
+    "Link": "https://www.e1b.org/programs-for-students/distraction-free-schools"
   },
   {
-    "school_district": "School District 6",
-    "school_name": "School Name 6",
-    "link": "https://ny.gov",
-    "published_date": "8/7/25",
-    "school_year": "2025-26",
-    "state_region": "Downstate"
+    "PopularName": "ERIE 2-CHAUTAUQUA-CATTARAUGUS BOCES",
+    "Type": "BOCES",
+    "County": "Erie",
+    "Link": "https://www.e2ccb.org/news/new-policy-use-of-internet-enabled-devices-during-the-school-day/"
   },
   {
-    "school_district": "School District 7",
-    "school_name": "School Name 7",
-    "link": "https://ny.gov",
-    "published_date": "8/8/25",
-    "school_year": "2025-26",
-    "state_region": "Downstate"
+    "PopularName": "FRANKLIN-ESSEX-HAMILTON BOCES",
+    "Type": "BOCES",
+    "County": "Franklin",
+    "Link": ""
   },
   {
-    "school_district": "School District 8",
-    "school_name": "School Name 8",
-    "link": "https://ny.gov",
-    "published_date": "8/9/25",
-    "school_year": "2025-26",
-    "state_region": "NYC"
+    "PopularName": "GENESEE VALLEY BOCES",
+    "Type": "BOCES",
+    "County": "Genesee",
+    "Link": ""
   },
   {
-    "school_district": "School District 9",
-    "school_name": "School Name 9",
-    "link": "https://ny.gov",
-    "published_date": "8/10/25",
-    "school_year": "2025-26",
-    "state_region": "NYC"
+    "PopularName": "GREATER SOUTHERN TIER BOCES",
+    "Type": "BOCES",
+    "County": "Chemung",
+    "Link": ""
   },
   {
-    "school_district": "School District 10",
-    "school_name": "School Name 10",
-    "link": "https://ny.gov",
-    "published_date": "8/11/25",
-    "school_year": "2025-26",
-    "state_region": "NYC"
+    "PopularName": "HAMILTON-FULTON-MONTGOMERY BOCES",
+    "Type": "BOCES",
+    "County": "Montgomery",
+    "Link": ""
   },
   {
-    "school_district": "School District 11",
-    "school_name": "School Name 11",
-    "link": "https://ny.gov",
-    "published_date": "8/12/25",
-    "school_year": "2025-26",
-    "state_region": "Western NY"
+    "PopularName": "HERK-FULTON-HAMILTON-OTSEGO BOCES",
+    "Type": "BOCES",
+    "County": "Herkimer",
+    "Link": ""
   },
   {
-    "school_district": "School District 12",
-    "school_name": "School Name 12",
-    "link": "https://ny.gov",
-    "published_date": "8/13/25",
-    "school_year": "2025-26",
-    "state_region": "Southern Tier"
+    "PopularName": "JEFFER-LEWIS-HAMIL-HERK-ONEIDA BOCES",
+    "Type": "BOCES",
+    "County": "Jefferson",
+    "Link": ""
   },
   {
-    "school_district": "School District 13",
-    "school_name": "School Name 13",
-    "link": "https://ny.gov",
-    "published_date": "8/14/25",
-    "school_year": "2025-26",
-    "state_region": "North Country"
+    "PopularName": "MADISON-ONEIDA BOCES",
+    "Type": "BOCES",
+    "County": "Oneida",
+    "Link": ""
   },
   {
-    "school_district": "School District 14",
-    "school_name": "School Name 14",
-    "link": "https://ny.gov",
-    "published_date": "8/15/25",
-    "school_year": "2025-26",
-    "state_region": "Central NY"
+    "PopularName": "MONROE 1 BOCES",
+    "Type": "BOCES",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "MONROE 2-ORLEANS BOCES",
+    "Type": "BOCES",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "NASSAU BOCES",
+    "Type": "BOCES",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "ONEIDA-HERKIMER-MADISON BOCES",
+    "Type": "BOCES",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "ONONDAGA-CORTLAND-MADISON BOCES",
+    "Type": "BOCES",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "ORANGE-ULSTER BOCES",
+    "Type": "BOCES",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "ORLEANS-NIAGARA BOCES",
+    "Type": "BOCES",
+    "County": "Orleans",
+    "Link": ""
+  },
+  {
+    "PopularName": "OSWEGO BOCES",
+    "Type": "BOCES",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "OTSEGO-DELAW-SCHOHARIE-GREENE BOCES",
+    "Type": "BOCES",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "PUTNAM-NORTHERN WESTCHESTER BOCES",
+    "Type": "BOCES",
+    "County": "Westchester",
+    "Link": "https://www.pnwboces.org/Board-of-Education/Policies/Internet-Enabled-Device-Policy"
+  },
+  {
+    "PopularName": "QUESTAR III (R-C-G) BOCES",
+    "Type": "BOCES",
+    "County": "Rensselaer",
+    "Link": "https://www.questar.org/2025/07/22/2025-distraction-free-schools-guidance-on-funding/"
+  },
+  {
+    "PopularName": "ROCKLAND BOCES",
+    "Type": "BOCES",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "ST LAWRENCE-LEWIS BOCES",
+    "Type": "BOCES",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "SULLIVAN BOCES",
+    "Type": "BOCES",
+    "County": "Sullivan",
+    "Link": ""
+  },
+  {
+    "PopularName": "TOMPKINS-SENECA-TIOGA BOCES",
+    "Type": "BOCES",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "ULSTER BOCES",
+    "Type": "BOCES",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "WASHING-SARA-WAR-HAMLTN-ESSEX BOCES",
+    "Type": "BOCES",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "WAYNE-FINGER LAKES BOCES",
+    "Type": "BOCES",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTCHESTER BOCES",
+    "Type": "BOCES",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTERN SUFFOLK BOCES",
+    "Type": "BOCES",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "NYC Public Schools County",
+    "Type": "District",
+    "County": "New York",
+    "Link": "https://www.schools.nyc.gov/about-us/policies/cell-phone-and-electronic-device-policy#:~:text=Beginning%20in%20the%202025%E2%80%9326,not%20limited%20to%2C%20cell%20phones."
+  },
+  {
+    "PopularName": "BUFFALO CITY SD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.buffaloschools.org/page/bps-distraction-free-school-zones"
+  },
+  {
+    "PopularName": "YONKERS CITY SD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCHESTER CITY SD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.rcsdk12.org/Page/50622"
+  },
+  {
+    "PopularName": "BRENTWOOD UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": "https://www.brentwood.k12.ca.us/page/mobile-policy/"
+  },
+  {
+    "PopularName": "SYRACUSE CITY SD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.syracuse.com/schools/2025/07/how-syracuse-city-schools-will-separate-students-from-their-cell-phones-this-year.html"
+  },
+  {
+    "PopularName": "SACHEM CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": "https://www.sachem.edu/assets/25-26_district/072425_cell_phone_policy_letter_72425.pdf"
+  },
+  {
+    "PopularName": "NEWBURGH CITY SD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": "https://www.newburghschools.org/news.php?storynum=6850"
+  },
+  {
+    "PopularName": "WAPPINGERS CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST RAMAPO CSD (SPRING VALLEY)",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREECE CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.greececsd.org/domain/2506"
+  },
+  {
+    "PopularName": "NEW ROCHELLE CITY SD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "WILLIAMSVILLE CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.williamsvillek12.org/about-us/district-profile/cell-phone-policy"
+  },
+  {
+    "PopularName": "SHENENDEHOWA CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": "https://www.shenet.org/policy-on-the-use-of-internet-enabled-devices/"
+  },
+  {
+    "PopularName": "WILLIAM FLOYD UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "UTICA CITY SD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": "https://www.uticaschools.org/news/1812584/district-news"
+  },
+  {
+    "PopularName": "MIDDLE COUNTRY CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": "https://www.mccsd.net/parents/student-use-of-smart-devices-during-the-school-day"
+  },
+  {
+    "PopularName": "LONGWOOD CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHENECTADY CITY SD",
+    "Type": "District",
+    "County": "Schenectady",
+    "Link": "https://www.schenectadyschools.org/o/yates/article/2283003"
+  },
+  {
+    "PopularName": "ALBANY CITY SD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.albanyschools.org/communications/cell-phone-use"
+  },
+  {
+    "PopularName": "CLARKSTOWN CSD",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEBSTER CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "SEWANHAKA CENTRAL HS DISTRICT",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST MEADOW UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "HAVERSTRAW-STONY POINT CSD (NORTH RO",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "ARLINGTON CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": "https://www.apsva.us/health-safety/cell-phone-policy-guidance/"
+  },
+  {
+    "PopularName": "SMITHTOWN CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "CENTRAL ISLIP UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": "https://www.centralislip.k12.ny.us/about/news/details/~board/news/post/updated-cell-phone-policy"
+  },
+  {
+    "PopularName": "NORTH SYRACUSE CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.nscsd.org/districtpage.cfm?pageid=4952"
+  },
+  {
+    "PopularName": "PATCHOGUE-MEDFORD UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "MIDDLETOWN CITY SD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": "https://www.middletowncityschools.org/district/policies-regulations-forms-and-documents/cell-phone-policy"
+  },
+  {
+    "PopularName": "HALF HOLLOW HILLS CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LEVITTOWN UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "SYOSSET CSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://www.sweethomeschools.org/parents/distraction-free-learning-plan"
+  },
+  {
+    "PopularName": "WHITE PLAINS CITY SD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "LIVERPOOL CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREAT NECK UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "MASSAPEQUA UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "MT VERNON SCHOOL DISTRICT",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.mtvernoncsd.org/our-district/district-news-and-videos/news-details/~board/district-billboard/post/district-personal-device-policy"
+  },
+  {
+    "PopularName": "MONROE-WOODBURY CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": "https://www.mw.k12.ny.us/page/distraction-free-schools/"
+  },
+  {
+    "PopularName": "NIAGARA FALLS CITY SD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": "https://www.nfschools.net/Domain/86"
+  },
+  {
+    "PopularName": "KENMORE-TONAWANDA UFSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.ktufsd.org/resources/distraction-free-schools"
+  },
+  {
+    "PopularName": "FREEPORT UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTH COLONIE CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.northcollins.com/jr__sr_high_school"
+  },
+  {
+    "PopularName": "WEST SENECA CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.wscschools.org/Page/24451"
+  },
+  {
+    "PopularName": "SARATOGA SPRINGS CITY SD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": "https://www.saratogaschools.org/state-required-student-cell-phone-policy-approved-by-board-of-education/"
+  },
+  {
+    "PopularName": "KINGSTON CITY SD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNIONDALE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3283/UECSD/5888486/Board_Policy_7318_-_cell_phone.pdf"
+  },
+  {
+    "PopularName": "HEMPSTEAD UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://jmes.hempsteadschools.org/school-information/headlines/post-details/~board/headlines-jackson-school-14859/post/important-update-regarding-our-schools-policy-related-to-students-and-personal-electronic-devices-1749693661002"
+  },
+  {
+    "PopularName": "SOUTH HUNTINGTON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": "https://www.shufsd.org/index.php?pageID=smartSiteFeed&feed=%5B%22%7B%5C%22id%5C%22%3A%5C%22887%5C%22%2C%5C%22source%5C%22%3A%5C%22districts%5C%22%7D%22%5D&articleID=54040625"
+  },
+  {
+    "PopularName": "BAY SHORE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LINDENHURST UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "PITTSFORD CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.pittsfordschools.org/p/~board/2024-2025/post/new-cell-phone-and-personal-device-policy-takes-effect-september-2025"
+  },
+  {
+    "PopularName": "MAMARONECK UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "THREE VILLAGE CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "COMMACK UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "RUSH-HENRIETTA CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.rhnet.org/Page/34896"
+  },
+  {
+    "PopularName": "RIVERHEAD CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": "https://www.riverhead.net/wp-content/uploads/2025/07/Students-Electronic-Devices-Policy-1.pdf"
+  },
+  {
+    "PopularName": "LAKELAND CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://lakelandschools.org/board_of_education/policies/5137_use_of_electronic_devices.php#:~:text=Students%20in%20grades%209%20through%2012%20are%20permitted,purposes%20such%20as%20calendaring%2C%20calculating%20and%20noting%20assignments."
+  },
+  {
+    "PopularName": "PLAINVIEW-OLD BETHPAGE CSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CONNETQUOT CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LANCASTER CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/4155/Lancaster_CSD/5049845/Policy_JICJ_Cell_Phones.pdf"
+  },
+  {
+    "PopularName": "HICKSVILLE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "OCEANSIDE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "BALDWINSVILLE CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.bville.org/149081_3"
+  },
+  {
+    "PopularName": "BELLMORE-MERRICK CENTRAL HS DISTRICT",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "PORT WASHINGTON UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://4.files.edl.io/b47e/07/09/25/180649-647e559e-765c-4f33-abf7-a711a49d95b9.pdf"
+  },
+  {
+    "PopularName": "FARMINGDALE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "FAIRPORT CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.fairport.org/262411_2"
+  },
+  {
+    "PopularName": "ELMIRA CITY SD",
+    "Type": "District",
+    "County": "Chemung",
+    "Link": "https://www.elmiracityschools.com/district/about_us/district_policies_w32/bell_to_bell_cell_phone_policy"
+  },
+  {
+    "PopularName": "ROME CITY SD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "GUILDERLAND CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.guilderlandschools.org/gcsd-launches-distraction-free-schools-with-new-policy-and-use-of-yondr-pouches-for-ghs/"
+  },
+  {
+    "PopularName": "ITHACA CITY SD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH COLONIE CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "OSSINING UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.ossiningufsd.org/teaching-learning/internet-enabled-device-use#:~:text=In%20response%20to%20new%20state%20regulations%2C%20our%20district,focused%20and%20distraction-free%20learning%20environment%20for%20all%20students."
+  },
+  {
+    "PopularName": "SCARSDALE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "COPIAGUE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "ORCHARD PARK CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "PENFIELD CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "VALLEY STREAM CENTRAL HS DISTRICT",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://vschsd.org/a-message-from-the-superintendent-regarding-cell-phones/"
+  },
+  {
+    "PopularName": "PINE BUSH CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "PORT CHESTER-RYE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTH BABYLON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST GENESEE CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "FRONTIER CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTHPORT-EAST NORTHPORT UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BINGHAMTON CITY SD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTBURY UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CORNING CITY SD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "BALDWIN UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "NISKAYUNA CSD",
+    "Type": "District",
+    "County": "Schenectady",
+    "Link": ""
+  },
+  {
+    "PopularName": "HERRICKS UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "JAMESTOWN CITY SD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": "https://www.jpsny.org/resources/district-communications/district-news/featured-story/~board/jps-district-news-jamestown-public-schools-25265/post/jps-approves-new-nys-device-policy"
+  },
+  {
+    "PopularName": "VICTOR CSD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "VALLEY CSD (MONTGOMERY)",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "FAYETTEVILLE-MANLIUS CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "BETHLEHEM CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.bethlehemschools.org/bchs-cell-phone-smart-device-policy-and-guidelines/"
+  },
+  {
+    "PopularName": "CLARENCE CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "HUNTINGTON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST GREENBUSH CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": "https://egcsd.org/distractionfreeschools/faq-distraction-free-schools/"
+  },
+  {
+    "PopularName": "LOCKPORT CITY SD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "HILTON CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "WATERTOWN CITY SD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "GARDEN CITY UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "DEER PARK UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "MAHOPAC CSD",
+    "Type": "District",
+    "County": "Putnam",
+    "Link": ""
+  },
+  {
+    "PopularName": "BALLSTON SPA CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH COUNTRY CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "WASHINGTONVILLE CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "AUBURN CITY SD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUFFERN CSD",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARRISON CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST ISLIP UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "WARWICK VALLEY CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "CARMEL CSD",
+    "Type": "District",
+    "County": "Putnam",
+    "Link": ""
+  },
+  {
+    "PopularName": "POUGHKEEPSIE CITY SD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHURCHVILLE-CHILI CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST BABYLON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "GATES CHILI CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST IRONDEQUOIT CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.westirondequoit.org/parentsstudents/student-internet-enabled-device-policy"
+  },
+  {
+    "PopularName": "HORSEHEADS CSD",
+    "Type": "District",
+    "County": "Chemung",
+    "Link": "https://www.horseheadsdistrict.com/updates/7.3.2025%20Superintendent%20Update%20Final.pdf"
+  },
+  {
+    "PopularName": "CHAPPAQUA CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.chappaquaschools.org/board-of-education/policies-and-regulations/policies-regulations-details/~board/all-policies/post/5031-internet-enabled-device-policy#:~:text=General%20Policy%20Statement%3A%20Except%20as%20otherwise%20specified%20in,prohibited%20during%20the%20school%20day%20on%20school%20grounds."
+  },
+  {
+    "PopularName": "AMSTERDAM CITY SD",
+    "Type": "District",
+    "County": "Montgomery",
+    "Link": ""
+  },
+  {
+    "PopularName": "PEEKSKILL CITY SD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "OSWEGO CITY SD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "BEDFORD CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "SPENCERPORT CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "SWEET HOME CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "TROY CITY SD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "MINISINK VALLEY CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": "https://www.minisink.com/o/district/article/2256416"
+  },
+  {
+    "PopularName": "BROOKHAVEN-COMSEWOGUE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRIGHTON CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "YORKTOWN CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "CENTRAL SQUARE CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNION-ENDICOTT CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "INDIAN RIVER CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": "https://www.ircsd.org/en-US/distraction-free-schools"
+  },
+  {
+    "PopularName": "EAST ISLIP UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "VESTAL CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "LONG BEACH CITY SD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCKVILLE CENTRE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "HYDE PARK CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROSLYN UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "JERICHO UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "HAMBURG CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST SYRACUSE MINOA CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.esmschools.org/districtpage.cfm?pageid=2222#:~:text=From%20the%20moment%20students%20arrive%20at%20school%20until,lunch%2C%20study%20halls%2C%20and%20passing%20time%20between%20periods."
+  },
+  {
+    "PopularName": "HAUPPAUGE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROCKPORT CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELMONT UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTH TONAWANDA CITY SD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": "https://www.nscsd.org/districtpage.cfm?pageid=4952"
+  },
+  {
+    "PopularName": "NIAGARA-WHEATFIELD CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANANDAIGUA CITY SD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "BURNT HILLS-BALLSTON LAKE CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": "https://docs.google.com/document/d/1Q9ZiM6wxoFfThz7OYNU4Y2uKXZqN3cp4awnI7qXngzk/edit?tab=t.0"
+  },
+  {
+    "PopularName": "GLEN COVE CITY SD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "FULTON CITY SD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "BETHPAGE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "EASTCHESTER UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "MANHASSET UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CARTHAGE CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "CORNWALL CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "QUEENSBURY UFSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHITESBORO CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "BREWSTER CSD",
+    "Type": "District",
+    "County": "Putnam",
+    "Link": ""
+  },
+  {
+    "PopularName": "AMHERST CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROOSEVELT UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://www.rooseveltufsd.org/page/distraction-free-policy/"
+  },
+  {
+    "PopularName": "STARPOINT CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": "https://www.starpointcsd.org/page/distraction-free-schools"
+  },
+  {
+    "PopularName": "PELHAM UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "RYE CITY SD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH GLENS FALLS CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "PLAINEDGE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROTTERDAM-MOHONASEN CSD",
+    "Type": "District",
+    "County": "Schenectady",
+    "Link": ""
+  },
+  {
+    "PopularName": "KATONAH-LEWISBORO UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.klschools.org/page/personal-electonicinternet-enabled-devices"
+  },
+  {
+    "PopularName": "NYACK UFSD",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARBORFIELDS CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "MINEOLA UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "GOSHEN CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "GRAND ISLAND CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "EASTPORT-SOUTH MANOR CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "WALLKILL CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH ORANGETOWN CSD",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "WANTAGH UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "LYNBROOK UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "AMITYVILLE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "HEWLETT-WOODMERE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "ISLIP UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST IRONDEQUOIT CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "UFSD-TARRYTOWNS",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "KINGS PARK CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCKY POINT UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "MONTICELLO CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": "https://boardpolicyonline.com/?b=monticello_central&s=46795"
+  },
+  {
+    "PopularName": "AVERILL PARK CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": "https://www.averillpark.k12.ny.us/2025/07/14/district-adopts-distraction-free-learning-plan/"
+  },
+  {
+    "PopularName": "WYANDANCH UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOMERS CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.somersschools.org/board-of-education/policies/individual-policy/~board/policies/post/5695-students-and-personal-electronic-devices#:~:text=As%20required%20by%20Education%20Law%20%C2%A72803%2C%20this%20policy,exception%20%28e.g.%2C%20IEP%2FSection%20504%20or%20as%20permitted%20below%29."
+  },
+  {
+    "PopularName": "NORTH SHORE CSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW HARTFORD CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "SAYVILLE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BEACON CITY SD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": "https://www.beaconk12.org/Page/1545"
+  },
+  {
+    "PopularName": "MAINE-ENDWELL CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": "https://www.me.stier.org/o/middle-school/article/2331481"
+  },
+  {
+    "PopularName": "JAMESVILLE-DEWITT CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.jamesvilledewitt.org/tag/distraction-free-learning/"
+  },
+  {
+    "PopularName": "BYRAM HILLS CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "GLOVERSVILLE CITY SD",
+    "Type": "District",
+    "County": "Fulton",
+    "Link": ""
+  },
+  {
+    "PopularName": "ARDSLEY UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHARTER SCHOOL-APPLIED TECHNOLOGIES",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "MASSENA CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "PORT JERVIS CITY SD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "MILLER PLACE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "SAUGERTIES CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "ISLAND TREES UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHEEKTOWAGA CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAWRENCE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "PEARL RIVER UFSD",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "HENDRICK HUDSON CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "JOHNSON CITY CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "SEAFORD UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "NANUET UFSD",
+    "Type": "District",
+    "County": "Rockland",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCOTIA-GLENVILLE CSD",
+    "Type": "District",
+    "County": "Schenectady",
+    "Link": "https://www.scotiaglenvilleschools.org/about-us/annual-notifications/use-of-internet-enabled-devices-during-the-school-day/"
+  },
+  {
+    "PopularName": "CHEEKTOWAGA-MARYVALE UFSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "YORKSHIRE-PIONEER CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": "https://www.pioneerschools.org/article/2320238"
+  },
+  {
+    "PopularName": "BATAVIA CITY SD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": "https://www.bataviacsd.org/73032"
+  },
+  {
+    "PopularName": "HUDSON FALLS CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": "https://www.hfcsd.org/use-of-internet-enabled-devices-during-the-school-day/#:~:text=The%20District%20consulted%20with%20local%20stakeholders%20including%20employee,students%20during%20the%20school%20day%20on%20school%20grounds."
+  },
+  {
+    "PopularName": "EVANS-BRANT CSD (LAKE SHORE)",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.lakeshorecsd.org/65059?articleID=31166"
+  },
+  {
+    "PopularName": "MALONE CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": ""
+  },
+  {
+    "PopularName": "MT SINAI UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "HONEOYE FALLS-LIMA CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": "https://www.hflcsd.org/article/2328533"
+  },
+  {
+    "PopularName": "WAYNE CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": "https://www.waynecsd.org/apps/pages/index.jsp?uREC_ID=612751&type=d"
+  },
+  {
+    "PopularName": "IROQUOIS CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "HAMPTON BAYS UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LACKAWANNA CITY SD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.lackawannaschools.org/article/1700323"
+  },
+  {
+    "PopularName": "CENTRAL VALLEY CSD AT ILION-MOHAWK",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": "https://www.cvalleycsd.org/85745_2"
+  },
+  {
+    "PopularName": "ELWOOD UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "SHOREHAM-WADING RIVER CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LANSINGBURGH CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "MEXICO CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "BEEKMANTOWN CSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "MT PLEASANT CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "GENEVA CITY SD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "GLENS FALLS CITY SD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "COHOES CITY SD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAMDEN CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "DUNKIRK CITY SD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "OWEGO-APALACHIN CSD",
+    "Type": "District",
+    "County": "Tioga",
+    "Link": ""
+  },
+  {
+    "PopularName": "LEWISTON-PORTER CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHITTENANGO CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "EDGEMONT UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP INFINITY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "CORTLAND CITY SD",
+    "Type": "District",
+    "County": "Cortland",
+    "Link": "https://www.cortlandschools.org/teacherpage.cfm?teacher=5477"
+  },
+  {
+    "PopularName": "MARLBORO CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "LOCUST VALLEY CSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "MALVERNE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "DEPEW UFSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.depewschools.org/page/internet-enabled-devices-plan/"
+  },
+  {
+    "PopularName": "BAYPORT-BLUE POINT UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHALMONT CSD",
+    "Type": "District",
+    "County": "Schenectady",
+    "Link": ""
+  },
+  {
+    "PopularName": "OLEAN CITY SD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST HAMPTON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEWARK CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": "https://www.schools.nyc.gov/about-us/policies/cell-phone-and-electronic-device-policy"
+  },
+  {
+    "PopularName": "PLATTSBURGH CITY SD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH JEFFERSON CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW PALTZ CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "IRVINGTON UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "HOMER CSD",
+    "Type": "District",
+    "County": "Cortland",
+    "Link": "https://www.homercentral.org/distractionfree"
+  },
+  {
+    "PopularName": "WESTHILL CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SHERRILL CITY SD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTHAMPTON BEACH UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LIBERTY CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": ""
+  },
+  {
+    "PopularName": "PERU CSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "RAVENA-COEYMANS-SELKIRK CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "RONDOUT VALLEY CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALBION CSD",
+    "Type": "District",
+    "County": "Orleans",
+    "Link": "https://www.albionk12.org/article/2285726"
+  },
+  {
+    "PopularName": "KINDERHOOK CSD",
+    "Type": "District",
+    "County": "Columbia",
+    "Link": ""
+  },
+  {
+    "PopularName": "TONAWANDA CITY SD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "PALMYRA-MACEDON CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "ONEONTA CITY SD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST AURORA UFSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.eastauroraschools.org/page/distraction-free-school-zone/"
+  },
+  {
+    "PopularName": "ONEIDA CITY SD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "PLEASANTVILLE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST WILLISTON UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROADALBIN-PERTH CSD",
+    "Type": "District",
+    "County": "Fulton",
+    "Link": "https://go.boarddocs.com/ny/bpcsd/Board.nsf/files/DJTPWW66A8AF/$file/Broadalbin%20Cell%20Phone%20Policy.pdf"
+  },
+  {
+    "PopularName": "MERRICK UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "PHOENIX CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST HEMPSTEAD UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHENANGO VALLEY CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORWICH CITY SD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": ""
+  },
+  {
+    "PopularName": "HASTINGS-ON-HUDSON UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://go.boarddocs.com/ny/hhufsd/Board.nsf/files/DHLPAE63A65F/$file/5695%20Student%20Use%20of%20Internet-Enabled%20Devices%20During%20the%20School%20Day.pdf"
+  },
+  {
+    "PopularName": "CROTON-HARMON UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENBURGH CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "COLD SPRING HARBOR CSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "RED HOOK CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "SPACKENKILL UFSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONXVILLE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "SPRINGVILLE-GRIFFITH INST CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.springvillegi.org/article/2285686"
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-HARLEM 1",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "BABYLON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACADEMY CHARTER SCHOOL-UNIONDALE",
+    "Type": "Charter",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "PUTNAM VALLEY CSD",
+    "Type": "District",
+    "County": "Putnam",
+    "Link": ""
+  },
+  {
+    "PopularName": "HIGHLAND CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "HUDSON CITY SD",
+    "Type": "District",
+    "County": "Columbia",
+    "Link": ""
+  },
+  {
+    "PopularName": "COBLESKILL-RICHMONDVILLE CSD",
+    "Type": "District",
+    "County": "Schoharie",
+    "Link": "https://www.crcsd.org/district/use_of_internet-_enabled_devices_policy"
+  },
+  {
+    "PopularName": "DOBBS FERRY UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.dfsd.org/site/handlers/filedownload.ashx?moduleinstanceid=5128&dataid=5755&FileName=FINAL%20Policy%205695%20Students%20and%20Personal%20Electronic%20Devices.pdf"
+  },
+  {
+    "PopularName": "WAVERLY CSD",
+    "Type": "District",
+    "County": "Tioga",
+    "Link": ""
+  },
+  {
+    "PopularName": "RYE NECK UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALDEN CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "SARANAC CSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "WINDSOR CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "CENTER MORICHES UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "FALLSBURG CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": "https://www.fallsburgcsd.net/news/what_s_new/cell_phone_ban_update"
+  },
+  {
+    "PopularName": "PHELPS-CLIFTON SPRINGS CSD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "JOHNSTOWN CITY SD",
+    "Type": "District",
+    "County": "Fulton",
+    "Link": ""
+  },
+  {
+    "PopularName": "FREDONIA CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "VALHALLA UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "WATERVLIET CITY SD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "GOUVERNEUR CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": "BoE Policies - Gouverneur Central School District"
+  },
+  {
+    "PopularName": "SUSQUEHANNA VALLEY CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST CROWN HEIGHTS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELLENVILLE CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "ATMOSPHERE ACADEMY PUBLIC CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHUYLERVILLE CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "BATH CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "OGDENSBURG CITY SD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": "https://www.ogdensburgk12.org/article/2321141"
+  },
+  {
+    "PopularName": "OYSTER BAY-EAST NORWICH CSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": "https://www.obenschools.org/resources/smartphone_policy"
+  },
+  {
+    "PopularName": "BRIARCLIFF MANOR UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "MARCELLUS CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "WATERLOO CSD",
+    "Type": "District",
+    "County": "Seneca",
+    "Link": ""
+  },
+  {
+    "PopularName": "CONEY ISLAND PREP PUBLIC CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "LIVONIA CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": "https://www.livoniacsd.org/"
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-BRONX 3",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "HORNELL CITY SD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "SALMON RIVER CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": "https://www.srk12.org/about-us/policies-procedures-plans-annual-notifications/use-of-internet-enabled-devices-during-the-school-day/"
+  },
+  {
+    "PopularName": "ROCHESTER PREP CS 1",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHITNEY POINT CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": "https://www.wpcsd.org/page/cell-phone"
+  },
+  {
+    "PopularName": "DOVER UFSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "CARLE PLACE UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAZENOVIA CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "BLIND BROOK-RYE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "GENERAL BROWN CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "MEDINA CSD",
+    "Type": "District",
+    "County": "Orleans",
+    "Link": ""
+  },
+  {
+    "PopularName": "MECHANICVILLE CITY SD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "CLEVELAND HILL UFSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.clevehill.org/o/chufsd/page/distraction-free-school-away-for-the-day"
+  },
+  {
+    "PopularName": "SOLVAY UFSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS - ROSEDALE",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTHAMPTON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN ASCEND CHARTER SCHOOL 6",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHENANGO FORKS CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "WAYLAND-COHOCTON CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "SALAMANCA CITY SD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON BROWNSVILLE NORTH CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "EDEN CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.edencsd.org/district/about-us/distraction-free-school-zones-policy-use-of-internet-enabled-devices"
+  },
+  {
+    "PopularName": "KIPP BRONX CHARTER SCHOOL III",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTHWESTERN CSD AT JAMESTOWN",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": "https://www.swcsk12.org/cell-phone-policy"
+  },
+  {
+    "PopularName": "NEWFANE CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "LOWVILLE ACADEMY & CSD",
+    "Type": "District",
+    "County": "Lewis",
+    "Link": "https://www.lowvilleacademy.org/252821_2"
+  },
+  {
+    "PopularName": "CATSKILL CSD",
+    "Type": "District",
+    "County": "Greene",
+    "Link": ""
+  },
+  {
+    "PopularName": "PENN YAN CSD",
+    "Type": "District",
+    "County": "Yates",
+    "Link": ""
+  },
+  {
+    "PopularName": "POTSDAM CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "SHERBURNE-EARLVILLE CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN PROSPECT CS -CSD 15.2",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SKANEATELES CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "DANSVILLE CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": ""
+  },
+  {
+    "PopularName": "DRYDEN CSD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON KINGS CHARTER SCHOOL NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "FONDA-FULTONVILLE CSD",
+    "Type": "District",
+    "County": "Montgomery",
+    "Link": "https://www.fondafultonvilleschools.org/ffcsd-cell-phone-policy-update/"
+  },
+  {
+    "PopularName": "CHEEKTOWAGA-SLOAN UFSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "VOORHEESVILLE CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHALLENGE PREPARATORY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANASTOTA CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARLEM CHILDREN'S ZONE PROMISE",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTHEASTERN CLINTON CSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "HOLLAND PATENT CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "CLINTON CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "AKRON CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.akronschools.org/cms/lib/NY19000426/Centricity/Domain/3/Akron%20School%20District%20Cell%20Phone%20Policy%20Development-REVISION.pdf"
+  },
+  {
+    "PopularName": "HANNIBAL CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON BED-STUY WEST CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SENECA FALLS CSD",
+    "Type": "District",
+    "County": "Seneca",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST EAST NY CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST ROCKAWAY UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "TAPESTRY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHARTER SCH-EDUC EXCELLENCE",
+    "Type": "Charter",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "LE ROY CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": ""
+  },
+  {
+    "PopularName": "WELLSVILLE CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": "https://wellsvilleschools.org/50706_4"
+  },
+  {
+    "PopularName": "AUSABLE VALLEY CSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "EQUITY PROJECT CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "LANSING CSD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "ADIRONDACK CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "ATTICA CSD",
+    "Type": "District",
+    "County": "Wyoming",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROYALTON-HARTLAND CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "EVERGREEN CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "TUCKAHOE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.tuckahoeschools.org/"
+  },
+  {
+    "PopularName": "FALCONER CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": "https://www.falconercsd.org/157909_3"
+  },
+  {
+    "PopularName": "COXSACKIE-ATHENS CSD",
+    "Type": "District",
+    "County": "Greene",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENVILLE CSD",
+    "Type": "District",
+    "County": "Greene",
+    "Link": ""
+  },
+  {
+    "PopularName": "ONTEORA CSD",
+    "Type": "District",
+    "County": "Ulster",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARLEM CHILDREN'S ZONE ACADEMY II",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRUNSWICK CSD (BRITTONKILL)",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "SARANAC LAKE CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": ""
+  },
+  {
+    "PopularName": "JORDAN-ELBRIDGE CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.jecsd.org/districtpage.cfm?pageid=1993"
+  },
+  {
+    "PopularName": "EUGENIO MARIA DE HOSTOS CHARTER",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTH ROSE-WOLCOTT CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "PAWLING CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "HERKIMER CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "LITTLE FALLS CITY SD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAIRO-DURHAM CSD",
+    "Type": "District",
+    "County": "Greene",
+    "Link": ""
+  },
+  {
+    "PopularName": "CORINTH CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": "https://www.corinthcsd.org/article/2323493"
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS - BERGEN BEACH",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SULLIVAN WEST CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": ""
+  },
+  {
+    "PopularName": "GOWANDA CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANTON CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELMSFORD UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "GORHAM-MIDDLESEX CSD (MARCUS WHITMAN",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH LEWIS CSD",
+    "Type": "District",
+    "County": "Lewis",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-UNION SQUARE",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELMIRA HEIGHTS CSD",
+    "Type": "District",
+    "County": "Chemung",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-UPPER WEST",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "DEMOCRACY PREP HARLEM CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "SIDNEY CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "HOOSICK FALLS CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "MOUNT MARKHAM CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "DREAM CHARTER SCHOOL EAST HARLEM",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "SYRACUSE ACADEMY OF SCIENCE CS",
+    "Type": "Charter",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALLEGANY-LIMESTONE CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "SODUS CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "RIVERTON STREET CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "STILLWATER CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-BRONX 2",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "TACONIC HILLS CSD",
+    "Type": "District",
+    "County": "Columbia",
+    "Link": ""
+  },
+  {
+    "PopularName": "LEADERS IN OUR NEIGHBORHOOD CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "GRANVILLE CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "MATTITUCK-CUTCHOGUE UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP BRONX CHARTER SCHOOL II",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTH SALEM CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": "https://www.nrwcs.org/students-parents/internet-enabled-device-policy"
+  },
+  {
+    "PopularName": "NEWARK VALLEY CSD",
+    "Type": "District",
+    "County": "Tioga",
+    "Link": ""
+  },
+  {
+    "PopularName": "UTICA ACADEMY OF SCIENCE CS",
+    "Type": "Charter",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "PORTVILLE CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "INWOOD ACAD FOR LEADERSHIP CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALTMAR-PARISH-WILLIAMSTOWN CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "WILLIAMSON CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "WILSON CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS - SPRINGFIELD",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANARSIE ASCEND CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ADDISON CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST ROCHESTER UFSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANISTEO-GREENWOOD CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "HOLLEY CSD",
+    "Type": "District",
+    "County": "Orleans",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRASHER FALLS CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": "https://www.bfcsd.org/page/district-cell-phone-policy"
+  },
+  {
+    "PopularName": "SAUQUOIT VALLEY CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "HIGHLAND FALLS CSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "RHINEBECK CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "RIVERHEAD CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "TRUMANSBURG CSD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "RENSSELAER CITY SD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": "https://www.rcsd.k12.ny.us/264470_2"
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST BUSHWICK CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BUFFALO CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "JOHN W LAVELLE PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Richmond",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHESTER UFSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "SAG HARBOR UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BUFFALO ACADEMY OF SCIENCE CS",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "SILVER CREEK CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": "https://www.silvercreekschools.org/o/sccsd/article/2249041"
+  },
+  {
+    "PopularName": "NORWOOD-NORFOLK CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": "https://www.norwichcsd.org/page/yondr-in-our-schools"
+  },
+  {
+    "PopularName": "EAST HARLEM SCHOLARS ACADEMY CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP AMP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "FAMILY LIFE ACADEMY CS II",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "PULASKI CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON EXCELLENCE GIRLS CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "VOICE CHARTER SCHOOL OF NEW YORK",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "AVON CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": ""
+  },
+  {
+    "PopularName": "PEMBROKE CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": "https://www.pembrokecsd.org/article/2330113"
+  },
+  {
+    "PopularName": "GREENE CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": ""
+  },
+  {
+    "PopularName": "TIOGA CSD",
+    "Type": "District",
+    "County": "Tioga",
+    "Link": ""
+  },
+  {
+    "PopularName": "PORT JEFFERSON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "GLOBAL CONCEPTS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHATHAM CSD",
+    "Type": "District",
+    "County": "Columbia",
+    "Link": ""
+  },
+  {
+    "PopularName": "GENESEO CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": ""
+  },
+  {
+    "PopularName": "WATKINS GLEN CSD",
+    "Type": "District",
+    "County": "Schuyler",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHODACK CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": "https://www.schodack.k12.ny.us/wp-content/uploads/2025/07/5695-Student-Use-of-Personal-Electronic-Devices-1.pdf"
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST BROWNSVILLE CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST NORTH BROOKLYN PRE",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "HOOSIC VALLEY CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": "https://hoosicvalley.org/2025/07/14/updated-cell-phone-policy/"
+  },
+  {
+    "PopularName": "BEAVER RIVER CSD",
+    "Type": "District",
+    "County": "Lewis",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST APOLLO CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "LYONS CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": "https://www.lyonscsd.org/page/internet-enabled-device-policy/"
+  },
+  {
+    "PopularName": "TRI-VALLEY CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": ""
+  },
+  {
+    "PopularName": "FRANKFORT-SCHUYLER CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENWICH CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "LETCHWORTH CSD",
+    "Type": "District",
+    "County": "Wyoming",
+    "Link": ""
+  },
+  {
+    "PopularName": "MORAVIA CSD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": "https://www.moraviaschool.org/distraction-free-school"
+  },
+  {
+    "PopularName": "KIPP TECH VALLEY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCHESTER ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST ASPIRE CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "CATO-MERIDIAN CSD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": "https://www.catomeridian.org/157998_3"
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-BED STUY 1",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHOHARIE CSD",
+    "Type": "District",
+    "County": "Schoharie",
+    "Link": ""
+  },
+  {
+    "PopularName": "CENTRAL BROOKLYN ASCEND CHARTER",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "BYRON-BERGEN CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": ""
+  },
+  {
+    "PopularName": "LEGACY COLLEGE PREPARATORY CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW WORLD PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Richmond",
+    "Link": ""
+  },
+  {
+    "PopularName": "CENTRAL QUEENS ACADEMY CS",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCHESTER PREP CS 2",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTHERN ADIRONDACK CSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON CANARSIE CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANAJOHARIE CSD",
+    "Type": "District",
+    "County": "Montgomery",
+    "Link": "https://core-docs.s3.us-east-1.amazonaws.com/documents/asset/uploaded_file/3459/CCSD/5878417/ElectronicPolicyCanjo.pdf"
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-HARLEM 5",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "COOPERSTOWN CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "MAYFIELD CSD",
+    "Type": "District",
+    "County": "Fulton",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARLEM PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTMORELAND CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "THOUSAND ISLANDS CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "HALDANE CSD",
+    "Type": "District",
+    "County": "Putnam",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-CROWN HEIGHTS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "WALTON CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "GALWAY CSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "CATTARAUGUS-LITTLE VALLEY CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "GROWING UP GREEN CS II",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "GANANDA CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP NYC WASHINGTON HEIGHTS ACADEMY",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "WILLIAMSBURG CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "RANDOLPH CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": "https://www.randolphcsd.org/documents/district/distraction-free-policy/835183"
+  },
+  {
+    "PopularName": "BUSHWICK ASCEND CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAMBRIDGE CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "GROWING UP GREEN CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCHESTER PREP CHARTER SCHOOL 3",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAMPBELL-SAVONA CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNADILLA VALLEY CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": ""
+  },
+  {
+    "PopularName": "CALEDONIA-MUMFORD CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": ""
+  },
+  {
+    "PopularName": "WARSAW CSD",
+    "Type": "District",
+    "County": "Wyoming",
+    "Link": ""
+  },
+  {
+    "PopularName": "DOLGEVILLE CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX CS FOR EXCELLENCE",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "CASSADAGA VALLEY CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRILLA COLLEGE PREP CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "RED CREEK CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "MILLBROOK CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": ""
+  },
+  {
+    "PopularName": "PINE PLAINS CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": "https://www.ppcsd.org/district1/use-of-internet-enabled-devices-during-the-school-day"
+  },
+  {
+    "PopularName": "LAFAYETTE CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SANDY CREEK CSD",
+    "Type": "District",
+    "County": "Oswego",
+    "Link": ""
+  },
+  {
+    "PopularName": "SPENCER-VAN ETTEN CSD",
+    "Type": "District",
+    "County": "Tioga",
+    "Link": "https://www.spencerportschools.org/district/board_of_education_/board_of_education_policy_manual/policy_series_7000/policy_7316"
+  },
+  {
+    "PopularName": "BRUSHTON-MOIRA CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": "https://www.bmcsd.org/o/brushtonmoirasdny/page/newcellphonepolicy2025"
+  },
+  {
+    "PopularName": "KIPP TROY PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "PORT BYRON CSD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": ""
+  },
+  {
+    "PopularName": "OTEGO-UNADILLA CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROOSEVELT CHILDREN'S ACADEMY CS",
+    "Type": "Charter",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACADEMY OF THE CITY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN PROSPECTCS-CSD 13",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "BEDFORD STUY NEW BEGINNINGS CHARTER",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ONONDAGA CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.onondagacsd.org/tfiles/folder1741/7316.pdf"
+  },
+  {
+    "PopularName": "DELAWARE ACADEMY CSD AT DELHI",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "BAINBRIDGE-GUILFORD CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": "https://www.bgcsd.org/protected/ArticleView.aspx?iid=50U020&dasi=3YP0"
+  },
+  {
+    "PopularName": "BROOKLYN SCHOLARS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-FAR ROCKAWAY",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "CLYDE-SAVANNAH CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST BLOOMFIELD CSD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "TICONDEROGA CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "BEGINNING WITH CHILDREN CS II",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW HEIGHTS ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "AMBER CHARTER SCHOOL KINGSBRIDGE",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "TUPPER LAKE CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": ""
+  },
+  {
+    "PopularName": "PERRY CSD",
+    "Type": "District",
+    "County": "Wyoming",
+    "Link": ""
+  },
+  {
+    "PopularName": "WATERFORD-HALFMOON UFSD",
+    "Type": "District",
+    "County": "Saratoga",
+    "Link": ""
+  },
+  {
+    "PopularName": "OUR WORLD NEIGHBORHOOD CHARTER",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "WATERVILLE CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALEXANDER CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": "https://www.alexandercsd.org/8074?articleID=30970"
+  },
+  {
+    "PopularName": "TULLY CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "DR R IZQUIERDO HEALTH/SCIENCE CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "GROTON CSD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "CITIZENSHIP-SCIENCE ACA-SYRACUSE",
+    "Type": "Charter",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "GRAND CONCOURSE ACADEMY CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "PHAROS ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "FLORIDA UFSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROWNSVILLE ASCEND CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTHSIDE ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "MANCHESTER-SHORTSVILLE CSD (RED JACK",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "REACH ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "CUBA-RUSHFORD CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": "https://www.mycrcs.org/page/cell-phone-policy"
+  },
+  {
+    "PopularName": "OPPENHEIM-EPHRATAH-ST. JOHNSVILLE CS",
+    "Type": "District",
+    "County": "Montgomery",
+    "Link": ""
+  },
+  {
+    "PopularName": "MARATHON CSD",
+    "Type": "District",
+    "County": "Cortland",
+    "Link": ""
+  },
+  {
+    "PopularName": "HOLLAND CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": "https://www.hollandcsd.org/district-fe/planspoliciesprocedures/cell-phone-free-school-policy"
+  },
+  {
+    "PopularName": "FREWSBURG CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "NUASIN NEXT GENERATION CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP STAR COLLEGE PREP CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "BERNE-KNOX-WESTERLO CSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.bkwschools.org/bkw-cell-phone-policy/"
+  },
+  {
+    "PopularName": "OXFORD ACADEMY & CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEEDSPORT CSD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP ALBANY COMMUNITY CS",
+    "Type": "Charter",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNION SPRINGS CSD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": "https://www.unionspringscsd.org/"
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST ENDEAVOR CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTHOLD UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHAUTAUQUA LAKE CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "OAKFIELD-ALABAMA CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANDOR CSD",
+    "Type": "District",
+    "County": "Tioga",
+    "Link": ""
+  },
+  {
+    "PopularName": "ISLAND PARK UFSD",
+    "Type": "District",
+    "County": "Nassau",
+    "Link": ""
+  },
+  {
+    "PopularName": "ODESSA-MONTOUR CSD",
+    "Type": "District",
+    "County": "Schuyler",
+    "Link": ""
+  },
+  {
+    "PopularName": "RENAISSANCE CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS - HARLEM 3",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "KENDALL CSD",
+    "Type": "District",
+    "County": "Orleans",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON BROWNSVILLE SOUTH CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "DREAM CHARTER SCHOOL MOTT HAVEN",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "MORIAH CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHEATLAND-CHILI CSD",
+    "Type": "District",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST LINDEN CHARTER SCH",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "HEBREW LANGUAGE ACADEMY CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHITEHALL CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "YORK CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": "https://www.yorkcsd.org/article/2323816"
+  },
+  {
+    "PopularName": "FORT PLAIN CSD",
+    "Type": "District",
+    "County": "Montgomery",
+    "Link": ""
+  },
+  {
+    "PopularName": "SPRINGS UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "BOLIVAR-RICHBURG CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENPORT UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTHEAST CSD",
+    "Type": "District",
+    "County": "Dutchess",
+    "Link": "https://www.northwarrencsd.org/apps/news/article/2086140"
+  },
+  {
+    "PopularName": "DUANESBURG CSD",
+    "Type": "District",
+    "County": "Schenectady",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST MORICHES UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "EQUALITY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "GIRLS PREP CHARTER SCHOOL-BRONX",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "DEMOCRACY PREP ENDURANCE CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BERLIN CSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX CHARTER SCHOOL FOR THE ARTS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHILDREN'S AID COLLEGE PREP CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BARKER CSD",
+    "Type": "District",
+    "County": "Niagara",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEWFIELD CSD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "DEMOCRACY PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "FABIUS-POMPEY CSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": "https://www.fabiuspompey.org/teacherpage.cfm?teacher=1957"
+  },
+  {
+    "PopularName": "HADLEY-LUZERNE CSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTHERN CAYUGA CSD",
+    "Type": "District",
+    "County": "Cayuga",
+    "Link": "https://www.southerncayuga.org/1125"
+  },
+  {
+    "PopularName": "WARRENSBURG CSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "BOYS PREP CHARTER SCHOOL OF NY",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAKE GEORGE CSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTFIELD CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST CANADA VALLEY CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH SENECA CSD",
+    "Type": "District",
+    "County": "Seneca",
+    "Link": ""
+  },
+  {
+    "PopularName": "MARION CSD",
+    "Type": "District",
+    "County": "Wayne",
+    "Link": "https://www.msd3.org/o/mhs/article/2322391"
+  },
+  {
+    "PopularName": "NEIGHBORHOOD CS OF HARLEM",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "MIDDLEBURGH CSD",
+    "Type": "District",
+    "County": "Schoharie",
+    "Link": ""
+  },
+  {
+    "PopularName": "MADRID-WADDINGTON CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "RENAISSANCE CHARTER SCHOOL 2",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "AMERICAN DREAM CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX ACADEMY OF PROMISE CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "DUNDEE CSD",
+    "Type": "District",
+    "County": "Yates",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN LABORATORY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARLEM VILLAGE ACAD NORTH CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "PAVILION CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": "https://go.boarddocs.com/ny/pavilioncs/Board.nsf/goto?open&id=DBSM9U5A2771"
+  },
+  {
+    "PopularName": "SCHOOL IN THE SQUARE PUBLIC CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "NAPLES CSD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "NY MILLS UFSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCKLAND CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": ""
+  },
+  {
+    "PopularName": "EXPLORE EXCEL CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "FILLMORE CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITY PREP CS OF BROOKLYN",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "MORRISVILLE-EATON CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": "https://www.m-ecs.org/article/2323629"
+  },
+  {
+    "PopularName": "BROOKLYN EXCELSIOR CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "BEMUS POINT CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": "https://bpcsd.ss18.sharpschool.com/district/district_office/district_news/new_cell_phone_procedure"
+  },
+  {
+    "PopularName": "FRANKLINVILLE CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "GLOBAL COMMUNITY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARPURSVILLE CSD",
+    "Type": "District",
+    "County": "Broome",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAKE PLACID CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "HAMILTON CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": "https://www.hamiltoncentral.org/district/no-cell-phone-policy"
+  },
+  {
+    "PopularName": "LYNDONVILLE CSD",
+    "Type": "District",
+    "County": "Orleans",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN DREAMS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ORISKANY CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": "https://www.oriskanycsd.org/post-details/~board/district-news-oriskany-central-school-district-5965/post/new-policy-regarding-cell-phone-use-in-schools"
+  },
+  {
+    "PopularName": "NORTH COLLINS CSD",
+    "Type": "District",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "HEUVELTON CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": "https://www.heuvelton.k12.ny.us/apps/pages/index.jsp?uREC_ID=2181894&type=d&pREC_ID=2184590"
+  },
+  {
+    "PopularName": "EXPLORE CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX CLASSICAL CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BUFFALO UNITED CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "HONEOYE CSD",
+    "Type": "District",
+    "County": "Ontario",
+    "Link": ""
+  },
+  {
+    "PopularName": "MESA ACADEMY CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SALEM CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "LISBON CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHATEAUGAY CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": ""
+  },
+  {
+    "PopularName": "MT MORRIS CSD",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": "https://www.mtmorriscsd.org/article/2323299"
+  },
+  {
+    "PopularName": "ELLICOTTVILLE CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "BUFFALO ACADEMY OF SCIENCE CS II",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST BUFFALO CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARRIET TUBMAN CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX CLASSICAL CS III",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACCESS BRONX CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNIVERSITY PREP CS-YOUNG MEN",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "DALTON-NUNDA CSD (KESHEQUA)",
+    "Type": "District",
+    "County": "Livingston",
+    "Link": ""
+  },
+  {
+    "PopularName": "HELLENIC CLASSICAL CS PARK SLOPE",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALFRED-ALMOND CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "EDWARDS-KNOX CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHARTER HS-ADV MA/SCI II",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "ARGYLE CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "GENESEE VALLEY CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "BELLEVILLE-HENDERSON CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": "https://www.bhpanthers.org/page/1099"
+  },
+  {
+    "PopularName": "PINE VALLEY CSD (SOUTH DAYTON)",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX CHARTER-EXCELLENCE 3",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIPP FREEDOM CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROCTON CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "CINCINNATUS CSD",
+    "Type": "District",
+    "County": "Cortland",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHARTER HS-LAW AND SOCIAL JUSTICE",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX COMMUNITY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHAZY UFSD",
+    "Type": "District",
+    "County": "Clinton",
+    "Link": ""
+  },
+  {
+    "PopularName": "POLAND CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "COMMUNITY ROOTS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHARTER HS-ADV MATH/SCIECE",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRONX CS FOR EXCELLENCE 2",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "AECI II:  NYC CHARTER HS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "MCGRAW CSD",
+    "Type": "District",
+    "County": "Cortland",
+    "Link": "https://www.mcgrawschools.org/page/cell-phone-policy/"
+  },
+  {
+    "PopularName": "NORTH WARREN CSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": "https://www.ntschools.org/our-district/distraction-free-schools"
+  },
+  {
+    "PopularName": "NYC CHARTER HS - AECI",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "MIDDLE VILLAGE PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": "https://www.middlevillageprep.org/ourpages/auto/2023/10/20/43443822/2023-24%20MVP%20Student%20Handbook.pdf#:~:text=All%20students%20will%20receive%20Tablet%20Policy%20forms%20offering,tablet%20policy%20and%20assuming%20responsibility%20for%20the%20device."
+  },
+  {
+    "PopularName": "DEPOSIT CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": "https://www.depositcsd.org/Downloads/73%20-%20Student%20Cell%20Phone%20Use%20Adopted%207-14-25.pdf"
+  },
+  {
+    "PopularName": "LA FARGEVILLE CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAPITAL PREPARATORY BRONX CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "URBAN ASSEMBLY CS - COMPUTER SCIENCE",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALEXANDRIA CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "GERMANTOWN CSD",
+    "Type": "District",
+    "County": "Columbia",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTHSIDE CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "FORTE PREPARATORY ACADEMY CS",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "COPENHAGEN CSD",
+    "Type": "District",
+    "County": "Lewis",
+    "Link": ""
+  },
+  {
+    "PopularName": "EXPLORE EMPOWER CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "AFTON CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": ""
+  },
+  {
+    "PopularName": "ARKPORT CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "PAVE ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENBURGH-NORTH CASTLE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON EXCELLENCE BOYS CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELDRED CSD",
+    "Type": "District",
+    "County": "Sullivan",
+    "Link": ""
+  },
+  {
+    "PopularName": "HYDE LEADERSHIP CS-BROOKLYN",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELMWOOD VILLAGE CS DAYS PARK",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "MOTT HAVEN ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "VALENCE COLLEGE PREP CS",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCHDALE EARLY ADVANTAGE CS",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELMWOOD VILLAGE CS HERTEL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "HEALTH SCIENCES CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREEN TECH HIGH CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHARTER HS-ADV MA/SCI IV",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENWOOD LAKE UFSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTMINSTER COMMUNITY CS",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNIVERSITY PREP CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHIN MUSIC COMMUNITY CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHERRY VALLEY-SPRINGFIELD CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "FORT ANN CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "COMMUNITY PARTNERSHIP CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "RICHFIELD SPRINGS CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "EMBER CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "INNOVATION CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROMULUS CSD",
+    "Type": "District",
+    "County": "Seneca",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHARTER HS-HUMANITIES",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON CROWN HEIGHTS CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "KING CENTER CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "SHERMAN CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "EAST HARLEM SCHOLARS ACADEMY CS II",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUCCESS ACADEMY CS-BED STUY 3",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SACKETS HARBOR CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "JOHN V LINDSAY WILDCAT ACADEMY CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX CLASSICAL CHARTER SCH IV",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "WESTERN NY MARITIME CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "MADISON CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "ELBA CSD",
+    "Type": "District",
+    "County": "Genesee",
+    "Link": ""
+  },
+  {
+    "PopularName": "PANAMA CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "FORESTVILLE CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "ENTERPRISE CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW LEBANON CSD",
+    "Type": "District",
+    "County": "Columbia",
+    "Link": ""
+  },
+  {
+    "PopularName": "STOCKBRIDGE VALLEY CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "ALBANY LEADERSHIP CS-GIRLS",
+    "Type": "Charter",
+    "County": "Albany",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACADEMIC LEADERSHIP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "CREO COLLEGE PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARLEM VILLAGE ACADEMY EAST CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTHVILLE CSD",
+    "Type": "District",
+    "County": "Fulton",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNIVERSITY PREP CHARTER MS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "AVOCA CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "HAMMONDSPORT CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "LYNCOURT UFSD",
+    "Type": "District",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX COMMUNITY CHARTER HS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "OPPORTUNITY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "REMSEN CSD",
+    "Type": "District",
+    "County": "Oneida",
+    "Link": ""
+  },
+  {
+    "PopularName": "INTERNATIONAL LEADERSHIP CHARTER HS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACADEMY OF HEALTH SCIENCES CS",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "EDMESTON CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "BOQUET VALLEY CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "JASPER-TROUPSBURG CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "COLTON-PIERREPONT CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "FORT EDWARD UFSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "YOUNG WOMEN'S COLLEGE PREP CS",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "HINSDALE CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": "https://www.hinsdalebobcats.org/o/hcsd/page/distraction-free-learning"
+  },
+  {
+    "PopularName": "BROOME ST ACADEMY CHARTER HS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 4",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "HERMON-DEKALB CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": "https://www.hdcsk12.org/view-all-news/~board/news-and-announcements/post/policy-update-use-of-internet-enabled-devices-during-the-school-day"
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 2",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "AMANI PUBLIC CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARTFORD CSD",
+    "Type": "District",
+    "County": "Washington",
+    "Link": ""
+  },
+  {
+    "PopularName": "CLYMER CSD",
+    "Type": "District",
+    "County": "Chautauqua",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARLEM LINK CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 1",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 3",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "VERTUS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "MILFORD CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "PRATTSBURGH CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 5",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "CHARLOTTE VALLEY CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "RICHMOND PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Richmond",
+    "Link": ""
+  },
+  {
+    "PopularName": "LYME CSD",
+    "Type": "District",
+    "County": "Jefferson",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN URBAN GARDEN CHARTER",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "E MONROE NEW RENAISSANCE BASKETBALL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARRISVILLE CSD",
+    "Type": "District",
+    "County": "Lewis",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHARTER HS-HUMANITIES II",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "PARISHVILLE-HOPKINTON CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 6",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHTR HS-ADV MA/SCI III",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "GILBERTSVILLE-MOUNT UPTON CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREAT OAKS KATHLEEN SHERRY CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "WORCESTER CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "ICAHN CHARTER SCHOOL 7",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "DERUYTER CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON BED-STUY EAST CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "BELFAST CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": "https://www.belfastcsd.org/district-information/bcs-policy-manual/distraction-free-school-policy"
+  },
+  {
+    "PopularName": "CROWN POINT CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "HUNTER-TANNERSVILLE CSD",
+    "Type": "District",
+    "County": "Greene",
+    "Link": ""
+  },
+  {
+    "PopularName": "FUTURE LEADERS INSTITUTE CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "MORRISTOWN CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "POCANTICO HILLS CSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "BGLIG-SHIRLEY RODRIGUEZ-REMENESKI CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "NY FRENCH-AMERICAN CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX CLASSICAL CS II",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "MORRIS CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "MARGARETVILLE CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "WYNANTSKILL UFSD",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH KORTRIGHT CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": "https://core-docs.s3.amazonaws.com/documents/asset/uploaded_file/1016972/Policy_5695_-_Students_and_Personal_Electronic_Devices_Policy_-_5695_-_Students__2_.pdf"
+  },
+  {
+    "PopularName": "URBAN DOVE TEAM CHARTER SCHOOL II",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAURENS CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW DAWN CHARTER HS II",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "HANCOCK CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "WINDHAM-ASHLAND-JEWETT CSD",
+    "Type": "District",
+    "County": "Greene",
+    "Link": ""
+  },
+  {
+    "PopularName": "OTSELIC VALLEY CSD",
+    "Type": "District",
+    "County": "Chenango",
+    "Link": "https://www.ovcs.org/article/2311215"
+  },
+  {
+    "PopularName": "KIPP BEYOND CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "SOUTH BRONX EARLY COLLEGE ACADEMY CS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "EARLY COLLEGE CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Richmond",
+    "Link": ""
+  },
+  {
+    "PopularName": "MONTAUK UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROCHESTER ACADEMY OF SCIENCE CS",
+    "Type": "Charter",
+    "County": "Monroe",
+    "Link": ""
+  },
+  {
+    "PopularName": "GILBOA-CONESVILLE CSD",
+    "Type": "District",
+    "County": "Schoharie",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAUNCH EXPEDITIONARY LEARNING CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCIO CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "MENANDS UFSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.menands.org/about-us/policies-and-procedures/students-and-personal-electronic-devices-policy/"
+  },
+  {
+    "PopularName": "SHARON SPRINGS CSD",
+    "Type": "District",
+    "County": "Schoharie",
+    "Link": ""
+  },
+  {
+    "PopularName": "SUMMIT ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ONTECH CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "Onondaga",
+    "Link": ""
+  },
+  {
+    "PopularName": "FRIENDSHIP CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "URBAN DOVE TEAM CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "WILLSBORO CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "HARBOR SCI & ARTS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "JOHNSBURG CSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "ANDOVER CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "CLIFTON-FINE CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "CAPITAL PREP (CP) HARLEM CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREEN ISLAND UFSD",
+    "Type": "District",
+    "County": "Albany",
+    "Link": "https://www.greenisland.org/important-message-about-the-new-cell-phone-policy/"
+  },
+  {
+    "PopularName": "STAMFORD CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "NYC CHARTER SCHOOL OF THE ARTS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRADFORD CSD",
+    "Type": "District",
+    "County": "Steuben",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHENEVUS CSD",
+    "Type": "District",
+    "County": "Otsego",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENBURGH-GRAHAM UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "TUCKAHOE COMMON SD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNCOMMON WILLIAMSBURG CS NYC",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "IMAGINE ME LEADERSHIP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKLYN EMERGING LEADERS ACADEMY CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "SCHROON LAKE CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "TOWN OF WEBB UFSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": "https://www.tonawandacsd.org/o/tcsdny/page/nys-mandated-device-ban"
+  },
+  {
+    "PopularName": "HAMMOND CSD",
+    "Type": "District",
+    "County": "Saint Lawrence",
+    "Link": ""
+  },
+  {
+    "PopularName": "ROXBURY CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW DAWN CHARTER HIGH SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "URBAN DOVE TEAM CHARTER SCHOOL III",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "GIRLS PREP CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "UNITED CHARTER HS-HUMANITIES IV",
+    "Type": "Charter",
+    "County": "Queens",
+    "Link": ""
+  },
+  {
+    "PopularName": "CANASERAGA CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "ST REGIS FALLS CSD",
+    "Type": "District",
+    "County": "Franklin",
+    "Link": ""
+  },
+  {
+    "PopularName": "DOWNSVILLE CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "EMBLAZE ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "FAMILY LIFE ACADEMY CS HS",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "GARRISON UFSD",
+    "Type": "District",
+    "County": "Putnam",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROOKFIELD CSD",
+    "Type": "District",
+    "County": "Madison",
+    "Link": ""
+  },
+  {
+    "PopularName": "MT PLEASANT-COTTAGE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "TUXEDO UFSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "WEST VALLEY CSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": "https://resources.finalsite.net/images/v1753283150/wvalleyorg/l1nks2dcz6okztznng3s/WestValleyCentralSchoolDistraction-FreeSchoolPolicy.pdf"
+  },
+  {
+    "PopularName": "FRANKLIN CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "EDMUND W GORDON BROOKLYN LABORATORY",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "ST HOPE LEADERSHIP ACADEMY CS",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "MOTT HALL CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
+  },
+  {
+    "PopularName": "BRIDGEHAMPTON UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "HAWTHORNE-CEDAR KNOLLS UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "KIRYAS JOEL VILLAGE UFSD",
+    "Type": "District",
+    "County": "Orange",
+    "Link": ""
+  },
+  {
+    "PopularName": "SHELTER ISLAND UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAMAD ACADEMY CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "KEENE CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "RANDOLPH ACAD UFSD",
+    "Type": "District",
+    "County": "Cattaraugus",
+    "Link": ""
+  },
+  {
+    "PopularName": "BOLTON CSD",
+    "Type": "District",
+    "County": "Warren",
+    "Link": ""
+  },
+  {
+    "PopularName": "VAN HORNESVILLE-OWEN D YOUNG CSD",
+    "Type": "District",
+    "County": "Herkimer",
+    "Link": ""
+  },
+  {
+    "PopularName": "BUFFALO CREEK ACADEMY CS",
+    "Type": "Charter",
+    "County": "Erie",
+    "Link": ""
+  },
+  {
+    "PopularName": "URBAN DOVE TEAM CHARTER SCHOOL IV",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "ACHIEVEMENT FIRST VOYAGER CHARTER",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "JEFFERSON CSD",
+    "Type": "District",
+    "County": "Schoharie",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW VENTURES CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Richmond",
+    "Link": ""
+  },
+  {
+    "PopularName": "WYOMING CSD",
+    "Type": "District",
+    "County": "Wyoming",
+    "Link": ""
+  },
+  {
+    "PopularName": "WELLS CSD",
+    "Type": "District",
+    "County": "Hamilton",
+    "Link": ""
+  },
+  {
+    "PopularName": "MT PLEASANT-BLYTHEDALE UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "GEORGE JUNIOR REPUBLIC UFSD",
+    "Type": "District",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHITESVILLE CSD",
+    "Type": "District",
+    "County": "Allegany",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEW ROOTS CHARTER SCHOOL",
+    "Type": "Charter",
+    "County": "Tompkins",
+    "Link": ""
+  },
+  {
+    "PopularName": "GREENBURGH ELEVEN UFSD",
+    "Type": "District",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "INDIAN LAKE CSD",
+    "Type": "District",
+    "County": "Hamilton",
+    "Link": ""
+  },
+  {
+    "PopularName": "BROWNSVILLE COLLEGIATE CS",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "LITTLE FLOWER UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "WHEELERVILLE UFSD",
+    "Type": "District",
+    "County": "Fulton",
+    "Link": ""
+  },
+  {
+    "PopularName": "MINERVA CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "COLLEGIATE ACADEMY-MATH-PERSONAL AWA",
+    "Type": "Charter",
+    "County": "Kings",
+    "Link": ""
+  },
+  {
+    "PopularName": "INTELLECTUS PREPARATORY CS",
+    "Type": "Charter",
+    "County": "Westchester",
+    "Link": ""
+  },
+  {
+    "PopularName": "ANDES CSD",
+    "Type": "District",
+    "County": "Delaware",
+    "Link": ""
+  },
+  {
+    "PopularName": "LAKE PLEASANT CSD",
+    "Type": "District",
+    "County": "Hamilton",
+    "Link": ""
+  },
+  {
+    "PopularName": "NURSES MIDDLE COLLEGE CS",
+    "Type": "Charter",
+    "County": "Rensselaer",
+    "Link": ""
+  },
+  {
+    "PopularName": "FISHERS ISLAND UFSD",
+    "Type": "District",
+    "County": "Suffolk",
+    "Link": ""
+  },
+  {
+    "PopularName": "LONG LAKE CSD",
+    "Type": "District",
+    "County": "Hamilton",
+    "Link": ""
+  },
+  {
+    "PopularName": "NEWCOMB CSD",
+    "Type": "District",
+    "County": "Essex",
+    "Link": ""
+  },
+  {
+    "PopularName": "NORTH GREENBUSH COMN SD (WILLIAMS)",
+    "Type": "District",
+    "County": "Rensselaer",
+    "Link": "https://www.northcolonie.org/article/2255891"
+  },
+  {
+    "PopularName": "NYC AUTISM CHARTER-EAST HARLEM",
+    "Type": "Charter",
+    "County": "New York",
+    "Link": ""
+  },
+  {
+    "PopularName": "NYC AUTISM CHARTER SCHOOL BRONX",
+    "Type": "Charter",
+    "County": "Bronx",
+    "Link": ""
   }
 ]
