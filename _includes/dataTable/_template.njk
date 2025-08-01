@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" />
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" async></script>
+<script>
+    $(document).ready(function() {
+       new DataTable('#{{params.tableName}}', {
+            columnDefs: [{ 
+                orderable: true, 
+                targets: [0,1,2],  
+                render: function(data, type, row, meta) {
+                    if (type != 'display') {
+                    return data.replace( /<.*?>/g, '' );
+                    }
+                    return data;
+                    }
+                
+                
+                
+                }],
+                layout: {
+                            
+                            topStart: {
+                                search: {
+                                    placeholder: 'Search by School Name, Type, or County'
+                                }
+                            },
+                            topEnd: 'info',
+                            bottomStart: 'paging',
+                            bottomEnd: null
+                        },
+            order: [[1, 'asc']],
+            scrollX: true
+           
+        });
+    } );
+   
+</script>
+
+{%set tableData = params.dataSource %}
+
+<table id="{{params.tableName}}" class="display">
+    <thead class="">
+        <tr>
+            {% for headers in params.tableHeaders %}
+            <th scope="col">{{headers.title}}</th>
+            {% endfor %}  
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for data in tableData %}
+            <tr>
+                <td> 
+                    {% if data.Link %}
+                        <a href="{{data.Link}}">{{data.PopularName}}</a>
+                    {% else %}
+                    {{data.PopularName}}
+                    {% endif %}
+                </td>
+                <td> {{data.Type}} </td>
+                <td> {{data.County}} </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+
+</table>
