@@ -11,18 +11,22 @@ data: _distractionFree
 {{
     dataTable({
         dataSource: _distractionFree,
-        tableName:"distraction",
-        title:"Distraction Free Schools Plans",
+        tableName:"phonefree",
+        title:"Phone-Free School Plans",
         caption:"List of School Districts in New York State",
+        searchPlaceholder:"Search by School Name, Type, or County",
         tableHeaders: [
             {
-                title: "School Name and Link"
+                title: "Institution Type"
             },
             {
-                title: "School Type"
+                title: "School Name"
             },
             {
                 title: "County"
+            },
+            {
+                title: "Submission Status"
             }
         ]
     })

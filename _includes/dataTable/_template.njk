@@ -6,7 +6,7 @@
        new DataTable('#{{params.tableName}}', {
             columnDefs: [{ 
                 orderable: true, 
-                targets: [0,1,2],  
+                targets: [0,1,2,3],  
                 render: function(data, type, row, meta) {
                     if (type != 'display') {
                     return data.replace( /<.*?>/g, '' );
@@ -21,7 +21,7 @@
                             
                             topStart: {
                                 search: {
-                                    placeholder: 'Search by School Name, Type, or County'
+                                    placeholder: '{{params.searchPlaceholder}}'
                                 }
                             },
                             topEnd: 'info',
@@ -38,7 +38,16 @@
 
 {%set tableData = params.dataSource %}
 
+<h1> {{params.title}}</h1>
+
+{% if params.disclaimer %}
+    <p>{{params.disclaimer}}</p>
+{% endif %}
+
 <table id="{{params.tableName}}" class="display">
+    <caption>
+        {{params.caption}}
+    </caption>
     <thead class="">
         <tr>
             {% for headers in params.tableHeaders %}
@@ -50,17 +59,27 @@
     <tbody>
         {% for data in tableData %}
             <tr>
+                <td> {{data.institution_type}} </td>
                 <td> 
-                    {% if data.Link %}
-                        <a href="{{data.Link}}">{{data.PopularName}}</a>
+                    {% if data.link %}
+                        <a href="{{data.link}}">{{data.district_name}}</a>
                     {% else %}
-                    {{data.PopularName}}
+                    {{data.district_name}}
                     {% endif %}
                 </td>
-                <td> {{data.Type}} </td>
-                <td> {{data.County}} </td>
+                
+                <td> {{data.county}} </td>
+                <td> 
+                    {% if data.status === "Submitted" %}
+                    {{data.status}} <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                    {% else %}
+                    <em> {{data.status}} </em>
+                    {% endif %}
+                
+                </td>
             </tr>
         {% endfor %}
     </tbody>
 
 </table>
+
