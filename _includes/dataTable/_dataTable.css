@@ -1,6 +1,50 @@
-.nysds-data-table {
+.nysds-responsive-wrapper {
     margin: 0 auto;
     width: 80%;
+}
+
+.nysds-reset-button {
+    all: unset;
+    border: 1px solid var(--white);
+    padding: var(--nys-space-100) var(--nys-space-300);
+    border-radius: var(--nys-radius-xl);
+    cursor: pointer;
+    background-color: var(--primary-core-blue);
+    color: var(--white);
+    margin: var(--nys-space-200) var(--nys-space-200);
+    font-weight: var(--nys-font-weight-bold);
+    text-transform: uppercase;
+    font-size: var(--nys-font-size-sm);
+    letter-spacing: var(--nys-space-2px);
+    line-height: 1.4rem;
+}
+
+.nysds-reset-button:hover {
+    background-color: var(--black);
+    border-color: var(--core-accent-yellow);
+}
+
+.nysds-reset-button:focus {
+    background-color: var(--black);
+    border-color: var(--core-accent-yellow);
+}
+
+.nysds-table-disclaimer {
+    margin: var(--nys-space-500) var(--nys-space-200);
+}
+
+.dataTable a {
+    color: var(--link-blue)
+}
+
+.dataTable a:hover {
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
+}
+
+.dataTable a:focus {
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
 }
 
 .dt-layout-start {
@@ -20,9 +64,15 @@
 
 .dt-input {
     width: 95%;
+    border: 1px solid var(--primary-core-blue);
+    padding: var(--nys-space-100)
 }
 
 @media (min-width: 768px) {
+    .nysds-reset-button {
+        margin: 0 var(--nys-space-200);
+    }
+
     .dt-search {
         width: 100%;
         display: flex;
@@ -34,7 +84,8 @@
     }
 
     .dt-input {
-        width: 75%;
+        width: 55%;
+        margin-right: 3%;
     }
 
 }

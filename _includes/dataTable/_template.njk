@@ -1,11 +1,12 @@
-<link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" />
+{# <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" /> #}
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" async></script>
+<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" ></script>
 <script>
+    (function($) {
     $(document).ready(function() {
        new DataTable('#{{params.tableName}}', {
             columnDefs: [{ 
-                orderable: true, 
+                orderable: false, 
                 targets: [0,1,2,3],  
                 render: function(data, type, row, meta) {
                     if (type != 'display') {
@@ -25,24 +26,41 @@
                                 }
                             },
                             topEnd: 'info',
-                            bottomStart: 'paging',
-                            bottomEnd: null
+                            bottomStart: null,
+                            bottomEnd: null,
+                            bottom: 'paging'
                         },
             order: [[1, 'asc']],
             scrollX: true
            
         });
+        
+        
+        
     } );
-   
+
+    $(document).ready(function() {
+    const searchInput = document.getElementById("dt-search-0");
+        const clearAll = document.getElementById("clear");
+        const tableId = '#{{params.tableName}}'
+        console.log(tableId)
+        searchInput.insertAdjacentHTML('afterend','<button class="nysds-reset-button" id="clear"> Reset </button>')
+        $('#clear').on('click', () => {
+            $(tableId).DataTable().search('').columns().search('').draw();
+            })
+     } );
+
+     })(jQuery);
+ 
 </script>
 
 {%set tableData = params.dataSource %}
 
-<h1> {{params.title}}</h1>
+<h2 class=""> 
+    <span class="a-pHeadline a-card__subHeadline">{{params.title}}</span>
+</h2>
 
-{% if params.disclaimer %}
-    <p>{{params.disclaimer}}</p>
-{% endif %}
+
 
 <table id="{{params.tableName}}" class="display">
     <caption>
@@ -83,3 +101,6 @@
 
 </table>
 
+{% if params.disclaimer %}
+    <p class="nysds-table-disclaimer"><em>{{params.disclaimer}}</em></p>
+{% endif %}
