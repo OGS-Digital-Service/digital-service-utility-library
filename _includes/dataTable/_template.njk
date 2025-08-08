@@ -6,7 +6,7 @@
     $(document).ready(function() {
        new DataTable('#{{params.tableName}}', {
             columnDefs: [{ 
-                orderable: false, 
+                orderable: true, 
                 targets: [0,1,2,3],  
                 render: function(data, type, row, meta) {
                     if (type != 'display') {
@@ -77,24 +77,18 @@
     <tbody>
         {% for data in tableData %}
             <tr>
-                <td> {{data.institution_type}} </td>
-                <td> 
-                    {% if data.link %}
-                        <a href="{{data.link}}">{{data.district_name}}</a>
-                    {% else %}
-                    {{data.district_name}}
-                    {% endif %}
-                </td>
-                
-                <td> {{data.county}} </td>
                 <td> 
                     {% if data.status === "Submitted" %}
-                    {{data.status}} <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                        <a href="{{data.link}}"> {{data.status}} <span class="sr-only">view the policy for {{data.name}}</span><i class="fa-solid fa-circle-check" aria-hidden="true"></i> </a>
                     {% else %}
-                    <em> {{data.status}} </em>
+                        <em> N/A </em>
                     {% endif %}
                 
                 </td>
+                <td> {{data.name}} </td>
+                <td> {{data.type}} </td>
+                <td> {{data.county}} </td>
+                
             </tr>
         {% endfor %}
     </tbody>
