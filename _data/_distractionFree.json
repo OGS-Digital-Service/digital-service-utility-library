@@ -3,14 +3,6 @@
     "status": "Not Submitted",
     "Policy Check": "",
     "type": "CHARTER SCHOOL",
-    "name": "NYC AUTISM CHARTER SCHOOL BRONX",
-    "county": "BRONX",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
     "name": "BRICK BUFFALO ACADEMY CHARTER SCHOOL",
     "county": "ERIE",
     "link": ""
@@ -19,24 +11,8 @@
     "status": "Not Submitted",
     "Policy Check": "",
     "type": "CHARTER SCHOOL",
-    "name": "EXPLORATION ELE CS - SCIENCE-TECHNOL",
-    "county": "MONROE",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
     "name": "LITTLE WATER PREPARATORY CS",
     "county": "DUTCHESS",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
-    "name": "NYC AUTISM CHARTER-EAST HARLEM",
-    "county": "NEW YORK",
     "link": ""
   },
   {
@@ -91,14 +67,6 @@
     "status": "Not Submitted",
     "Policy Check": "",
     "type": "PUBLIC SCHOOL",
-    "name": "PARISHVILLE-HOPKINTON CSD",
-    "county": "SAINT LAWRENCE",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "PUBLIC SCHOOL",
     "name": "LAKE PLEASANT CSD",
     "county": "HAMILTON",
     "link": ""
@@ -114,10 +82,26 @@
   {
     "status": "Submitted",
     "Policy Check": "x",
+    "type": "PUBLIC SCHOOL",
+    "name": "PARISHVILLE-HOPKINTON CSD",
+    "county": "SAINT LAWRENCE",
+    "link": "https://drive.google.com/file/d/1mbxOA63MLFjgadSgk9T2WptyqKC44OVa/view"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
     "type": "CHARTER SCHOOL",
     "name": "ELM COMMUNITY CHARTER SCHOOL",
     "county": "QUEENS",
     "link": "https://docs.google.com/document/d/1lg4RAfZlH9YtBQGDb0J87lE1FVGgWDieu_rqZn2Z588/edit?tab=t.0"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "NYC AUTISM CHARTER SCHOOL BRONX",
+    "county": "BRONX",
+    "link": "https://www.nycautismcharterschool.org/distraction-free-school-policy/"
   },
   {
     "status": "Submitted",
@@ -134,6 +118,22 @@
     "name": "BRIGHTER CHOICE CS-GIRLS",
     "county": "ALBANY",
     "link": "https://www.brighterchoice.org/wp-content/uploads/2025/08/Brighter-Choice-Charter-Schools-Cell-Phone-Plan_Policy.pdf"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "EXPLORATION ELE CS - SCIENCE-TECHNOL",
+    "county": "MONROE",
+    "link": "https://www.explorationrochester.org/ourpages/auto/2023/10/5/28457630/25-26%20School%20Year%20Cell%20Phone%20Policy.pdf?rnd=1755612003303"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "NYC AUTISM CHARTER-EAST HARLEM",
+    "county": "NEW YORK",
+    "link": "https://www.nycautismcharterschool.org/distraction-free-school-policy/"
   },
   {
     "status": "Submitted",
