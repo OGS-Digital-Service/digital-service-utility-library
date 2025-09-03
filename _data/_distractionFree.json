@@ -2,73 +2,9 @@
   {
     "status": "Not Submitted",
     "Policy Check": "",
-    "type": "CHARTER SCHOOL",
-    "name": "NYC AUTISM CHARTER SCHOOL BRONX",
-    "county": "BRONX",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
-    "name": "BRICK BUFFALO ACADEMY CHARTER SCHOOL",
-    "county": "ERIE",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
-    "name": "EXPLORATION ELE CS - SCIENCE-TECHNOL",
-    "county": "MONROE",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
-    "name": "LITTLE WATER PREPARATORY CS",
-    "county": "DUTCHESS",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "CHARTER SCHOOL",
-    "name": "NYC AUTISM CHARTER-EAST HARLEM",
-    "county": "NEW YORK",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "PUBLIC SCHOOL",
-    "name": "ELMONT UFSD",
-    "county": "NASSAU",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
     "type": "PUBLIC SCHOOL",
     "name": "GREENBURGH ELEVEN UFSD",
     "county": "WESTCHESTER",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "PUBLIC SCHOOL",
-    "name": "GREENBURGH-GRAHAM UFSD",
-    "county": "WESTCHESTER",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "PUBLIC SCHOOL",
-    "name": "GLENS FALLS COMN SD",
-    "county": "WARREN",
     "link": ""
   },
   {
@@ -80,36 +16,76 @@
     "link": ""
   },
   {
-    "status": "Not Submitted",
-    "Policy Check": "",
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "BRICK BUFFALO ACADEMY CHARTER SCHOOL",
+    "county": "ERIE",
+    "link": "https://docs.google.com/document/d/1nJc4TVjmZ70GSk7bJqDBbOlMLwNiuU1r_CcAAlEftio/edit?tab=t.0#heading=h.xmteocx7uy4v"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
     "type": "PUBLIC SCHOOL",
     "name": "NEWFIELD CSD",
     "county": "TOMPKINS",
-    "link": ""
+    "link": "https://go.boarddocs.com/ny/newfield/Board.nsf/files/DKVL2R547AC9/$file/Draft%20-%20Bell%20to%20Bell%20Device%20Ban.pdf"
   },
   {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "PUBLIC SCHOOL",
-    "name": "PARISHVILLE-HOPKINTON CSD",
-    "county": "SAINT LAWRENCE",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
-    "type": "PUBLIC SCHOOL",
-    "name": "LAKE PLEASANT CSD",
-    "county": "HAMILTON",
-    "link": ""
-  },
-  {
-    "status": "Not Submitted",
-    "Policy Check": "",
+    "status": "Submitted",
+    "Policy Check": "x",
     "type": "PUBLIC SCHOOL",
     "name": "REMSENBURG-SPEONK UFSD",
     "county": "SUFFOLK",
-    "link": ""
+    "link": "https://drive.google.com/file/d/11HT4Qk9QOjkBC1mcvB296sRCMjHNnLj0/view?usp=sharing"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "LITTLE WATER PREPARATORY CS",
+    "county": "DUTCHESS",
+    "link": "https://www.littlewaterprep.org/policies"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "PUBLIC SCHOOL",
+    "name": "GREENBURGH-GRAHAM UFSD",
+    "county": "WESTCHESTER",
+    "link": "https://www.greenburgh-graham.org/documents/district/policies-&-procedures/272747"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "PUBLIC SCHOOL",
+    "name": "ELMONT UFSD",
+    "county": "NASSAU",
+    "link": "https://go.boarddocs.com/ny/elmont/Board.nsf/files/DKJSM2715AAD/$file/First%20Reading%20and%20Adoption-Student%20Use%20of%20Internet-enabled%20Devices.pdf"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "PUBLIC SCHOOL",
+    "name": "LAKE PLEASANT CSD",
+    "county": "HAMILTON",
+    "link": "https://go.boarddocs.com/ny/lpcs/Board.nsf/goto?open&id=AUXK884FD5A0#"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "PUBLIC SCHOOL",
+    "name": "GLENS FALLS COMN SD",
+    "county": "WARREN",
+    "link": "https://resources.finalsite.net/images/v1755611138/abewingorg/ytp3gxauxfcowqd8jnlj/UseofInternetEnabledDevicesDuringtheSchoolDay2025.pdf"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "PUBLIC SCHOOL",
+    "name": "PARISHVILLE-HOPKINTON CSD",
+    "county": "SAINT LAWRENCE",
+    "link": "https://drive.google.com/file/d/1mbxOA63MLFjgadSgk9T2WptyqKC44OVa/view"
   },
   {
     "status": "Submitted",
@@ -118,6 +94,14 @@
     "name": "ELM COMMUNITY CHARTER SCHOOL",
     "county": "QUEENS",
     "link": "https://docs.google.com/document/d/1lg4RAfZlH9YtBQGDb0J87lE1FVGgWDieu_rqZn2Z588/edit?tab=t.0"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "NYC AUTISM CHARTER SCHOOL BRONX",
+    "county": "BRONX",
+    "link": "https://www.nycautismcharterschool.org/distraction-free-school-policy/"
   },
   {
     "status": "Submitted",
@@ -134,6 +118,22 @@
     "name": "BRIGHTER CHOICE CS-GIRLS",
     "county": "ALBANY",
     "link": "https://www.brighterchoice.org/wp-content/uploads/2025/08/Brighter-Choice-Charter-Schools-Cell-Phone-Plan_Policy.pdf"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "EXPLORATION ELE CS - SCIENCE-TECHNOL",
+    "county": "MONROE",
+    "link": "https://www.explorationrochester.org/ourpages/auto/2023/10/5/28457630/25-26%20School%20Year%20Cell%20Phone%20Policy.pdf?rnd=1755612003303"
+  },
+  {
+    "status": "Submitted",
+    "Policy Check": "x",
+    "type": "CHARTER SCHOOL",
+    "name": "NYC AUTISM CHARTER-EAST HARLEM",
+    "county": "NEW YORK",
+    "link": "https://www.nycautismcharterschool.org/distraction-free-school-policy/"
   },
   {
     "status": "Submitted",
@@ -6013,7 +6013,7 @@
     "type": "PUBLIC SCHOOL",
     "name": "SYRACUSE CITY SD",
     "county": "ONONDAGA",
-    "link": "https://go.boarddocs.com/ny/scsdny/Board.nsf/files/C3USS669AF93/$file/Policy%20%237316%20-%20Student%20Use%20of%20Personal%20Technology.pdf"
+    "link": "https://www.syracusecityschools.com/tfiles/folder984/Code%20of%20Conduct%202025-26-DRAFT.pdf"
   },
   {
     "status": "Submitted",
