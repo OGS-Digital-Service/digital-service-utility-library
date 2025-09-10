@@ -1,11 +1,11 @@
 [
   {
-    "status": "Not Submitted",
-    "Policy Check": "",
+    "status": "Submitted",
+    "Policy Check": "x",
     "type": "PUBLIC SCHOOL",
     "name": "GREENBURGH ELEVEN UFSD",
     "county": "WESTCHESTER",
-    "link": ""
+    "link": "https://echalk-slate-prod.s3.amazonaws.com/private/schools/84979/resources/4a56a9b3-d03f-4001-95e5-099471f3ec73?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=2072448835&response-cache-control=private%2C%20max-age%3D31536000&response-content-disposition=%3Bfilename%3D%227317%2520Use%2520of%2520Internet%2520Based%2520Devices%2520During%2520The%2520School%2520Day.pdf%22&response-content-type=application%2Fpdf&Signature=svLkT8TinQZ%2Fx4sX58ydx115Z9s%3D"
   },
   {
     "status": "Not Submitted",
