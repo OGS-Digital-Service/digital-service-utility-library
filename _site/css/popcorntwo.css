@@ -1,0 +1,41 @@
+.boxcard {
+    font-size:x-large;
+    text-align: center;
+    border: 10px double #6595bce0;
+    background-color: #ee8e6558;
+    padding: 16px;
+    margin-bottom: 16px;
+    
+}
+
+.submit {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000ae;
+}
+
+.submit:hover {
+    background-color: rgba(255, 225, 0, 0.866);
+    color: black;
+}
+
+#popcornButton {
+    border-radius: calc(infinity * 1px);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000ae;
+
+}
+
+#popcornButton:hover {
+    background-color: rgba(255, 225, 0, 0.866);
+    color: rgb(2, 2, 2);
+}
