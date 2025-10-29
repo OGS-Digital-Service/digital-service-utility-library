@@ -4,20 +4,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="OGS Translated document list">
+    <meta name="description" content="Popcorn Picker">
     <meta name="generator" content="11ty/eleventy">    
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://nysds.dev/translated-list">
+    <meta property="og:url" content="https://">
     <meta property="og:type" content="website">
     <meta property="og:title" content="">
     <meta property="og:description" content="">
-    <meta property="og:image" content="https://nysds.dev/img/">
+    <meta property="og:image" content="https:///img/">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://nysds.dev/translated-list">
+    <meta property="twitter:url" content="https://">
     <meta name="twitter:title" content="">
     <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="https://nysds.dev/img/">
+    <meta name="twitter:image" content="https:///img/">
     <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
     <link href="/css/nysds-utilities.css" rel="stylesheet">
@@ -26,7 +26,7 @@
 
     <script src="/js/nysds-utilities.js"></script>
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-    <title>OGS Translated document list</title>
+    <title>Popcorn Picker</title>
   </head>
   <body class="nysds-normalize">
   <a href="#main-site-content-for-skiplink" class="sr-only focus:not-sr-only text-blue-700 underline">Skip to Main Content</a>
@@ -62,16 +62,10 @@
     
       <li class="w-72 lg:w-auto mx-4 lg:mx-auto lg:ml-2 lg:first:ml-2 last:mb-1 lg:last:mb-0">
           
-          <a href="/boop" class="w-full inline-block lg:w-auto px-4 py-4 lg:px-0 lg:ml-4 focus:!underline focus:!outline-none nysds-submenu-link">Popcorn Standup (Boop)</a><!-- link if no sub menu -->
-          
-      </li>
-    
-      <li class="w-72 lg:w-auto mx-4 lg:mx-auto lg:ml-2 lg:first:ml-2 last:mb-1 lg:last:mb-0">
-          
 
-            <button type="button" class="w-full lg:w-auto px-4 py-4 lg:px-0 lg:py-4 lg:ml-4 focus:!underline focus:!outline-none captialize text-left nysds-mobile-button nysds-submenu-button font-bold" aria-controls="nysds-submenu-3" aria-expanded="false">Test Menu Link</button> <!-- button if there is a submenu -->
+            <button type="button" class="w-full lg:w-auto px-4 py-4 lg:px-0 lg:py-4 lg:ml-4 focus:!underline focus:!outline-none captialize text-left nysds-mobile-button nysds-submenu-button font-bold" aria-controls="nysds-submenu-2" aria-expanded="false">Test Menu Link</button> <!-- button if there is a submenu -->
 
-              <ul class="absolute hidden w-80 lg:w-72 lg:mt-3 list-none left-0 lg:left-auto border-t border-white bg-admin-first nysds-submenu" id="nysds-submenu-3"> <!-- this is second level -->
+              <ul class="absolute hidden w-80 lg:w-72 lg:mt-3 list-none left-0 lg:left-auto border-t border-white bg-admin-first nysds-submenu" id="nysds-submenu-2"> <!-- this is second level -->
                 <li class="pl-8 text-left py-4 block lg:hidden "><button type="button" class="nysds-close-x text-xl nysds-menu-back"> Back <span class="sr-only">back to previous menu</span></button></li>
                 
                 <li class="flex ">
@@ -112,108 +106,184 @@
 
 
     <main class="mx-8 md:mx-20" id="main-site-content-for-skiplink">
+    <style>.boxcard {
+    font-size:x-large;
+    text-align: center;
+    border: 10px double #6595bce0;
+    background-color: #ee8e6558;
+    padding: 16px;
+    margin-bottom: 16px;
     
-<style>
-    .nysds-translate-list {
-        list-style-type: none;
+}
+
+.submit {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000ae;
+}
+
+.submit:hover {
+    background-color: rgba(255, 225, 0, 0.866);
+    color: black;
+}
+
+#popcornButton {
+    border-radius: calc(infinity * 1px);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000ae;
+
+}
+
+#popcornButton:hover {
+    background-color: rgba(255, 225, 0, 0.866);
+    color: rgb(2, 2, 2);
+}<</style>
+<h2 class="text-lg font-bold m-4">🍿 Stand-Up Popcorn Picker</h2>
+<p class="m-4 text-yellow-600">Add your team names, then press “Popcorn” to pick who goes next!</p>
+
+<div class="border p-4 rounder-md outline-dashed justify-items-center boxcard">
+  <!--OGS Team-->
+  <div class="mt-3 flex -space-x-2 overflow-hidden">
+    <img class="inline-block h-10 w-12 justify-items-center rounded full ring-2 ring-white w-80 content-center mx-auto" alt src="/img/NYS_DigitalService_Horizontal_PRIMARY.png">
+</div>
+
+  <!-- Output Message -->
+  <div id="output" class="text-2xl text-center mb-4 font-bold text-yellow-700" aria-live="polite"></div>
+
+  <!-- Input Area -->
+  <div class="flex justify-center">
+  <form id="nameForm" class="flex gap-2 mb-4">
+    <input 
+      id="nameInput"
+      type="text"
+      placeholder="Add a teammate..."
+      class="border-2 border-yellow-300 rounded-md p-2 w-full focus:outline-none focus:ring-2 focus:ring-yellow-400"
+      aria-label="Add teammate name"
+    >
+    <button 
+      type="submit"
+      class="submit px-8 py-2 border-2 border-black-400 bg-yellow-200 hover:bg-yellow-800 font-semibold w-44"
+    >
+      Add
+    </button>
+  </form>
+  </div>
+
+  <!-- List -->
+  <ul id="nameList" class="space-y-2 mb-6 w-80 content-center mx-auto">
+    <li class="text-gray-500 italic text-center content-center">No names yet.</li>
+  </ul>
+
+  <!-- Popcorn Button -->
+  <div class="flex justify-center">
+    <button 
+      id="popcornButton"
+      class="px-8 border-2 border-black-400 bg-yellow-200 hover:bg-yellow-800 font-semibold w-44"
+    >
+      🍿 Popcorn 
+    </button>
+  </div>
+
+  <!-- Simple Animation Bubble -->
+  <div class="flex justify-center mt-6">
+    <div 
+      id="popcornBubble"
+      class="hidden px-4 py-2 bg-yellow-400 text-black text-lg font-bold shadow-lg transition-all duration-500 ease-out"
+      aria-hidden="true"
+    ></div>
+  </div>
+
+</div>
+
+<script>
+  const form = document.getElementById('nameForm');
+  const input = document.getElementById('nameInput');
+  const list = document.getElementById('nameList');
+  const output = document.getElementById('output');
+  const button = document.getElementById('popcornButton');
+  const bubble = document.getElementById('popcornBubble');
+
+  let names = [];
+
+  // Add Name
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const value = input.value.trim();
+    if (!value) return;
+    names.push(value);
+    input.value = '';
+    renderList();
+  });
+
+  // Render List
+  function renderList() {
+    list.innerHTML = '';
+    if (names.length === 0) {
+      list.innerHTML = '<li class="text-gray-500 italic text-center">No names yet.</li>';
+      return;
+    }
+    names.forEach((name, index) => {
+      const li = document.createElement('li');
+      li.className = 'flex justify-between items-center bg-white p-3 rounded-md border shadow-sm';
+      li.innerHTML = `
+        <span class="font-medium">${name}</span>
+        <button 
+          class="text-sm text-red-500 hover:text-red-700"
+          aria-label="Remove ${name}"
+          onclick="removeName(${index})"
+        >
+          ❌
+        </button>
+      `;
+      list.appendChild(li);
+    });
+  }
+
+  // Remove Name
+  function removeName(index) {
+    names.splice(index, 1);
+    renderList();
+  }
+
+  // Popcorn Randomizer
+  button.addEventListener('click', () => {
+    if (names.length === 0) {
+      output.textContent = "✅ All done!";
+      bubble.classList.add("hidden");
+      return;
     }
 
-    .nysds-translate-list li[dir="ltr"] {
-        text-align: left !important;
-    }
+    const randomIndex = Math.floor(Math.random() * names.length);
+    const name = names[randomIndex];
 
-    .nysds-translate-list li[dir="rtl"] {
-        text-align: right !important;
-    }
-</style>
+    // Remove automatically from list
+    names.splice(randomIndex, 1);
+    renderList();
 
-<ul class="nysds-translate-list" translate="no">
-    <li translate="no"  dir="rtl" lang="ar">
-        <a href="/your-language-access-rights-new-york-state-arabic-brochure" title="Your Language Access Rights in New York State - Arabic">
-            حقوق المساعدة اللغوية المقدمة لك 
-        </a>
-    </li>
+    showBubble(name);
+    output.textContent = `🎤 ${name} is up!`;
+  });
 
-    <li translate="no" dir="ltr" lang="bn" >
-        <a href="/your-language-access-rights-new-york-state-bengali-brochure" title="Your Language Access Rights in New York State Bengali">
-            আপনার ভাষা অ্যাক্সেসের অধিকার
-        </a>
-    </li>  
+  // Animation
+  function showBubble(name) {
+    bubble.textContent = name;
+    bubble.classList.remove('hidden', 'opacity-0', 'translate-y-4');
+    bubble.classList.add('opacity-100', '-translate-y-2');
 
-    <li translate="no" dir="ltr" lang="en">
-        <a href="/your-language-access-rights-new-york-state-english-brochure">
-            Your Language Access Rights
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="fr">
-        <a href="/your-language-access-rights-new-york-state-french-brochure" title="Your Language Access Rights in New York State French">
-            Vos droits en matière d’accès linguistique
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="ht">
-        <a href="/your-language-access-rights-new-york-state-haitian-creole-brochure" title="Your Language Access Rights in New York State Haitian Creole">
-            Dwa W pou Gen Aksè ak Lang
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="it">
-        <a href="/your-language-access-rights-new-york-state-italian-brochure" title="Your Language Access Rights in New York State Italian">
-            Diritti di accesso linguistico
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="ko">
-        <a href="/your-language-access-rights-new-york-state-korean-brochure" title="Your Language Access Rights in New York State Korean">
-            언어 접근성에 관한 권리
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="pl">
-        <a href="/your-language-access-rights-new-york-state-polish-brochure" title="Your Language Access Rights in New York State Polish">
-            Twoje prawa do usług językowych
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="ru">
-        <a href="/your-language-access-rights-new-york-state-russian-brochure" title="Your Language Access Rights in New York State Russian">
-            Ваши права в отношении языкового доступа
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="zh-hans">
-        <a href="/your-language-access-rights-new-york-state-simplified-chinese-brochure" title="Your Language Access Rights in New York Chinese Simplified">
-            语言普及服务权
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="es">
-        <a href="/your-language-access-rights-new-york-state-liish-brochure" title="Your Language Access Rights in New York State Spanish">
-        Sus derechos de acceso lingüístico
-        </a>
-    </li>
-
-    <li translate="no" dir="ltr" lang="zh-hant">
-        <a href="/your-language-access-rights-new-york-state-traditional-chinese-brochure" title="Your Language Access Rights in New York Chinese Traditional">
-            語言普及服務權
-        </a>
-    </li>
-
-    <li translate="no" dir="rtl" lang="ur">
-        <a href="/your-language-access-rights-new-york-state-urdu-brochure" title="Your Language Access Rights in New York State Urdu">
-            لسانی رسائی کے آپ کے حقوق   
-        </a>
-    </li>
-
-    <li translate="no" dir="rtl" lang="yi">
-        <a href="/your-language-access-rights-new-york-state-yiddish-brochure" title="Your Language Access Rights in New York State Yiddish">
-        אייער שפראך צוטריט רעכטן
-        </a>
-    </li>
-</ul>
-
-
+    setTimeout(() => {
+      bubble.classList.add('opacity-0', 'translate-y-4');
+    }, 1500);
+  }
+</script>
     </main>
     <footer class="bg-admin-third px-4 py-8 flex flex-col md:flex-row md:items-center items-baseline mt-12">
 <h2 class="dsari nysds-text-22 text-black ml-8 md:ml-16 mr-4 border-solid border-b border-black md:border-none pr-16 md:pr-0"><a href="/" aria-label="NYS Digital Services" class="">NYS Digital Services</a></h2>
