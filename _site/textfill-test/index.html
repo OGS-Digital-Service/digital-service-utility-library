@@ -48,7 +48,7 @@
           <div class="t-section -container">
             <script src="/js/textfill.min.js"></script>
 
-<div id='myelement' style='width:400px;height:200px;border:solid 2px red;margin:0 auto;'>
+<div id='box1' style='width:500px;height:200px;border:solid 2px red;margin:0 auto;'>
   <span>
 Governor Hochul Announce Landmark Agreement to Expedite Permanent Protection of Natural Resources
 
@@ -57,16 +57,39 @@ Governor Hochul Announce Landmark Agreement to Expedite Permanent Protection of 
 
 Governor Kathy Hochul and New York Attorney General Letitia James today announced a landmark agreem
 Governor Hochul Announce Landmark Agreement to Expedite Permanent Protection of Natural Resources
-
-Governor Kathy Hochul and New York Attorney General Letitia James today announced a landmark agreem
+Governor Hochul Announce Landmark Agreement to Expedite Permanent Protection of Natural Resources
 
 </span>
 </div>
 
+<div id='box2' style='width:500px;height:200px;border:2px solid blue;margin:20px auto;padding:20px;overflow:hidden;'>
+<span> 
+Governor Hochul Announce Landmark Agreement to Expedite Permanent Protection of Natural Resources only.
+</span>
+</div>
+
+
+<div id='box3' style='width:200px;height:200px;border:2px solid yellow;margin:20px auto;padding:10px;overflow:hidden;'>
+<span> 
+<h1>Another</h1> 
+test container. This will resize to fit here.
+</span>
+</div>
+
+
+
 <script>
-  TextFill("#myelement",{
+  TextFill("#box1, {
+    maxFontPixels: 36
+  });   
+  TextFill("#box2, {
     maxFontPixels: 36
   });
+  TextFill("#box3, {
+    maxFontPixels: 36
+    innerTag: 'h1'
+  });
+
 </script>
           </div>
         </article>
