@@ -1,0 +1,25 @@
+---
+layout: nygov.njk
+title: Linked SOTS Stats cards
+permalink: "linked-stats-cards/"
+---
+{% from '../_includes/_components.njk' import stats  %}
+<style>{% include '../_includes/stats/_stats.css'  %}</style>
+
+{{
+    stats({
+        heading:"Something",
+        intro:" Intro text",
+        ctalink:"https://ny.gov",
+        ctatext:"CTA text",
+        cards:[
+            {
+                icon:'',
+                stat:"789,000",
+                description:"Of something",
+                color:"blue"
+            }
+        ]
+
+    })
+}}
