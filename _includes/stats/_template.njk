@@ -1,0 +1,77 @@
+{% if params.variant === "linked" %} {# the new linked style #}
+
+<div class="stats-linked">
+
+        <div class="t-headline -showTitleSubheadline">
+            <h2 class="pTitleWrapper">
+                <span class="a-pTitle a-card__title"> {{params.title}}</span>
+                <span class="a-pHeadline a-card__subHeadline"> {{params.headline}} </span>
+            </h2>
+        </div>
+
+        <ul class="stats-list">
+            {% for card in params.cards %}
+                <li class="stats-link-card">
+                    <a href="{{card.link}}" class="stats-link"> 
+                        <div class="stats-linked-card-icon" aria-hidden="true">
+                            <i class="{{card.icon}}"></i>
+                        </div>
+                        <p class="stats-card-description"> {{card.description | safe }}</p>
+                    </a>
+                </li>
+
+            {% endfor %}
+        </ul>
+
+</div>
+
+{% else %} {# the old stats card #}
+
+<div class="stats">
+    {% if params.heading %}
+    <h3 class="stats-heading
+        {% if params.subhead === true %} stats-subhead {% endif %} 
+    "> {{params.heading}}</h3>
+    {% endif %}
+    <p class="stats-intro">{{params.intro}}</p>
+    <ul class="stats-list">
+        {% for card in params.cards %}
+            <li class="stats-card 
+                        {% if card.color === "blue" %} stats-blue {% endif %} 
+                        {% if card.color === "gray" %} stats-gray {% endif %} 
+                        ">
+                <div class="stats-icon
+                        {% if card.color === "blue" %} stats-blue {% endif %} 
+                        {% if card.color === "gray" %} stats-gray {% endif %} 
+                        ">
+                    {{card.icon | safe }}
+                </div>
+                {% if card.stat %}
+                <h4 class="stats-the
+                        {% if card.color === "blue" %} stats-the-blue {% endif %} 
+                        {% if card.color === "gray" %} stats-the-gray {% endif %} 
+                        ">
+                    {{card.stat}}
+                </h4>
+                {% endif %}
+                <p class="stats-description">
+                    {{card.description}}
+                </p>
+                
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if params.outro %}
+    <p class="stats-outro">{{params.outro | safe}}</p>
+    {% endif %}
+
+    {% if params.ctatext %}
+    <a href="{{params.ctalink}}" class="stats-cta"> {{params.ctatext}} </a>
+    {% endif %}
+
+</div>
+
+
+
+{% endif %}
