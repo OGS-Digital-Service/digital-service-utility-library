@@ -1,25 +1,189 @@
 ---
-layout: nygov.njk
+layout: render.njk
 title: Linked SOTS Stats cards
 permalink: "linked-stats-cards/"
 ---
 {% from '../_includes/_components.njk' import stats  %}
-<style>{% include '../_includes/stats/_stats.css'  %}</style>
+<style>{% include '../_includes/stats/_stats-linked.css'  %}</style>
+
+
 
 {{
     stats({
-        heading:"Something",
-        intro:" Intro text",
-        ctalink:"https://ny.gov",
-        ctatext:"CTA text",
+        variant:"linked",
+        title:"Public Safety",
+        headline:"Accomplishments",
+        intro:" ",
+        ctalink:"",
+        ctatext:"",
         cards:[
-            {
-                icon:'',
-                stat:"789,000",
-                description:"Of something",
-                color:"blue"
-            }
+        {
+        icon:'fa-solid fa-arrow-trend-down',
+        description:"<strong>60% decline in shootings</strong> across New York",
+        link:"https://www.governor.ny.gov/news/safer-streets-governor-hochul-announces-shootings-down-60-percent-2021"
+      },
+      {
+        icon:'fa-solid fa-gun',
+        description:"Removed more than <strong> 10,000 illegal guns</strong> off the street",
+        link:"https://www.governor.ny.gov/news/statement-governor-kathy-hochul-federal-threats-gun-violence-prevention-laws"
+      },
+      {
+        icon:'fa-solid fa-shield',
+        description:"The New York City subway had its <strong>safest summer in history</strong> with record low levels of crime continuing",
+        link:"https://www.governor.ny.gov/news/safer-subways-governor-hochul-announces-subway-crime-fell-historic-lows-summer"
+       },
+       {
+        icon:'fa-solid fa-person-military-pointing',
+        description:"Invested <strong>$3 billion in public safety</strong> and law enforcement",
+        link:"https://www.governor.ny.gov/news/safer-streets-governor-hochul-announces-shootings-down-60-percent-2021"
+       },
+       {
+        icon:'fa-solid fa-arrow-trend-down',
+        description:"Brought <strong>retail theft down 14%</strong>",
+        link:"https://www.governor.ny.gov/news/governor-hochul-and-queens-district-attorney-katz-announce-indictment-charges-22-million"
+       },
+      {
+        icon:'fa-solid fa-house-chimney',
+        description:"<strong>Helped over 1,000 homeless</strong> New Yorkers with mental illness get the care they need out
+        of the subway system",
+        link:"https://www.governor.ny.gov/news/governor-hochul-signs-legislation-improve-mental-health-care-and-strengthen-treatment-serious"
+       },
+       {
+        icon:'fa-solid fa-arrow-trend-down',
+        description:"<strong>Fewest shootings in history</strong> in New York City",
+        link:"https://www.nyc.gov/site/nypd/news/pr015/nypd-record-low-shooting-incidents-shooting-victims-first-nine-months-the-year"
+       }
+          
+        ]
+
+    })
+}} 
+
+
+
+{{
+    stats({
+        variant:"linked",
+        title:"Economic Development and Affordability",
+        headline:"Accomplishments",
+        intro:" ",
+        ctalink:"",
+        ctatext:"",
+        cards:[
+        {
+        icon:'fa-solid fa-briefcase',
+        description:"Created more than <strong>814,000 private sector jobs since August 2021</strong>",
+        link:"https://www.governor.ny.gov/news/memo-four-years-governor-hochul-four-years-delivering-new-yorkers"
+       },
+      {
+        icon:'fa-solid fa-money-bill-trend-up',
+        description:"Increased the <strong>minimum wage</strong> and tied it to inflation",
+        link:"https://www.governor.ny.gov/news/money-your-pocket-governor-hochul-reminds-new-yorkers-minimum-wage-increase-january-1"
+       },
+       {
+        icon:'fa-solid fa-house-chimney-medical',
+        description:"70,000 new or preserved units of housing",
+        link:"https://www.governor.ny.gov/news/money-your-pocket-governor-hochul-reminds-new-yorkers-minimum-wage-increase-january-1"
+       },
+      {
+        icon:'fa-solid fa-microchip',
+        description:"Secured Micron's $100 billion investment in Central New York — the largest private
+        investment in New York's history, creating 50,000 jobs",
+        link:"https://www.governor.ny.gov/news/governor-hochul-marks-progress-microns-100-billion-investment-new-york-approval-critical"
+       },
+      {
+        icon:'fa-solid fa-industry',
+        description:"More than 13,300 new manufacturing jobs since 2021",
+        link:"https://www.governor.ny.gov/news/during-manufacturing-month-governor-hochul-announces-nation-leading-manufacturing-job-growth"
+       }
+          
         ]
 
     })
 }}
+
+
+
+{{
+    stats({
+        variant:"linked",
+        title:"Education and Childcare",
+        headline:"Accomplishments",
+        intro:" ",
+        ctalink:"",
+        ctatext:"",
+        cards:[
+        {
+        icon:'fa-solid fa-bell-slash',
+        description:"Nation-leading statewide distraction-free learning",
+        link:"https://www.governor.ny.gov/news/distraction-free-schools-governor-hochul-announces-new-york-become-largest-state-nation"
+       },
+       {
+        icon:'fa-solid fa-icon-utensils',
+        description:"Free school meals for every kid in New York",
+        link:"https://www.governor.ny.gov/news/governor-hochul-celebrates-universal-school-meals-program-effect-during-first-week-2025-26"
+       },
+       {
+        icon:'fa-solid fa-hand-holding-dollar',
+        description:"Tripled the child tax credit. Nearly 3 million New York children will benefit.",
+        link:"https://www.budget.ny.gov/pubs/press/2025/fy26-enacted-budget-new-legislation-cut-taxes-middle-class-nys.html"
+       },
+      {
+        icon:'fa-solid fa-baby',
+        description:"Put <strong>170,000 kids in child care seats</strong> that are capped at $15 per week. 100,000 more seats
+        from when Gov Hochul took office",
+        link:"https://www.constructionowners.com/news/hochul-launches-100m-child-care-construction-fund"
+       },
+      {
+        icon:'fa-solid fa-baby-carriage',
+        description:"Expanded New York's <strong>nation-leading parental leave</strong> to offer 12 weeks of fully paid
+parental leave benefits to more than 80% of the state workforce",
+        link:"https://www.ny.gov/programs/new-york-state-paid-prenatal-leave"
+       },
+      {
+        icon:'fa-solid fa-hands-holding-child',
+        description:"<strong>$7.6 billion investment in childcare</strong> over four years",
+        link:"https://www.governor.ny.gov/news/b-roll-video-audio-photos-rush-transcript-governor-hochul-announces-100-million-commitment#:~:text=The%20announcement%20includes%20$50%20million,on%20the%20Governor's%20Flickr%20page."
+       }
+          
+        ]
+
+    })
+}}
+
+
+
+{{
+    stats({
+        variant:"linked",
+        title:"Transportation and Energy",
+        headline:"Accomplishments",
+        intro:" ",
+        ctalink:"",
+        ctatext:"",
+        cards:[
+        {
+        icon:'fa-solid fa-building-columns',
+        description:"Opened <strong>Grand Central Madison</strong>",
+        link:"https://www.governor.ny.gov/news/governor-hochul-celebrates-grand-central-madisons-inaugural-year"
+       },
+      {
+        icon:'fa-solid fa-train-subway',
+        description:"<strong>Directed the MTA to construct both</strong> the Second Avenue Subway and the Interborough Express",
+        link:"https://www.governor.ny.gov/news/governor-hochul-announces-interborough-express-advancing-planning-active-phase"
+       },
+       {
+        icon:'fa-solid fa-wind',
+        description:"Opened the <strong>first utility-scale wind farm</strong>",
+        link:"https://www.governor.ny.gov/news/governor-hochul-announces-completion-south-fork-wind-first-utility-scale-offshore-wind-farm"
+       },
+      {
+        icon:'fa-solid fa-bolt',
+        description:"Delivered <strong>$1.4 billion in energy savings</strong>",
+        link:"https://www.governor.ny.gov/news/governor-hochul-announces-200-million-utility-bill-relief-8-million-new-yorkers"
+       }
+          
+        ]
+
+    })
+}} 

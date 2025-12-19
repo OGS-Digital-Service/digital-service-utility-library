@@ -1,3 +1,32 @@
+{% if params.variant === "linked" %} {# the new linked style #}
+
+<div class="stats-linked">
+
+        <div class="t-headline -showTitleSubheadline">
+            <h2 class="pTitleWrapper">
+                <span class="a-pTitle a-card__title"> {{params.title}}</span>
+                <span class="a-pHeadline a-card__subHeadline"> {{params.headline}} </span>
+            </h2>
+        </div>
+
+        <ul class="stats-list">
+            {% for card in params.cards %}
+                <li class="stats-link-card">
+                    <a href="{{card.link}}" class="stats-link"> 
+                        <div class="stats-linked-card-icon" aria-hidden="true">
+                            <i class="{{card.icon}}"></i>
+                        </div>
+                        <p class="stats-card-description"> {{card.description | safe }}</p>
+                    </a>
+                </li>
+
+            {% endfor %}
+        </ul>
+
+</div>
+
+{% else %} {# the old stats card #}
+
 <div class="stats">
     {% if params.heading %}
     <h3 class="stats-heading
@@ -42,3 +71,7 @@
     {% endif %}
 
 </div>
+
+
+
+{% endif %}

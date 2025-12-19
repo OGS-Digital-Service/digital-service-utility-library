@@ -1,0 +1,114 @@
+/* stats cards - NYSDS JHK */
+.stats-linked {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+
+
+.stats-list {
+    list-style-type: '';
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+}
+
+.stats-link-card {
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px;
+    min-height: 210px;
+    background-color: var(--light-gray);
+}
+
+.stats-link-card:focus-within {
+    background-color: var(--primary-core-blue);
+}
+
+.stats-link-card:hover {
+    background-color: var(--primary-core-blue);
+}
+
+.stats-card-description {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1.3em;
+    overflow: hidden;
+}
+
+.stats-link {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.stats-link:focus {
+    color: var(--white);
+}
+
+.stats-link-card:hover .stats-link{
+    color: var(--white);
+}
+
+.stats-linked-card-icon {
+    color: var(--primary-core-blue);
+    font-size: 30px;
+    display: flex;
+    padding: 10px 0 25px 0;
+}
+
+.stats-link:focus .stats-linked-card-icon {
+    color: var(--core-accent-yellow);
+}
+
+.stats-link-card:hover .stats-linked-card-icon {
+    color: var(--core-accent-yellow);
+}
+
+
+
+.stats-cta {
+    color: #fff;
+    background-color: #154973;
+    font-weight: bold;
+    margin: 0 auto;
+    min-width: 250px;
+    text-align: center;
+    padding:15px;
+    border-radius: 15px;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.stats-cta:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline !important;
+} 
+
+.stats-cta:focus {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline !important;
+} 
+
+
+
+/* media queries */
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 1280px) {
+
+}
