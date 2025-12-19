@@ -1,0 +1,44 @@
+<div class="stats">
+    {% if params.heading %}
+    <h3 class="stats-heading
+        {% if params.subhead === true %} stats-subhead {% endif %} 
+    "> {{params.heading}}</h3>
+    {% endif %}
+    <p class="stats-intro">{{params.intro}}</p>
+    <ul class="stats-list">
+        {% for card in params.cards %}
+            <li class="stats-card 
+                        {% if card.color === "blue" %} stats-blue {% endif %} 
+                        {% if card.color === "gray" %} stats-gray {% endif %} 
+                        ">
+                <div class="stats-icon
+                        {% if card.color === "blue" %} stats-blue {% endif %} 
+                        {% if card.color === "gray" %} stats-gray {% endif %} 
+                        ">
+                    {{card.icon | safe }}
+                </div>
+                {% if card.stat %}
+                <h4 class="stats-the
+                        {% if card.color === "blue" %} stats-the-blue {% endif %} 
+                        {% if card.color === "gray" %} stats-the-gray {% endif %} 
+                        ">
+                    {{card.stat}}
+                </h4>
+                {% endif %}
+                <p class="stats-description">
+                    {{card.description}}
+                </p>
+                
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% if params.outro %}
+    <p class="stats-outro">{{params.outro | safe}}</p>
+    {% endif %}
+
+    {% if params.ctatext %}
+    <a href="{{params.ctalink}}" class="stats-cta"> {{params.ctatext}} </a>
+    {% endif %}
+
+</div>
