@@ -5,7 +5,11 @@
     margin: 30px 0px;
 }
 
-
+.stats-linked .a-text__html {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
 
 .stats-list {
     list-style-type: '';
@@ -111,5 +115,7 @@
 
 
 @media (min-width: 1280px) {
-
+    .stats-linked .a-text__html {
+        padding: 0;
+    }
 }
