@@ -1,13 +1,18 @@
 {% if params.variant === "linked" %} {# the new linked style #}
 
 <div class="stats-linked">
-
+        {% if params.title or params.headline %}
         <div class="t-headline -showTitleSubheadline">
             <h2 class="pTitleWrapper">
-                <span class="a-pTitle a-card__title"> {{params.title}}</span>
-                <span class="a-pHeadline a-card__subHeadline"> {{params.headline}} </span>
+                {% if params.title %}
+                    <span class="a-pTitle a-card__title"> {{params.title}}</span>
+                {% endif %}
+                {% if params.headline %}
+                    <span class="a-pHeadline a-card__subHeadline"> {{params.headline}} </span>
+                {% endif %}
             </h2>
         </div>
+        {%endif %}
 
         <ul class="stats-list">
             {% for card in params.cards %}
