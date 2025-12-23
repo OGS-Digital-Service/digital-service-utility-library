@@ -23,15 +23,8 @@
 }
 
 .stats-link-card {
-    width: 260px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 25px;
     border-radius: 15px;
     margin: 20px;
-    min-height: 260px;
     background-color: var(--light-gray);
 }
 
@@ -53,6 +46,14 @@
 .stats-link {
     text-decoration: none;
     color: var(--black);
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    
+    min-height: 260px;
 }
 
 .stats-link:focus {
