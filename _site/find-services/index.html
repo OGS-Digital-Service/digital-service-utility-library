@@ -84,9 +84,8 @@
     font-family: "Proxima Nova", sans-serif;
     font-weight: bold;
     font-size: 14px;
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
-    border-bottom: 1px solid #004DD1;
     letter-spacing: 1px;
     color: #004DD1;
     cursor: pointer;
@@ -106,13 +105,13 @@
 }
 
 .nysds-find-services-arrow:hover {
-    border-bottom: 3px solid #004DD1;
-    margin-bottom:-2px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px !important;
 }
 
 .nysds-find-services-arrow:focus {
-    border-bottom: 3px solid #004DD1;
-    margin-bottom:-2px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px !important;
 }
 
 .nysds-find-services-arrow-icon {
@@ -160,10 +159,12 @@
 .nysds-find-services-heading {
     margin-top: 0;
     margin-bottom: 15px;
+    font-size: 28px;
 }
 
 .nysds-find-services-description {
     margin-top: 0;
+    line-height: 1.5;
     margin-bottom: 10px !important;
 }
 
@@ -181,6 +182,9 @@
     }
     .nysds-arrow-link {
         margin-top: 0;
+    }
+    .nysds-find-services-heading { 
+    font-size: 32px;
     }
   
   
@@ -219,6 +223,9 @@
         object-fit: cover;
         border-radius: 15px;
         max-height: 250px;
+    }
+    .nysds-find-services-heading { 
+    font-size: 36px;
     }
 }
 
@@ -269,14 +276,7 @@
         <img src="https://www.ny.gov/sites/default/files/2025-01/ServiceFinderTool_Image_02.jpg" class="nysds-find-services-image" alt="pregnant woman standing looking at a laptop computer" />
     </div>
 </section>    
-<script> document.addEventListener('DOMContentLoaded', function() {
-    const findServices = document.getElementById('nysds-find-services-highlight-id');
-    const container = findServices.closest(".o-wysiwyg");
-    if (container) {
-        container.style.maxWidth = '100%';
-        container.style.padding = "0px";
-    }
-})</script> 
+
           </div>
         </article>
       </article>
