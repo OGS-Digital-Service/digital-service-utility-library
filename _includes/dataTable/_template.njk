@@ -1,6 +1,8 @@
 {# <link rel="stylesheet" href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" /> #}
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" ></script>
+<script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.min.js" ></script>
+
 <script>
     (function($) {
     $(document).ready(function() {
@@ -31,7 +33,12 @@
                             bottom: 'paging'
                         },
             order: [[1, 'asc']],
+            {% if params.tablename == "phonefree" %}
             scrollX: true
+            {% else %}
+            responsive: true
+
+            {%endif%}
            
         });
         
@@ -51,7 +58,7 @@
      } );
 
      })(jQuery);
- 
+
 </script>
 
 {%set tableData = params.dataSource %}
@@ -74,6 +81,7 @@
         </tr>
     </thead>
 
+    {% if params.tablename == "phonefree"%}
     <tbody>
         {% for data in tableData %}
             <tr>
@@ -92,6 +100,26 @@
             </tr>
         {% endfor %}
     </tbody>
+    {% else %}
+    <tbody>
+        {% for data in tableData %}
+            <tr>
+                <td> {{data.organization_name}} </td>
+                <td> {{data.point_of_contact}} </td>
+                <td> {{data.phone_number}} </td>
+                <td> {{data.email_address}} </td>
+                <td> {{data.remote_or_in_person}} </td>
+                <td> {{data.in_person_cart_rates}} </td>
+                <td> {{data.ny_regions_served}} </td>
+                <td> {{data.cart_other_languages}} </td>
+                <td> {{data.languages_offered}} </td>
+                <td> {{data.based_in_ny_state}} </td>
+                <td> {{data.remote_cart_rates}} </td>
+                
+            </tr>
+        {% endfor %}
+    </tbody>
+    {% endif %}
 
 </table>
 

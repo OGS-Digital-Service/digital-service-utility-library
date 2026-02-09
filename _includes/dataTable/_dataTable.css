@@ -3,6 +3,10 @@
     width: 80%;
 }
 
+.nysds-outline-wrapper {
+    margin: 0 auto;
+}
+
 .nysds-reset-button {
     all: unset;
     border: 1px solid var(--white);
