@@ -1,0 +1,1915 @@
+<style>
+    :root {
+    --primary-core-blue: #154973;
+    --secondary-core-blue: #457AA5;
+    --link-blue: #004DD1;
+    --tertiary-core-blue: #EFF6FB;
+    --quaternary-blue: #007AC2;
+    --core-accent-yellow: #FACE00;
+    --yellow-alert: #FFE396;
+    --black: #000000;
+    --darkest-gray: #242424;
+    --dark-gray: #62666A;
+    --mid-gray: #D0D0CE;
+    --light-gray: #EDEDED;
+    --white: #FFFFFF;
+    --dark-red-alert: #B32E31;
+    --light-red-alert: #FEC3C3;
+    --success-green: #329d08;
+    --warning-orange: #d4820c;
+  }
+</style>
+
+<style> :root {
+    --nys-color-theme-faint: var(--nys-color-state-blue-10);
+    --nys-color-theme-weaker: var(--nys-color-state-blue-50);
+    --nys-color-theme-weak: var(--nys-color-state-blue-100);
+    --nys-color-theme-mid: var(--nys-color-state-blue-500);
+    --nys-color-theme: var(--nys-color-state-blue-700);
+    --nys-color-theme-strong: var(--nys-color-state-blue-800);
+    --nys-color-theme-stronger: var(--nys-color-state-blue-900);
+    --nys-color-accent: var(--nys-color-yellow-400);
+    --nys-color-base: var(--nys-color-neutral-600);
+    --nys-color-base-weak: var(--nys-color-neutral-10);
+    --nys-color-success: var(--nys-color-green-600);
+    --nys-color-success-weak: var(--nys-color-green-50);
+    --nys-color-info: var(--nys-color-blue-600);
+    --nys-color-info-weak: var(--nys-color-blue-50);
+    --nys-color-warning: var(--nys-color-yellow-400);
+    --nys-color-warning-weak: var(--nys-color-yellow-50);
+    --nys-color-danger: var(--nys-color-red-600);
+    --nys-color-danger-weak: var(--nys-color-red-50);
+    --nys-color-emergency: var(--nys-color-red-800);
+    --nys-color-emergency-weak: var(--nys-color-red-300);
+    --nys-color-ink: var(--nys-color-neutral-900);
+    --nys-color-ink-reverse: var(--nys-color-white);
+    --nys-color-text: var(--nys-color-neutral-900);
+    --nys-color-text-weak: var(--nys-color-neutral-700);
+    --nys-color-text-weaker: var(--nys-color-neutral-500);
+    --nys-color-text-weakest: var(--nys-color-neutral-200);
+    --nys-color-text-disabled: var(--nys-color-neutral-200);
+    --nys-color-link: var(--nys-color-blue-600);
+    --nys-color-link-strong: var(--nys-color-blue-700);
+    --nys-color-link-strongest: var(--nys-color-blue-800);
+    --nys-color-link-neutral: var(--nys-color-neutral-900);
+    --nys-color-text-reverse: var(--nys-color-white);
+    --nys-color-text-reverse-weak: var(--nys-color-neutral-100);
+    --nys-color-text-reverse-weaker: var(--nys-color-neutral-200);
+    --nys-color-text-reverse-disabled: var(--nys-color-neutral-600);
+    --nys-color-link-reverse: var(--nys-color-neutral-300);
+    --nys-color-link-reverse-strong: var(--nys-color-neutral-50);
+    --nys-color-link-reverse-strongest: var(--nys-color-white);
+    --nys-color-link-reverse-neutral: var(--nys-color-white);
+    --nys-color-surface: var(--nys-color-white);
+    --nys-color-surface-reverse: var(--nys-color-neutral-900);
+    --nys-color-surface-raised: var(--nys-color-neutral-10);
+    --nys-color-focus: var(--nys-color-blue-600);
+    --nys-font-family-body: var(--nys-font-family-sans);
+    --nys-font-family-display: var(--nys-font-family-sans);
+    --nys-font-family-ui: var(--nys-font-family-sans);
+    --nys-font-family-heading: var(--nys-font-family-sans);
+    --nys-font-size-body-md: var(--nys-font-size-md);
+    --nys-font-size-body-sm: var(--nys-font-size-sm);
+    --nys-font-size-body-xs: var(--nys-font-size-xs);
+    --nys-font-size-h1: var(--nys-font-size-7xl);
+    --nys-font-size-h2: var(--nys-font-size-5xl);
+    --nys-font-size-h3: var(--nys-font-size-4xl);
+    --nys-font-size-h4: var(--nys-font-size-2xl);
+    --nys-font-size-h5: var(--nys-font-size-2xl);
+    --nys-font-size-h6: var(--nys-font-size-lg);
+    --nys-font-size-ui-xs: var(--nys-font-size-xs);
+    --nys-font-size-ui-sm: var(--nys-font-size-sm);
+    --nys-font-size-ui-md: var(--nys-font-size-md);
+    --nys-font-size-ui-lg: var(--nys-font-size-lg);
+    --nys-font-size-ui-xl: var(--nys-font-size-xl);
+    --nys-font-size-display-sm: var(--nys-font-size-6xl);
+    --nys-font-size-display-md: var(--nys-font-size-7xl);
+    --nys-font-size-display-lg: var(--nys-font-size-8xl);
+    --nys-font-size-display-xl: var(--nys-font-size-9xl);
+    --nys-font-size-agency-xl: var(--nys-font-size-2xl);
+    --nys-font-size-agency-lg: var(--nys-font-size-lg);
+    --nys-font-size-agency-md: var(--nys-font-size-md);
+    --nys-font-lineheight-body-xs: 20px;
+    --nys-font-lineheight-body-sm: 24px;
+    --nys-font-lineheight-body-md: 24px;
+    --nys-font-lineheight-ui-xs: 20px;
+    --nys-font-lineheight-ui-sm: 24px;
+    --nys-font-lineheight-ui-md: 24px;
+    --nys-font-lineheight-ui-lg: 28px;
+    --nys-font-lineheight-ui-xl: 28px;
+    --nys-font-lineheight-display-sm: 44px;
+    --nys-font-lineheight-display-md: 48px;
+    --nys-font-lineheight-display-lg: 52px;
+    --nys-font-lineheight-display-xl: 60px;
+    --nys-font-lineheight-h1: 40px;
+    --nys-font-lineheight-h2: 36px;
+    --nys-font-lineheight-h3: 32px;
+    --nys-font-lineheight-h4: 32px;
+    --nys-font-lineheight-h5: 28px;
+    --nys-font-lineheight-h6: 28px;
+    --nys-font-letterspacing-display-sm: var(--nys-font-letterspacing-0);
+    --nys-font-letterspacing-display-md: var(--nys-font-letterspacing-0);
+    --nys-font-letterspacing-display-lg: var(--nys-font-letterspacing-negative-100);
+    --nys-font-letterspacing-display-xl: var(--nys-font-letterspacing-negative-100);
+    --nys-font-letterspacing-ui-xs: var(--nys-font-letterspacing-600);
+    --nys-font-letterspacing-ui-sm: var(--nys-font-letterspacing-400);
+    --nys-font-letterspacing-ui-lg: var(--nys-font-letterspacing-300);
+    --nys-font-letterspacing-ui-xl: var(--nys-font-letterspacing-200);
+    --nys-font-letterspacing-body-md: var(--nys-font-letterspacing-400);
+    --nys-font-letterspacing-h1: var(--nys-font-letterspacing-0);
+    --nys-font-letterspacing-h2: var(--nys-font-letterspacing-100);
+    --nys-font-letterspacing-h3: var(--nys-font-letterspacing-100);
+    --nys-font-letterspacing-h4: var(--nys-font-letterspacing-200);
+    --nys-font-letterspacing-h5: var(--nys-font-letterspacing-200);
+    --nys-font-letterspacing-h6: var(--nys-font-letterspacing-300);
+    --nys-font-letterspacing-ui-md: var(--nys-font-letterspacing-400);
+    --nys-font-letterspacing-body-sm: var(--nys-font-letterspacing-400);
+    --nys-font-letterspacing-body-xs: var(--nys-font-letterspacing-600);
+    --nys-icon-size-xs: var(--nys-font-size-xs);
+    --nys-icon-size-sm: var(--nys-font-size-sm);
+    --nys-icon-size-md: var(--nys-font-size-md);
+    --nys-icon-size-lg: var(--nys-font-size-lg);
+    --nys-icon-size-xl: var(--nys-font-size-xl);
+    --nys-icon-size-2xl: var(--nys-font-size-2xl);
+    --nys-icon-size-3xl: var(--nys-font-size-3xl);
+    --nys-icon-size-4xl: var(--nys-font-size-4xl);
+    --nys-icon-size-5xl: var(--nys-font-size-5xl);
+    --nys-space-1px: 1px;
+    --nys-space-2px: 2px;
+    --nys-space-50: 4px;
+    --nys-space-100: 8px;
+    --nys-space-150: 12px;
+    --nys-space-200: 16px;
+    --nys-space-250: 20px;
+    --nys-space-300: 24px;
+    --nys-space-400: 32px;
+    --nys-space-500: 40px;
+    --nys-space-600: 48px;
+    --nys-space-700: 56px;
+    --nys-space-800: 64px;
+    --nys-space-1200: 96px;
+    --nys-size-1px: 1px;
+    --nys-size-2px: 2px;
+    --nys-size-50: 4px;
+    --nys-size-100: 8px;
+    --nys-size-150: 12px;
+    --nys-size-200: 16px;
+    --nys-size-250: 20px;
+    --nys-size-300: 24px;
+    --nys-size-400: 32px;
+    --nys-size-450: 36px;
+    --nys-size-500: 40px;
+    --nys-size-550: 44px;
+    --nys-size-600: 48px;
+    --nys-size-700: 56px;
+    --nys-size-800: 64px;
+    --nys-size-1200: 96px;
+    --nys-border-width-sm: var(--nys-space-1px);
+    --nys-border-width-md: var(--nys-space-2px);
+    --nys-border-width-lg: var(--nys-space-50);
+    --nys-form-width-sm: 88px;
+    --nys-form-width-md: 200px;
+    --nys-form-width-lg: 384px;
+    --nys-gutter-xs: 20px;
+    --nys-gutter-sm: 20px;
+    --nys-gutter-md: 32px;
+    --nys-gutter-lg: 32px;
+    --nys-gutter-xl: 64px;
+    --nys-radius-xs: var(--nys-space-1px);
+    --nys-radius-sm: var(--nys-space-2px);
+    --nys-radius-md: var(--nys-space-50);
+    --nys-radius-lg: var(--nys-space-100);
+    --nys-radius-xl: var(--nys-space-150);
+    --nys-radius-xxl: var(--nys-space-200);
+    --nys-radius-round: 1776px;
+    --nys-color-neutral-10: #f6f6f6;
+    --nys-color-neutral-50: #ededed;
+    --nys-color-neutral-100: #d0d0ce;
+    --nys-color-neutral-200: #bec0c1;
+    --nys-color-neutral-300: #a7a9ab;
+    --nys-color-neutral-400: #909395;
+    --nys-color-neutral-500: #797c7f;
+    --nys-color-neutral-600: #62666a;
+    --nys-color-neutral-700: #4a4d4f;
+    --nys-color-neutral-800: #323435;
+    --nys-color-neutral-900: #1b1b1b;
+    --nys-color-black: #000000;
+    --nys-color-white: #ffffff;
+    --nys-color-red-10: #fbf4f4;
+    --nys-color-red-50: #f7eaea;
+    --nys-color-red-100: #f0d5d5;
+    --nys-color-red-200: #e4b3b3;
+    --nys-color-red-300: #d89191;
+    --nys-color-red-400: #cc6f6f;
+    --nys-color-red-500: #c04d4d;
+    --nys-color-red-600: #b52c2c;
+    --nys-color-red-700: #932424;
+    --nys-color-red-800: #721c1c;
+    --nys-color-red-900: #511414;
+    --nys-color-blue-10: #f2f7fc;
+    --nys-color-blue-50: #e5effa;
+    --nys-color-blue-100: #cce0f6;
+    --nys-color-blue-200: #a3c2ee;
+    --nys-color-blue-300: #7aa5e7;
+    --nys-color-blue-400: #5187df;
+    --nys-color-blue-500: #286ad8;
+    --nys-color-blue-600: #004dd1;
+    --nys-color-blue-700: #003ba1;
+    --nys-color-blue-800: #002971;
+    --nys-color-blue-900: #001842;
+    --nys-color-green-10: #f3f8f4;
+    --nys-color-green-50: #e8f1ea;
+    --nys-color-green-100: #d2e3d5;
+    --nys-color-green-200: #aecdb3;
+    --nys-color-green-300: #8ab792;
+    --nys-color-green-400: #66a170;
+    --nys-color-green-500: #428b4f;
+    --nys-color-green-600: #1e752e;
+    --nys-color-green-700: #165923;
+    --nys-color-green-800: #0f3d18;
+    --nys-color-green-900: #08210d;
+    --nys-color-yellow-10: #fefcf2;
+    --nys-color-yellow-50: #fefae5;
+    --nys-color-yellow-100: #fef5cc;
+    --nys-color-yellow-200: #fce888;
+    --nys-color-yellow-300: #fbdb44;
+    --nys-color-yellow-400: #face00;
+    --nys-color-yellow-500: #d6b000;
+    --nys-color-yellow-600: #b29200;
+    --nys-color-yellow-700: #8e7500;
+    --nys-color-yellow-800: #6a5700;
+    --nys-color-yellow-900: #463a00;
+    --nys-color-state-blue-10: #f7fafd;
+    --nys-color-state-blue-50: #eff6fb;
+    --nys-color-state-blue-100: #cddde9;
+    --nys-color-state-blue-200: #abc4d8;
+    --nys-color-state-blue-300: #89abc7;
+    --nys-color-state-blue-400: #6792b6;
+    --nys-color-state-blue-500: #457aa5;
+    --nys-color-state-blue-600: #2d618c;
+    --nys-color-state-blue-700: #154973;
+    --nys-color-state-blue-800: #0e324f;
+    --nys-color-state-blue-900: #081b2b;
+    --nys-color-business-teal-10: #f2f6f6;
+    --nys-color-business-teal-50: #e5eded;
+    --nys-color-business-teal-100: #c5d8d9;
+    --nys-color-business-teal-200: #a5c3c5;
+    --nys-color-business-teal-300: #85aeb1;
+    --nys-color-business-teal-400: #65999e;
+    --nys-color-business-teal-500: #387b82;
+    --nys-color-business-teal-600: #0b5d66;
+    --nys-color-business-teal-700: #084b52;
+    --nys-color-business-teal-800: #05393f;
+    --nys-color-business-teal-900: #02272c;
+    --nys-color-health-purple-10: #f4f4f8;
+    --nys-color-health-purple-50: #e9eaf1;
+    --nys-color-health-purple-100: #d3d5e3;
+    --nys-color-health-purple-200: #bbb8cc;
+    --nys-color-health-purple-300: #a39bb6;
+    --nys-color-health-purple-400: #8b7fa0;
+    --nys-color-health-purple-500: #736289;
+    --nys-color-health-purple-600: #5b4573;
+    --nys-color-health-purple-700: #43285d;
+    --nys-color-health-purple-800: #2c1a3e;
+    --nys-color-health-purple-900: #160d1f;
+    --nys-color-local-brown-10: #f6f5f4;
+    --nys-color-local-brown-50: #eeebe9;
+    --nys-color-local-brown-100: #ddd7d3;
+    --nys-color-local-brown-200: #c3b9b3;
+    --nys-color-local-brown-300: #a99b94;
+    --nys-color-local-brown-400: #8f7d75;
+    --nys-color-local-brown-500: #745e55;
+    --nys-color-local-brown-600: #5a4036;
+    --nys-color-local-brown-700: #402217;
+    --nys-color-local-brown-800: #2a160f;
+    --nys-color-local-brown-900: #150b07;
+    --nys-color-environment-green-10: #f5f7f6;
+    --nys-color-environment-green-50: #ecf0ee;
+    --nys-color-environment-green-100: #d9e1dd;
+    --nys-color-environment-green-200: #bac6bf;
+    --nys-color-environment-green-300: #9caba1;
+    --nys-color-environment-green-400: #7e9084;
+    --nys-color-environment-green-500: #5f7566;
+    --nys-color-environment-green-600: #415a48;
+    --nys-color-environment-green-700: #233f2b;
+    --nys-color-environment-green-800: #172a1c;
+    --nys-color-environment-green-900: #0b150e;
+    --nys-color-admin-orange-10: #fcf4ef;
+    --nys-color-admin-orange-50: #f9e9e0;
+    --nys-color-admin-orange-100: #f3d3c1;
+    --nys-color-admin-orange-200: #e7b59c;
+    --nys-color-admin-orange-300: #db9778;
+    --nys-color-admin-orange-400: #d07954;
+    --nys-color-admin-orange-500: #c0623b;
+    --nys-color-admin-orange-600: #b14b22;
+    --nys-color-admin-orange-700: #a2350a;
+    --nys-color-admin-orange-800: #752607;
+    --nys-color-admin-orange-900: #481704;
+    --nys-color-transportation-blue-10: #f4f8fa;
+    --nys-color-transportation-blue-50: #eaf2f5;
+    --nys-color-transportation-blue-100: #d5e5eb;
+    --nys-color-transportation-blue-200: #b2ccd9;
+    --nys-color-transportation-blue-300: #90b3c7;
+    --nys-color-transportation-blue-400: #6e9ab5;
+    --nys-color-transportation-blue-500: #4d83a4;
+    --nys-color-transportation-blue-600: #2c6c93;
+    --nys-color-transportation-blue-700: #0b5583;
+    --nys-color-transportation-blue-800: #093a5c;
+    --nys-color-transportation-blue-900: #072036;
+    --nys-color-safety-gray-10: #f2f5f6;
+    --nys-color-safety-gray-50: #e5ebed;
+    --nys-color-safety-gray-100: #cdd6da;
+    --nys-color-safety-gray-200: #b5c1c8;
+    --nys-color-safety-gray-300: #9dacb5;
+    --nys-color-safety-gray-400: #8697a3;
+    --nys-color-safety-gray-500: #6f8391;
+    --nys-color-safety-gray-600: #59707f;
+    --nys-color-safety-gray-700: #435d6e;
+    --nys-color-safety-gray-800: #30424f;
+    --nys-color-safety-gray-900: #1d2830;
+    --nys-color-transparent: #ffffff00;
+    --nys-color-black-transparent-50: #00000003;
+    --nys-color-black-transparent-100: #0000001a;
+    --nys-color-black-transparent-200: #00000033;
+    --nys-color-black-transparent-300: #0000004d;
+    --nys-color-black-transparent-400: #00000066;
+    --nys-color-black-transparent-500: #00000080;
+    --nys-color-black-transparent-600: #00000099;
+    --nys-color-black-transparent-700: #000000b3;
+    --nys-color-black-transparent-800: #000000cc;
+    --nys-color-black-transparent-900: #000000e6;
+    --nys-color-white-transparent-50: #ffffff03;
+    --nys-color-white-transparent-100: #ffffff1a;
+    --nys-color-white-transparent-200: #ffffff33;
+    --nys-color-white-transparent-300: #ffffff4d;
+    --nys-color-white-transparent-400: #ffffff66;
+    --nys-color-white-transparent-500: #ffffff80;
+    --nys-color-white-transparent-600: #ffffff99;
+    --nys-color-white-transparent-700: #ffffffb3;
+    --nys-color-white-transparent-800: #ffffffcc;
+    --nys-color-white-transparent-900: #ffffffe6;
+    --nys-font-family-sans: Proxima Nova, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --nys-font-family-serif: Noto Serif, Georgia, Cambria, Times New Roman, Times, serif;
+    --nys-font-family-alt: Oswald, Arial, sans-serif;
+    --nys-font-family-monospace: Roboto Mono Web, Bitstream Vera Sans Mono, Consolas, Courier, monospace;
+    --nys-font-family-agency: D Sari, Arial, sans-serif;
+    --nys-font-size-2xs: 0.625rem;
+    --nys-font-size-xs: 0.75rem;
+    --nys-font-size-sm: 0.875rem;
+    --nys-font-size-md: 1rem;
+    --nys-font-size-lg: 1.125rem;
+    --nys-font-size-xl: 1.25rem;
+    --nys-font-size-2xl: 1.375rem;
+    --nys-font-size-3xl: 1.5rem;
+    --nys-font-size-4xl: 1.75rem;
+    --nys-font-size-5xl: 2rem;
+    --nys-font-size-6xl: 2.25rem;
+    --nys-font-size-7xl: 2.5rem;
+    --nys-font-size-8xl: 2.75rem;
+    --nys-font-size-9xl: 3.125rem;
+    --nys-font-weight-thin: 100;
+    --nys-font-weight-extralight: 200;
+    --nys-font-weight-light: 300;
+    --nys-font-weight-regular: 400;
+    --nys-font-weight-medium: 500;
+    --nys-font-weight-semibold: 600;
+    --nys-font-weight-bold: 700;
+    --nys-font-weight-extrabold: 800;
+    --nys-font-weight-black: 900;
+    --nys-font-lineheight-2xs: 18px;
+    --nys-font-lineheight-xs: 21px;
+    --nys-font-lineheight-sm: 22px;
+    --nys-font-lineheight-md: 25px;
+    --nys-font-lineheight-lg: 28px;
+    --nys-font-lineheight-xl: 31px;
+    --nys-font-lineheight-2xl: 39px;
+    --nys-font-lineheight-3xl: 45px;
+    --nys-font-lineheight-4xl: 57px;
+    --nys-font-letterspacing-negative-200: -0.02rem;
+    --nys-font-letterspacing-negative-100: -0.01rem;
+    --nys-font-letterspacing-0: 0rem;
+    --nys-font-letterspacing-100: 0.001rem;
+    --nys-font-letterspacing-200: 0.001rem;
+    --nys-font-letterspacing-300: 0.002rem;
+    --nys-font-letterspacing-400: 0.003rem;
+    --nys-font-letterspacing-500: 0.003rem;
+    --nys-font-letterspacing-600: 0.004rem;
+} </style>
+<style>.nysds-responsive-wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nysds-outline-wrapper {
+    margin: 0 auto;
+}
+
+.nysds-reset-button {
+    all: unset;
+    border: 1px solid var(--white);
+    padding: var(--nys-space-100) var(--nys-space-300);
+    border-radius: var(--nys-radius-xl);
+    cursor: pointer;
+    background-color: var(--primary-core-blue);
+    color: var(--white);
+    margin: var(--nys-space-200) var(--nys-space-200);
+    font-weight: var(--nys-font-weight-bold);
+    text-transform: uppercase;
+    font-size: var(--nys-font-size-sm);
+    letter-spacing: var(--nys-space-2px);
+    line-height: 1.4rem;
+}
+
+.nysds-reset-button:hover {
+    background-color: var(--black);
+    border-color: var(--core-accent-yellow);
+}
+
+.nysds-reset-button:focus {
+    background-color: var(--black);
+    border-color: var(--core-accent-yellow);
+}
+
+.nysds-table-disclaimer {
+    margin: var(--nys-space-500) var(--nys-space-200);
+}
+
+.dataTable a {
+    color: var(--link-blue)
+}
+
+.dataTable a:hover {
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
+}
+
+.dataTable a:focus {
+    text-underline-offset: 2px;
+    text-decoration-thickness: 3px;
+}
+
+.dt-layout-start {
+    width: 100%;
+}
+
+.dt-search {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dt-search label {
+    font-weight: var(--nys-font-weight-bold);
+}
+
+.dt-input {
+    width: 95%;
+    border: 1px solid var(--primary-core-blue);
+    padding: var(--nys-space-100)
+}
+
+@media (min-width: 768px) {
+    .nysds-reset-button {
+        margin: 0 var(--nys-space-200);
+    }
+
+    .dt-search {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .dt-layout-start {
+        width: 75%;
+    }
+
+    .dt-input {
+        width: 55%;
+        margin-right: 3%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+
+}
+
+@media (min-width: 1280px) {
+
+}</style>
+<style>:root {
+  --dt-row-selected: 13, 110, 253;
+  --dt-row-selected-text: 255, 255, 255;
+  --dt-row-selected-link: 9, 10, 11;
+  --dt-row-stripe: 0, 0, 0;
+  --dt-row-hover: 0, 0, 0;
+  --dt-column-ordering: 0, 0, 0;
+  --dt-header-align-items: center;
+  --dt-html-background: white;
+}
+:root.dark {
+  --dt-html-background: rgb(33, 37, 41);
+}
+
+table.dataTable tbody td.dt-control {
+  text-align: center;
+  cursor: pointer;
+}
+table.dataTable tbody td.dt-control:before {
+  display: inline-block;
+  box-sizing: border-box;
+  content: "";
+  border-top: 5px solid transparent;
+  border-left: 10px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid transparent;
+  border-right: 0px solid transparent;
+}
+table.dataTable tbody tr.dt-hasChild td.dt-control:before {
+  border-top: 10px solid rgba(0, 0, 0, 0.5);
+  border-left: 5px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 5px solid transparent;
+}
+table.dataTable tfoot:empty {
+  display: none;
+}
+
+html.dark table.dataTable td.dt-control:before,
+:root[data-bs-theme=dark] table.dataTable td.dt-control:before,
+:root[data-theme=dark] table.dataTable td.dt-control:before {
+  border-left-color: rgba(255, 255, 255, 0.5);
+}
+html.dark table.dataTable tr.dt-hasChild td.dt-control:before,
+:root[data-bs-theme=dark] table.dataTable tr.dt-hasChild td.dt-control:before,
+:root[data-theme=dark] table.dataTable tr.dt-hasChild td.dt-control:before {
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-left-color: transparent;
+}
+
+div.dt-scroll {
+  width: 100%;
+}
+
+div.dt-scroll-body thead tr,
+div.dt-scroll-body tfoot tr {
+  height: 0;
+}
+div.dt-scroll-body thead tr th, div.dt-scroll-body thead tr td,
+div.dt-scroll-body tfoot tr th,
+div.dt-scroll-body tfoot tr td {
+  height: 0 !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  border-top-width: 0px !important;
+  border-bottom-width: 0px !important;
+}
+div.dt-scroll-body thead tr th div.dt-scroll-sizing, div.dt-scroll-body thead tr td div.dt-scroll-sizing,
+div.dt-scroll-body tfoot tr th div.dt-scroll-sizing,
+div.dt-scroll-body tfoot tr td div.dt-scroll-sizing {
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+table.dataTable thead > tr > th:active,
+table.dataTable thead > tr > td:active {
+  outline: none;
+}
+table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order:before, table.dataTable thead > tr > th.dt-ordering-asc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-orderable-asc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-ordering-asc span.dt-column-order:before {
+  position: absolute;
+  display: block;
+  bottom: 50%;
+  content: "\25B2";
+  content: "\25B2"/"";
+}
+table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order:after, table.dataTable thead > tr > th.dt-ordering-desc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-orderable-desc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-ordering-desc span.dt-column-order:after {
+  position: absolute;
+  display: block;
+  top: 50%;
+  content: "\25BC";
+  content: "\25BC"/"";
+}
+table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order, table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order, table.dataTable thead > tr > th.dt-ordering-asc span.dt-column-order, table.dataTable thead > tr > th.dt-ordering-desc span.dt-column-order,
+table.dataTable thead > tr > td.dt-orderable-asc span.dt-column-order,
+table.dataTable thead > tr > td.dt-orderable-desc span.dt-column-order,
+table.dataTable thead > tr > td.dt-ordering-asc span.dt-column-order,
+table.dataTable thead > tr > td.dt-ordering-desc span.dt-column-order {
+  position: relative;
+  width: 12px;
+  height: 20px;
+}
+table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order:before, table.dataTable thead > tr > th.dt-orderable-asc span.dt-column-order:after, table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order:before, table.dataTable thead > tr > th.dt-orderable-desc span.dt-column-order:after, table.dataTable thead > tr > th.dt-ordering-asc span.dt-column-order:before, table.dataTable thead > tr > th.dt-ordering-asc span.dt-column-order:after, table.dataTable thead > tr > th.dt-ordering-desc span.dt-column-order:before, table.dataTable thead > tr > th.dt-ordering-desc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-orderable-asc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-orderable-asc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-orderable-desc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-orderable-desc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-ordering-asc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-ordering-asc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-ordering-desc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-ordering-desc span.dt-column-order:after {
+  left: 0;
+  opacity: 0.125;
+  line-height: 9px;
+  font-size: 0.8em;
+}
+table.dataTable thead > tr > th.dt-orderable-asc, table.dataTable thead > tr > th.dt-orderable-desc,
+table.dataTable thead > tr > td.dt-orderable-asc,
+table.dataTable thead > tr > td.dt-orderable-desc {
+  cursor: pointer;
+}
+table.dataTable thead > tr > th.dt-orderable-asc:hover, table.dataTable thead > tr > th.dt-orderable-desc:hover,
+table.dataTable thead > tr > td.dt-orderable-asc:hover,
+table.dataTable thead > tr > td.dt-orderable-desc:hover {
+  outline: 2px solid rgba(0, 0, 0, 0.05);
+  outline-offset: -2px;
+}
+table.dataTable thead > tr > th.dt-ordering-asc span.dt-column-order:before, table.dataTable thead > tr > th.dt-ordering-desc span.dt-column-order:after,
+table.dataTable thead > tr > td.dt-ordering-asc span.dt-column-order:before,
+table.dataTable thead > tr > td.dt-ordering-desc span.dt-column-order:after {
+  opacity: 0.6;
+}
+table.dataTable thead > tr > th.sorting_desc_disabled span.dt-column-order:after, table.dataTable thead > tr > th.sorting_asc_disabled span.dt-column-order:before,
+table.dataTable thead > tr > td.sorting_desc_disabled span.dt-column-order:after,
+table.dataTable thead > tr > td.sorting_asc_disabled span.dt-column-order:before {
+  display: none;
+}
+table.dataTable thead > tr > th:active,
+table.dataTable thead > tr > td:active {
+  outline: none;
+}
+
+table.dataTable thead > tr > th div.dt-column-header,
+table.dataTable thead > tr > th div.dt-column-footer,
+table.dataTable thead > tr > td div.dt-column-header,
+table.dataTable thead > tr > td div.dt-column-footer,
+table.dataTable tfoot > tr > th div.dt-column-header,
+table.dataTable tfoot > tr > th div.dt-column-footer,
+table.dataTable tfoot > tr > td div.dt-column-header,
+table.dataTable tfoot > tr > td div.dt-column-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: var(--dt-header-align-items);
+  gap: 4px;
+}
+table.dataTable thead > tr > th div.dt-column-header span.dt-column-title,
+table.dataTable thead > tr > th div.dt-column-footer span.dt-column-title,
+table.dataTable thead > tr > td div.dt-column-header span.dt-column-title,
+table.dataTable thead > tr > td div.dt-column-footer span.dt-column-title,
+table.dataTable tfoot > tr > th div.dt-column-header span.dt-column-title,
+table.dataTable tfoot > tr > th div.dt-column-footer span.dt-column-title,
+table.dataTable tfoot > tr > td div.dt-column-header span.dt-column-title,
+table.dataTable tfoot > tr > td div.dt-column-footer span.dt-column-title {
+  flex-grow: 1;
+}
+table.dataTable thead > tr > th div.dt-column-header span.dt-column-title:empty,
+table.dataTable thead > tr > th div.dt-column-footer span.dt-column-title:empty,
+table.dataTable thead > tr > td div.dt-column-header span.dt-column-title:empty,
+table.dataTable thead > tr > td div.dt-column-footer span.dt-column-title:empty,
+table.dataTable tfoot > tr > th div.dt-column-header span.dt-column-title:empty,
+table.dataTable tfoot > tr > th div.dt-column-footer span.dt-column-title:empty,
+table.dataTable tfoot > tr > td div.dt-column-header span.dt-column-title:empty,
+table.dataTable tfoot > tr > td div.dt-column-footer span.dt-column-title:empty {
+  display: none;
+}
+
+div.dt-scroll-body > table.dataTable > thead > tr > th,
+div.dt-scroll-body > table.dataTable > thead > tr > td {
+  overflow: hidden;
+}
+
+:root.dark table.dataTable thead > tr > th.dt-orderable-asc:hover, :root.dark table.dataTable thead > tr > th.dt-orderable-desc:hover,
+:root.dark table.dataTable thead > tr > td.dt-orderable-asc:hover,
+:root.dark table.dataTable thead > tr > td.dt-orderable-desc:hover,
+:root[data-bs-theme=dark] table.dataTable thead > tr > th.dt-orderable-asc:hover,
+:root[data-bs-theme=dark] table.dataTable thead > tr > th.dt-orderable-desc:hover,
+:root[data-bs-theme=dark] table.dataTable thead > tr > td.dt-orderable-asc:hover,
+:root[data-bs-theme=dark] table.dataTable thead > tr > td.dt-orderable-desc:hover {
+  outline: 2px solid rgba(255, 255, 255, 0.05);
+}
+
+div.dt-processing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  margin-top: -22px;
+  text-align: center;
+  padding: 2px;
+  z-index: 10;
+}
+div.dt-processing > div:last-child {
+  position: relative;
+  width: 80px;
+  height: 15px;
+  margin: 1em auto;
+}
+div.dt-processing > div:last-child > div {
+  position: absolute;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: rgb(13, 110, 253);
+  background: rgb(var(--dt-row-selected));
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+div.dt-processing > div:last-child > div:nth-child(1) {
+  left: 8px;
+  animation: datatables-loader-1 0.6s infinite;
+}
+div.dt-processing > div:last-child > div:nth-child(2) {
+  left: 8px;
+  animation: datatables-loader-2 0.6s infinite;
+}
+div.dt-processing > div:last-child > div:nth-child(3) {
+  left: 32px;
+  animation: datatables-loader-2 0.6s infinite;
+}
+div.dt-processing > div:last-child > div:nth-child(4) {
+  left: 56px;
+  animation: datatables-loader-3 0.6s infinite;
+}
+
+@keyframes datatables-loader-1 {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes datatables-loader-3 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@keyframes datatables-loader-2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(24px, 0);
+  }
+}
+table.dataTable.nowrap th, table.dataTable.nowrap td {
+  white-space: nowrap;
+}
+table.dataTable th,
+table.dataTable td {
+  box-sizing: border-box;
+}
+table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date,
+table.dataTable td.dt-type-numeric,
+table.dataTable td.dt-type-date {
+  text-align: right;
+}
+table.dataTable th.dt-type-numeric div.dt-column-header,
+table.dataTable th.dt-type-numeric div.dt-column-footer, table.dataTable th.dt-type-date div.dt-column-header,
+table.dataTable th.dt-type-date div.dt-column-footer,
+table.dataTable td.dt-type-numeric div.dt-column-header,
+table.dataTable td.dt-type-numeric div.dt-column-footer,
+table.dataTable td.dt-type-date div.dt-column-header,
+table.dataTable td.dt-type-date div.dt-column-footer {
+  flex-direction: row-reverse;
+}
+table.dataTable th.dt-left,
+table.dataTable td.dt-left {
+  text-align: left;
+}
+table.dataTable th.dt-left div.dt-column-header,
+table.dataTable th.dt-left div.dt-column-footer,
+table.dataTable td.dt-left div.dt-column-header,
+table.dataTable td.dt-left div.dt-column-footer {
+  flex-direction: row;
+}
+table.dataTable th.dt-center,
+table.dataTable td.dt-center {
+  text-align: center;
+}
+table.dataTable th.dt-right,
+table.dataTable td.dt-right {
+  text-align: right;
+}
+table.dataTable th.dt-right div.dt-column-header,
+table.dataTable th.dt-right div.dt-column-footer,
+table.dataTable td.dt-right div.dt-column-header,
+table.dataTable td.dt-right div.dt-column-footer {
+  flex-direction: row-reverse;
+}
+table.dataTable th.dt-justify,
+table.dataTable td.dt-justify {
+  text-align: justify;
+}
+table.dataTable th.dt-justify div.dt-column-header,
+table.dataTable th.dt-justify div.dt-column-footer,
+table.dataTable td.dt-justify div.dt-column-header,
+table.dataTable td.dt-justify div.dt-column-footer {
+  flex-direction: row;
+}
+table.dataTable th.dt-nowrap,
+table.dataTable td.dt-nowrap {
+  white-space: nowrap;
+}
+table.dataTable th.dt-empty,
+table.dataTable td.dt-empty {
+  text-align: center;
+  vertical-align: top;
+}
+table.dataTable thead th,
+table.dataTable thead td,
+table.dataTable tfoot th,
+table.dataTable tfoot td {
+  text-align: left;
+}
+table.dataTable thead th.dt-head-left,
+table.dataTable thead td.dt-head-left,
+table.dataTable tfoot th.dt-head-left,
+table.dataTable tfoot td.dt-head-left {
+  text-align: left;
+}
+table.dataTable thead th.dt-head-left div.dt-column-header,
+table.dataTable thead th.dt-head-left div.dt-column-footer,
+table.dataTable thead td.dt-head-left div.dt-column-header,
+table.dataTable thead td.dt-head-left div.dt-column-footer,
+table.dataTable tfoot th.dt-head-left div.dt-column-header,
+table.dataTable tfoot th.dt-head-left div.dt-column-footer,
+table.dataTable tfoot td.dt-head-left div.dt-column-header,
+table.dataTable tfoot td.dt-head-left div.dt-column-footer {
+  flex-direction: row;
+}
+table.dataTable thead th.dt-head-center,
+table.dataTable thead td.dt-head-center,
+table.dataTable tfoot th.dt-head-center,
+table.dataTable tfoot td.dt-head-center {
+  text-align: center;
+}
+table.dataTable thead th.dt-head-right,
+table.dataTable thead td.dt-head-right,
+table.dataTable tfoot th.dt-head-right,
+table.dataTable tfoot td.dt-head-right {
+  text-align: right;
+}
+table.dataTable thead th.dt-head-right div.dt-column-header,
+table.dataTable thead th.dt-head-right div.dt-column-footer,
+table.dataTable thead td.dt-head-right div.dt-column-header,
+table.dataTable thead td.dt-head-right div.dt-column-footer,
+table.dataTable tfoot th.dt-head-right div.dt-column-header,
+table.dataTable tfoot th.dt-head-right div.dt-column-footer,
+table.dataTable tfoot td.dt-head-right div.dt-column-header,
+table.dataTable tfoot td.dt-head-right div.dt-column-footer {
+  flex-direction: row-reverse;
+}
+table.dataTable thead th.dt-head-justify,
+table.dataTable thead td.dt-head-justify,
+table.dataTable tfoot th.dt-head-justify,
+table.dataTable tfoot td.dt-head-justify {
+  text-align: justify;
+}
+table.dataTable thead th.dt-head-justify div.dt-column-header,
+table.dataTable thead th.dt-head-justify div.dt-column-footer,
+table.dataTable thead td.dt-head-justify div.dt-column-header,
+table.dataTable thead td.dt-head-justify div.dt-column-footer,
+table.dataTable tfoot th.dt-head-justify div.dt-column-header,
+table.dataTable tfoot th.dt-head-justify div.dt-column-footer,
+table.dataTable tfoot td.dt-head-justify div.dt-column-header,
+table.dataTable tfoot td.dt-head-justify div.dt-column-footer {
+  flex-direction: row;
+}
+table.dataTable thead th.dt-head-nowrap,
+table.dataTable thead td.dt-head-nowrap,
+table.dataTable tfoot th.dt-head-nowrap,
+table.dataTable tfoot td.dt-head-nowrap {
+  white-space: nowrap;
+}
+table.dataTable tbody th.dt-body-left,
+table.dataTable tbody td.dt-body-left {
+  text-align: left;
+}
+table.dataTable tbody th.dt-body-center,
+table.dataTable tbody td.dt-body-center {
+  text-align: center;
+}
+table.dataTable tbody th.dt-body-right,
+table.dataTable tbody td.dt-body-right {
+  text-align: right;
+}
+table.dataTable tbody th.dt-body-justify,
+table.dataTable tbody td.dt-body-justify {
+  text-align: justify;
+}
+table.dataTable tbody th.dt-body-nowrap,
+table.dataTable tbody td.dt-body-nowrap {
+  white-space: nowrap;
+}
+
+:root {
+  --dt-row-hover-alpha: 0.035;
+  --dt-row-stripe-alpha: 0.023;
+  --dt-column-ordering-alpha: 0.019;
+  --dt-row-selected-stripe-alpha: 0.923;
+  --dt-row-selected-column-ordering-alpha: 0.919;
+}
+
+/*
+ * Table styles
+ */
+table.dataTable {
+  width: 100%;
+  margin: 0 auto;
+  border-spacing: 0;
+  /*
+   * Header and footer styles
+   */
+  /*
+   * Body styles
+   */
+}
+table.dataTable thead th,
+table.dataTable tfoot th {
+  font-weight: bold;
+}
+table.dataTable > thead > tr > th,
+table.dataTable > thead > tr > td {
+  padding: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+table.dataTable > thead > tr > th:active,
+table.dataTable > thead > tr > td:active {
+  outline: none;
+}
+table.dataTable > tfoot > tr > th,
+table.dataTable > tfoot > tr > td {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px 10px 6px 10px;
+}
+table.dataTable > tbody > tr {
+  background-color: transparent;
+}
+table.dataTable > tbody > tr:first-child > * {
+  border-top: none;
+}
+table.dataTable > tbody > tr:last-child > * {
+  border-bottom: none;
+}
+table.dataTable > tbody > tr.selected > * {
+  box-shadow: inset 0 0 0 9999px rgba(13, 110, 253, 0.9);
+  box-shadow: inset 0 0 0 9999px rgba(var(--dt-row-selected), 0.9);
+  color: rgb(255, 255, 255);
+  color: rgb(var(--dt-row-selected-text));
+}
+table.dataTable > tbody > tr.selected a {
+  color: rgb(9, 10, 11);
+  color: rgb(var(--dt-row-selected-link));
+}
+table.dataTable > tbody > tr > th,
+table.dataTable > tbody > tr > td {
+  padding: 8px 10px;
+}
+table.dataTable.row-border > tbody > tr > *, table.dataTable.display > tbody > tr > * {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+table.dataTable.row-border > tbody > tr:first-child > *, table.dataTable.display > tbody > tr:first-child > * {
+  border-top: none;
+}
+table.dataTable.row-border > tbody > tr.selected + tr.selected > td, table.dataTable.display > tbody > tr.selected + tr.selected > td {
+  border-top-color: rgba(13, 110, 253, 0.65);
+  border-top-color: rgba(var(--dt-row-selected), 0.65);
+}
+table.dataTable.cell-border > tbody > tr > * {
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+table.dataTable.cell-border > tbody > tr > *:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+table.dataTable.cell-border > tbody > tr:first-child > * {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+table.dataTable.compact thead th,
+table.dataTable.compact thead td,
+table.dataTable.compact tfoot th,
+table.dataTable.compact tfoot td,
+table.dataTable.compact tbody th,
+table.dataTable.compact tbody td {
+  padding: 4px;
+}
+
+div.dt-container div.dt-layout-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0.75em 0;
+}
+div.dt-container div.dt-layout-row div.dt-layout-cell {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.dt-container div.dt-layout-row div.dt-layout-cell.dt-layout-start {
+  justify-content: flex-start;
+  margin-right: auto;
+}
+div.dt-container div.dt-layout-row div.dt-layout-cell.dt-layout-end {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+div.dt-container div.dt-layout-row div.dt-layout-cell:empty {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  div.dt-container div.dt-layout-row:not(.dt-layout-table) {
+    display: block;
+  }
+  div.dt-container div.dt-layout-row:not(.dt-layout-table) div.dt-layout-cell {
+    display: block;
+    text-align: center;
+  }
+  div.dt-container div.dt-layout-row:not(.dt-layout-table) div.dt-layout-cell > * {
+    margin: 0.5em 0;
+  }
+  div.dt-container div.dt-layout-row:not(.dt-layout-table) div.dt-layout-cell.dt-layout-start {
+    margin-right: 0;
+  }
+  div.dt-container div.dt-layout-row:not(.dt-layout-table) div.dt-layout-cell.dt-layout-end {
+    margin-left: 0;
+  }
+}
+div.dt-container div.dt-layout-start > *:not(:last-child) {
+  margin-right: 1em;
+}
+div.dt-container div.dt-layout-end > *:not(:first-child) {
+  margin-left: 1em;
+}
+div.dt-container div.dt-layout-full {
+  width: 100%;
+}
+div.dt-container div.dt-layout-full > *:only-child {
+  margin-left: auto;
+  margin-right: auto;
+}
+div.dt-container div.dt-layout-table > div {
+  display: block !important;
+}
+
+@media screen and (max-width: 767px) {
+  div.dt-container div.dt-layout-start > *:not(:last-child) {
+    margin-right: 0;
+  }
+  div.dt-container div.dt-layout-end > *:not(:first-child) {
+    margin-left: 0;
+  }
+}
+/*
+ * Control feature layout
+ */
+div.dt-container {
+  position: relative;
+  clear: both;
+}
+div.dt-container .dt-search input {
+  border-radius: var(--nys-radius-md);
+  border: 1px solid var(--primary-core-blue);
+  padding: var(--nys-space-100);
+  background-color: transparent;
+  color: inherit;
+  margin-left: 3px;
+}
+
+div.dt-container .dt-search input:focus {
+    outline: 2px #FACE00 solid;
+    box-shadow: inset 0 0 0 4px;
+}
+div.dt-container .dt-input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 5px;
+  background-color: transparent;
+  color: inherit;
+}
+div.dt-container select.dt-input {
+  padding: 4px;
+}
+div.dt-container .dt-paging .dt-paging-button {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 1.5em;
+  padding: 0.5em 1em;
+  margin-left: 2px;
+  text-align: center;
+  text-decoration: none !important;
+  cursor: pointer;
+  color: inherit !important;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  background: transparent;
+}
+div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover {
+  color: inherit !important;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.05);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(230, 230, 230, 0.05)), color-stop(100%, rgba(0, 0, 0, 0.05))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(230, 230, 230, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%); /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, rgba(230, 230, 230, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%); /* FF3.6+ */
+  background: -ms-linear-gradient(top, rgba(230, 230, 230, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%); /* IE10+ */
+  background: -o-linear-gradient(top, rgba(230, 230, 230, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%); /* Opera 11.10+ */
+  background: linear-gradient(to bottom, rgba(230, 230, 230, 0.05) 0%, rgba(0, 0, 0, 0.05) 100%); /* W3C */
+}
+div.dt-container .dt-paging .dt-paging-button.disabled, div.dt-container .dt-paging .dt-paging-button.disabled:hover, div.dt-container .dt-paging .dt-paging-button.disabled:active {
+  cursor: default;
+  color: rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid transparent;
+  background: transparent;
+  box-shadow: none;
+}
+div.dt-container .dt-paging .dt-paging-button:hover {
+  color: white !important;
+  border: 1px solid #111;
+  background-color: #111;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #585858), color-stop(100%, #111)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #585858 0%, #111 100%); /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #585858 0%, #111 100%); /* FF3.6+ */
+  background: -ms-linear-gradient(top, #585858 0%, #111 100%); /* IE10+ */
+  background: -o-linear-gradient(top, #585858 0%, #111 100%); /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #585858 0%, #111 100%); /* W3C */
+}
+div.dt-container .dt-paging .dt-paging-button:active {
+  outline: none;
+  background-color: #0c0c0c;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2b2b2b), color-stop(100%, #0c0c0c)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%); /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%); /* FF3.6+ */
+  background: -ms-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%); /* IE10+ */
+  background: -o-linear-gradient(top, #2b2b2b 0%, #0c0c0c 100%); /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #2b2b2b 0%, #0c0c0c 100%); /* W3C */
+  box-shadow: inset 0 0 3px #111;
+}
+div.dt-container .dt-paging .ellipsis {
+  padding: 0 1em;
+}
+div.dt-container .dt-length,
+div.dt-container .dt-search,
+div.dt-container .dt-info,
+div.dt-container .dt-processing,
+div.dt-container .dt-paging {
+  color: inherit;
+}
+div.dt-container .dataTables_scroll {
+  clear: both;
+}
+div.dt-container .dataTables_scroll div.dt-scroll-body {
+  -webkit-overflow-scrolling: touch;
+}
+div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > th, div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > td, div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > th, div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > td {
+  vertical-align: middle;
+}
+div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > th > div.dataTables_sizing,
+div.dt-container .dataTables_scroll div.dt-scroll-body > table > thead > tr > td > div.dataTables_sizing, div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > th > div.dataTables_sizing,
+div.dt-container .dataTables_scroll div.dt-scroll-body > table > tbody > tr > td > div.dataTables_sizing {
+  height: 0;
+  overflow: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+div.dt-container.dt-empty-footer tbody > tr:last-child > * {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+div.dt-container.dt-empty-footer .dt-scroll-body {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+div.dt-container.dt-empty-footer .dt-scroll-body tbody > tr:last-child > * {
+  border-bottom: none;
+}
+
+html.dark {
+  --dt-row-hover: 255, 255, 255;
+  --dt-row-stripe: 255, 255, 255;
+  --dt-column-ordering: 255, 255, 255;
+}
+html.dark table.dataTable > thead > tr > th,
+html.dark table.dataTable > thead > tr > td {
+  border-bottom: 1px solid rgb(89, 91, 94);
+}
+html.dark table.dataTable > thead > tr > th:active,
+html.dark table.dataTable > thead > tr > td:active {
+  outline: none;
+}
+html.dark table.dataTable > tfoot > tr > th,
+html.dark table.dataTable > tfoot > tr > td {
+  border-top: 1px solid rgb(89, 91, 94);
+}
+html.dark table.dataTable.row-border > tbody > tr > *, html.dark table.dataTable.display > tbody > tr > * {
+  border-top: 1px solid rgb(64, 67, 70);
+}
+html.dark table.dataTable.row-border > tbody > tr:first-child > *, html.dark table.dataTable.display > tbody > tr:first-child > * {
+  border-top: none;
+}
+html.dark table.dataTable.row-border > tbody > tr.selected + tr.selected > td, html.dark table.dataTable.display > tbody > tr.selected + tr.selected > td {
+  border-top-color: rgba(13, 110, 253, 0.65);
+  border-top-color: rgba(var(--dt-row-selected), 0.65);
+}
+html.dark table.dataTable.cell-border > tbody > tr > th,
+html.dark table.dataTable.cell-border > tbody > tr > td {
+  border-top: 1px solid rgb(64, 67, 70);
+  border-right: 1px solid rgb(64, 67, 70);
+}
+html.dark table.dataTable.cell-border > tbody > tr > th:first-child,
+html.dark table.dataTable.cell-border > tbody > tr > td:first-child {
+  border-left: 1px solid rgb(64, 67, 70);
+}
+html.dark .dt-container.dt-empty-footer table.dataTable {
+  border-bottom: 1px solid rgb(89, 91, 94);
+}
+html.dark .dt-container .dt-search input,
+html.dark .dt-container .dt-length select {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: var(--dt-html-background);
+}
+html.dark .dt-container .dt-paging .dt-paging-button.current, html.dark .dt-container .dt-paging .dt-paging-button.current:hover {
+  border: 1px solid rgb(89, 91, 94);
+  background: rgba(255, 255, 255, 0.15);
+}
+html.dark .dt-container .dt-paging .dt-paging-button.disabled, html.dark .dt-container .dt-paging .dt-paging-button.disabled:hover, html.dark .dt-container .dt-paging .dt-paging-button.disabled:active {
+  color: #666 !important;
+}
+html.dark .dt-container .dt-paging .dt-paging-button:hover {
+  border: 1px solid rgb(53, 53, 53);
+  background: rgb(53, 53, 53);
+}
+html.dark .dt-container .dt-paging .dt-paging-button:active {
+  background: #3a3a3a;
+}
+
+/*
+ * Overrides for RTL support
+ */
+*[dir=rtl] table.dataTable thead th,
+*[dir=rtl] table.dataTable thead td,
+*[dir=rtl] table.dataTable tfoot th,
+*[dir=rtl] table.dataTable tfoot td {
+  text-align: right;
+}
+*[dir=rtl] table.dataTable th.dt-type-numeric, *[dir=rtl] table.dataTable th.dt-type-date,
+*[dir=rtl] table.dataTable td.dt-type-numeric,
+*[dir=rtl] table.dataTable td.dt-type-date {
+  text-align: left;
+}
+*[dir=rtl] div.dt-container div.dt-layout-cell.dt-start {
+  text-align: right;
+}
+*[dir=rtl] div.dt-container div.dt-layout-cell.dt-end {
+  text-align: left;
+}
+*[dir=rtl] div.dt-container div.dt-search input {
+  margin: 0 3px 0 0;
+}
+
+    .dt-hasChild.dtr-expanded {
+  background: var(--mid-gray);
+}
+</style>
+<style>table.dataTable.dtr-inline.collapsed > tbody > tr > td.child,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.child,
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty {
+    cursor: default !important;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.child:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dataTables_empty:before {
+    display: none !important;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control {
+    cursor: pointer;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control:before {
+    margin-right: 0.5em;
+    display: inline-block;
+    box-sizing: border-box;
+    content: "";
+    border-top: 5px solid transparent;
+    border-left: 10px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid transparent;
+    border-right: 0px solid transparent;
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr > td.dtr-control.arrow-right::before,
+table.dataTable.dtr-inline.collapsed > tbody > tr > th.dtr-control.arrow-right::before {
+    border-top: 5px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 10px solid rgba(0, 0, 0, 0.5);
+}
+table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > td.dtr-control:before,
+table.dataTable.dtr-inline.collapsed > tbody > tr.dtr-expanded > th.dtr-control:before {
+    border-top: 10px solid rgba(0, 0, 0, 0.5);
+    border-left: 5px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 5px solid transparent;
+}
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr > td.dtr-control,
+table.dataTable.dtr-inline.collapsed.compact > tbody > tr > th.dtr-control {
+    padding-left: 0.333em;
+}
+table.dataTable.dtr-column > tbody > tr > td.dtr-control,
+table.dataTable.dtr-column > tbody > tr > th.dtr-control,
+table.dataTable.dtr-column > tbody > tr > td.control,
+table.dataTable.dtr-column > tbody > tr > th.control {
+    cursor: pointer;
+}
+table.dataTable.dtr-column > tbody > tr > td.dtr-control:before,
+table.dataTable.dtr-column > tbody > tr > th.dtr-control:before,
+table.dataTable.dtr-column > tbody > tr > td.control:before,
+table.dataTable.dtr-column > tbody > tr > th.control:before {
+    display: inline-block;
+    box-sizing: border-box;
+    content: "";
+    border-top: 5px solid transparent;
+    border-left: 10px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid transparent;
+    border-right: 0px solid transparent;
+}
+table.dataTable.dtr-column > tbody > tr > td.dtr-control.arrow-right::before,
+table.dataTable.dtr-column > tbody > tr > th.dtr-control.arrow-right::before,
+table.dataTable.dtr-column > tbody > tr > td.control.arrow-right::before,
+table.dataTable.dtr-column > tbody > tr > th.control.arrow-right::before {
+    border-top: 5px solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 10px solid rgba(0, 0, 0, 0.5);
+}
+table.dataTable.dtr-column > tbody > tr.dtr-expanded td.dtr-control:before,
+table.dataTable.dtr-column > tbody > tr.dtr-expanded th.dtr-control:before,
+table.dataTable.dtr-column > tbody > tr.dtr-expanded td.control:before,
+table.dataTable.dtr-column > tbody > tr.dtr-expanded th.control:before {
+    border-top: 10px solid rgba(0, 0, 0, 0.5);
+    border-left: 5px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 5px solid transparent;
+}
+table.dataTable > tbody > tr.child {
+    padding: 0.5em 1em;
+}
+table.dataTable > tbody > tr.child:hover {
+    background: transparent !important;
+}
+table.dataTable > tbody > tr.child ul.dtr-details {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li {
+    border-bottom: 1px solid #efefef;
+    padding: 0.5em 0;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li:first-child {
+    padding-top: 0;
+}
+table.dataTable > tbody > tr.child ul.dtr-details > li:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+table.dataTable > tbody > tr.child span.dtr-title {
+    display: inline-block;
+    min-width: 75px;
+    font-weight: bold;
+}
+div.dtr-modal {
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    padding: 10em 1em;
+}
+div.dtr-modal div.dtr-modal-display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: fit-content;
+    max-height: 75%;
+    overflow: auto;
+    margin: auto;
+    z-index: 102;
+    overflow: auto;
+    background-color: #f5f5f7;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+div.dtr-modal div.dtr-modal-content {
+    position: relative;
+    padding: 2.5em;
+}
+div.dtr-modal div.dtr-modal-content h2 {
+    margin-top: 0;
+}
+div.dtr-modal div.dtr-modal-close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 12;
+}
+div.dtr-modal div.dtr-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 101;
+    background: rgba(0, 0, 0, 0.6);
+}
+@media screen and (max-width: 767px) {
+    div.dtr-modal div.dtr-modal-display {
+        width: 95%;
+    }
+}
+html.dark table.dataTable > tbody > tr > td.dtr-control:before,
+html[data-bs-theme="dark"] table.dataTable > tbody > tr > td.dtr-control:before {
+    border-left-color: rgba(255, 255, 255, 0.5) !important;
+}
+html.dark table.dataTable > tbody > tr > td.dtr-control.arrow-right::before,
+html[data-bs-theme="dark"] table.dataTable > tbody > tr > td.dtr-control.arrow-right::before {
+    border-right-color: rgba(255, 255, 255, 0.5) !important;
+}
+html.dark table.dataTable > tbody > tr.dtr-expanded > td.dtr-control:before,
+html.dark table.dataTable > tbody > tr.dtr-expanded > th.dtr-control:before,
+html[data-bs-theme="dark"] table.dataTable > tbody > tr.dtr-expanded > td.dtr-control:before,
+html[data-bs-theme="dark"] table.dataTable > tbody > tr.dtr-expanded > th.dtr-control:before {
+    border-top-color: rgba(255, 255, 255, 0.5) !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+}
+html.dark table.dataTable > tbody > tr.child ul.dtr-details > li,
+html[data-bs-theme="dark"] table.dataTable > tbody > tr.child ul.dtr-details > li {
+    border-bottom-color: rgb(64, 67, 70);
+}
+html.dark div.dtr-modal div.dtr-modal-display,
+html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
+    background-color: rgb(33, 37, 41);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+</style>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.3.2/js/dataTables.js" ></script>
+<script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.min.js" ></script>
+
+<script>
+    
+            (function($) {
+    $(document).ready(function() {
+       new DataTable('#cart', {
+            columnDefs: [{ 
+                orderable: true, 
+                targets: [0,1,2,3],  
+                render: function(data, type, row, meta) {
+                    if (type != 'display') {
+                    return data.replace( /<.*?>/g, '' );
+                    }
+                    return data;
+                    }
+                
+                
+                
+                }],
+                layout: {
+                            
+                            topStart: {
+                                search: {
+                                    placeholder: 'search by options'
+                                }
+                            },
+                            topEnd: 'info',
+                            bottomStart: null,
+                            bottomEnd: null,
+                            bottom: 'paging'
+                        },
+            order: [[1, 'asc']],
+    
+            responsive: true,
+           drawCallback: function() {
+                // Call your custom plugin
+                const api = this.api();
+                api.applyAccessibility();
+            }
+        });
+        
+        
+        
+    } );
+
+    
+    $(document).ready(function() {
+    const searchInput = document.getElementById("dt-search-0");
+        const clearAll = document.getElementById("clear");
+        const tableId = '#cart'
+        console.log(tableId)
+        searchInput.insertAdjacentHTML('afterend','<button class="nysds-reset-button" id="clear"> Reset </button>')
+        $('#clear').on('click', () => {
+            $(tableId).DataTable().search('').columns().search('').draw();
+            })
+     } );
+
+     })(jQuery);
+         
+
+
+(function($) {
+    $.fn.dataTable.Api.register('applyAccessibility()', function() {
+        return this.iterator('table', function(settings) {
+             setTimeout(() => {
+            const api = new $.fn.dataTable.Api(settings);
+            const tableBody = api.table().body();
+            
+            // Accessing elements by class name as requested
+            const controls = tableBody.getElementsByClassName('dtr-control');
+
+            for (let i = 0; i < controls.length; i++) {
+                const element = controls[i];
+                const row = element.closest('tr');
+                
+                // 1. Initial Attributes (Role and Aria)
+                if (!element.hasAttribute('role')) {
+                    const title = row ? row.cells[0].innerText.trim() : "row";
+                    element.setAttribute('role', 'button');
+                    element.setAttribute('aria-label', `View details for ${title}`);
+                    element.setAttribute('aria-expanded', 'false');
+                }
+
+                // 2. Add Keyboard and Click listeners
+                if (!element.dataset.accBound) {
+                    const updateAria = () => {
+                        
+                        setTimeout(() => {
+                            const isExpanded = row.classList.contains('dtr-expanded');
+                            element.setAttribute('aria-expanded', isExpanded.toString());
+                        }, 50);
+                    };
+
+                    // Update aria-expanded on click
+                    element.addEventListener('click', updateAria);
+
+                    // Listen for Spacebar (32) and Enter (13)
+                    element.addEventListener('keydown', function(e) {
+                        const key = e.key || e.keyCode;
+                        
+                        if (key === ' ' || key === 32 ) {
+                            // Prevent Spacebar from scrolling the page
+                            if (key === ' ' || key === 32) {
+                                e.preventDefault();
+                            }
+                            
+                            // Log the activation for debugging
+                            console.log(`Keyboard activated control for: ${element.innerText.trim()}`);
+                            
+                            // Trigger the click event which DataTables is already listening for
+                            element.click();
+                        }
+                    });
+
+                    // Mark as bound to prevent duplicate listeners on redraws
+                    element.dataset.accBound = "true";
+                }
+            }
+            }, 1000);
+        });
+    });
+}(jQuery));
+
+    
+</script>
+
+
+
+<h2 class=""> 
+    <span class="a-pHeadline a-card__subHeadline">Communication Access Realtime Translation (CART)</span>
+</h2>
+
+
+
+<table id="cart" class="display">
+    <caption>
+        CART Captioning Resources
+    </caption>
+    <thead class="">
+        <tr>
+            
+            <th scope="col">Organization Name</th>
+            
+            <th scope="col">Point of Contact</th>
+            
+            <th scope="col">Phone Number</th>
+            
+            <th scope="col">Email Address</th>
+            
+            <th scope="col">Remote or In-Person?</th>
+            
+            <th scope="col">In-Person CART Rates</th>
+            
+            <th scope="col">In-person CART services, What NY regions do you serve?</th>
+            
+            <th scope="col">Can provide CART service in languages other than English?</th>
+            
+            <th scope="col">What Languages?</th>
+            
+            <th scope="col">Based in NY State?</th>
+            
+            <th scope="col">Rates for Remote CART</th>
+              
+        </tr>
+    </thead>
+
+    
+    <tbody>
+        
+            <tr>
+                <td> ASLII </td>
+                <td> Jennifer Mistler </td>
+                <td> 212-477-0775 </td>
+                <td> jmistler@aslii.com </td>
+                <td> Both </td>
+                <td> $120-$140 per hour/2 hr min </td>
+                <td> New York City </td>
+                <td> No </td>
+                <td> N/A </td>
+                <td> Yes </td>
+                <td> $110-$130/One hour minimum </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Birnbaum Interpreting Services </td>
+                <td> Brian Birnbaum </td>
+                <td> 443-241-9011 </td>
+                <td> bbirnbaum@bisworld.com </td>
+                <td> Both </td>
+                <td> $200 </td>
+                <td> All regions </td>
+                <td> Yes </td>
+                <td> Spanish, French, Arabic, Mandarin, Cantonese, Japanese, and more </td>
+                <td> No </td>
+                <td> $150 </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Caption First, Inc. </td>
+                <td> Inquiries/Scheduling </td>
+                <td> 800-825-5234 </td>
+                <td> info@captionfirst.com </td>
+                <td> Both </td>
+                <td> Contact for custom quote </td>
+                <td> All regions </td>
+                <td> Yes </td>
+                <td> Publishes information in multiple languages; 100+ foreign-language captioners </td>
+                <td> No </td>
+                <td> Contact for custom quote </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Captions Unlimited, Inc. </td>
+                <td> Annemarie DeSimone </td>
+                <td> 212-320-3300 ext. 815 </td>
+                <td> info@captionsunlimited.com </td>
+                <td> Both </td>
+                <td> $110-$150/hr (rates vary based on factors like time, location, etc.) </td>
+                <td> Capital Region, Central NY, Finger Lakes, Long Island, Mid-Hudson, Mohawk Valley, NYC, North Country, Southern Tier, Western NY </td>
+                <td> No </td>
+                <td> N/A </td>
+                <td> Yes </td>
+                <td> Contact for pricing (depends on duration and technical requirements) </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Global Interpreting Services, Inc. </td>
+                <td> Michael Cardoza </td>
+                <td> 516-327-0422 </td>
+                <td> info@globalinterpreting.com </td>
+                <td> Both </td>
+                <td> $135 per hour </td>
+                <td> All regions </td>
+                <td> Yes </td>
+                <td> Various </td>
+                <td> Yes </td>
+                <td> $135 per hour </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Inclusive Communication Services </td>
+                <td> Shelby Edwards </td>
+                <td> 347-989-2344 </td>
+                <td> shelby@inclusiveasl.com </td>
+                <td> Both </td>
+                <td> Dependent on venue/event; approx $125-$175/hr </td>
+                <td> Central NY, Long Island, New York City </td>
+                <td> Yes </td>
+                <td> Most languages through StreamText </td>
+                <td> Yes </td>
+                <td> $125-$150/hr (depends on duration and tech) </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Karash and Associates </td>
+                <td> Adam Karash </td>
+                <td> 1-800-621-5689 x 103 </td>
+                <td> adam@karash.com </td>
+                <td> Both </td>
+                <td> $150-$200 (includes travel, equipment, and delivery) </td>
+                <td> All regions </td>
+                <td> Yes </td>
+                <td> French, German, Spanish </td>
+                <td> No </td>
+                <td> $120/hr (1 hour minimum; 30 minutes increments after first hr) </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Landmark Media Solutions, LLC dba Archives Reporting and Captioning </td>
+                <td> Chris Heyden </td>
+                <td> 1-800-335-0611 </td>
+                <td> archives@archivesreporting.com </td>
+                <td> Both </td>
+                <td> Rates vary; based on travel, length of assignment, and complexity </td>
+                <td> All regions </td>
+                <td> Yes </td>
+                <td> Spanish, Portuguese, and French </td>
+                <td> No </td>
+                <td> Rates vary; contact for a quote based on project </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Lantana Reporting, Inc. </td>
+                <td> Dara Lawrence, RMR, CRR </td>
+                <td> 212-329-1000 </td>
+                <td> flowers@lantanareporting.com </td>
+                <td> Both </td>
+                <td> $150 per hour </td>
+                <td> N/A </td>
+                <td> Yes </td>
+                <td> The firm provides caption services in nearly every language requested </td>
+                <td> No </td>
+                <td> $100-$150 per hour </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Peoples, Inc. </td>
+                <td> Julie Atate </td>
+                <td> 716-817-7440 </td>
+                <td> info@people-inc.org </td>
+                <td> Remote only </td>
+                <td> N/A </td>
+                <td> N/A </td>
+                <td> No </td>
+                <td> N/A </td>
+                <td> Yes </td>
+                <td> $150 per hour </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Professional Reporting Services </td>
+                <td> Sally Monaco </td>
+                <td> 315-436-7775 </td>
+                <td> sally@professionalreportingservices.com </td>
+                <td> Both </td>
+                <td> $150 per hour; travel expenses added if applicable </td>
+                <td> Central NY, Finger Lakes, Mid-Hudson Valley, Mohawk Valley, Southern Tier, Western NY </td>
+                <td> Yes </td>
+                <td> Most languages through StreamText; Spanish translation is also available upon request </td>
+                <td> Yes </td>
+                <td> $150 per hour; 2-hour minimum </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Propio LS </td>
+                <td> Scott Binney </td>
+                <td> 913-312-5500 </td>
+                <td> scott.binney@propiols.com </td>
+                <td> Both </td>
+                <td> $200 per hour </td>
+                <td> Long Island and New York City </td>
+                <td> Yes </td>
+                <td> N/A </td>
+                <td> No </td>
+                <td> $2.25 per min </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Service Bridge, Inc. </td>
+                <td> Jan Mistler </td>
+                <td> 212-329-1000 </td>
+                <td> jmistler@servicebridge.com </td>
+                <td> Both </td>
+                <td> $150 per hour </td>
+                <td> All regions </td>
+                <td> No </td>
+                <td> N/A </td>
+                <td> No </td>
+                <td> $125 per hour </td>
+                
+            </tr>
+        
+            <tr>
+                <td> SilverCenter NYC, LLC </td>
+                <td> Jaime Diamond </td>
+                <td> 646-450-8637 </td>
+                <td> info@silvercenternyc.com </td>
+                <td> Both </td>
+                <td> $140 per hour (2-hour minimum) </td>
+                <td> New York City </td>
+                <td> Yes </td>
+                <td> Over 100 languages available through StreamText </td>
+                <td> No </td>
+                <td> $140 per hour (2-hour minimum) </td>
+                
+            </tr>
+        
+            <tr>
+                <td> TransPerfect Translations International, Inc. </td>
+                <td> Michael Donatello </td>
+                <td> 800-482-0011 </td>
+                <td> mdonatello@transperfect.com </td>
+                <td> Both </td>
+                <td> $150-$250 (plus travel if applicable) </td>
+                <td> All regions </td>
+                <td> Yes </td>
+                <td> Arabic, Chinese, English, French, German, Italian, Japanese, Korean, Russian, Spanish, and more </td>
+                <td> Yes </td>
+                <td> $150-$250 per hour </td>
+                
+            </tr>
+        
+            <tr>
+                <td> Vancor </td>
+                <td> Jessica Morgan-Vail </td>
+                <td> 315-738-1133 </td>
+                <td> jmorgan-vail@vancor.com </td>
+                <td> Remote only </td>
+                <td> N/A </td>
+                <td> Central Region </td>
+                <td> No </td>
+                <td> N/A </td>
+                <td> No </td>
+                <td> $100 per hour </td>
+                
+            </tr>
+        
+            <tr>
+                <td> White Coat Captioning, LLC </td>
+                <td> Norma Miller </td>
+                <td> 800-221-3341 </td>
+                <td> info@whitecoatcaptioning.com </td>
+                <td> Both </td>
+                <td> $175-$225/hr; 2-hour minimum </td>
+                <td> Long Island and New York City </td>
+                <td> Yes </td>
+                <td> Spanish (limited availability) </td>
+                <td> No </td>
+                <td> $150-$225 per hour; depends on event </td>
+                
+            </tr>
+        
+    </tbody>
+    
+
+</table>
+
+
+    <p class="nysds-table-disclaimer"><em>This table is for informational purposes only.</em></p>
+
+
+
+
+</script>
