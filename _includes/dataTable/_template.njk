@@ -4,61 +4,12 @@
 <script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.min.js" ></script>
 
 <script>
-    (function($) {
-    $(document).ready(function() {
-       new DataTable('#{{params.tableName}}', {
-            columnDefs: [{ 
-                orderable: true, 
-                targets: [0,1,2,3],  
-                render: function(data, type, row, meta) {
-                    if (type != 'display') {
-                    return data.replace( /<.*?>/g, '' );
-                    }
-                    return data;
-                    }
-                
-                
-                
-                }],
-                layout: {
-                            
-                            topStart: {
-                                search: {
-                                    placeholder: '{{params.searchPlaceholder}}'
-                                }
-                            },
-                            topEnd: 'info',
-                            bottomStart: null,
-                            bottomEnd: null,
-                            bottom: 'paging'
-                        },
-            order: [[1, 'asc']],
-            {% if params.tablename == "phonefree" %}
-            scrollX: true
-            {% else %}
-            responsive: true
-
-            {%endif%}
-           
-        });
-        
-        
-        
-    } );
-
-    $(document).ready(function() {
-    const searchInput = document.getElementById("dt-search-0");
-        const clearAll = document.getElementById("clear");
-        const tableId = '#{{params.tableName}}'
-        console.log(tableId)
-        searchInput.insertAdjacentHTML('afterend','<button class="nysds-reset-button" id="clear"> Reset </button>')
-        $('#clear').on('click', () => {
-            $(tableId).DataTable().search('').columns().search('').draw();
-            })
-     } );
-
-     })(jQuery);
-
+    {% if params.tablename == "phonefree" %}
+        {% include './_scrollTable.js' %}
+    {% else %}
+        {% include './_responsiveTable.js' %}
+         {% include './_a11yControl.js' %}
+    {% endif %}
 </script>
 
 {%set tableData = params.dataSource %}
@@ -110,7 +61,7 @@
                 <td> {{data.email_address}} </td>
                 <td> {{data.remote_or_in_person}} </td>
                 <td> {{data.in_person_cart_rates}} </td>
-                <td> {{data.ny_regions_served}} </td>
+                <td> {{data.regions_served}} </td>
                 <td> {{data.cart_other_languages}} </td>
                 <td> {{data.languages_offered}} </td>
                 <td> {{data.based_in_ny_state}} </td>

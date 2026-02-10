@@ -498,9 +498,7 @@
 
 @media (min-width: 1280px) {
 
-}
-
-</style>
+}</style>
 <style>:root {
   --dt-row-selected: 13, 110, 253;
   --dt-row-selected-text: 255, 255, 255;
@@ -1473,8 +1471,6 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
     background-color: rgb(33, 37, 41);
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
-
-    
 </style>
 
 
@@ -1483,7 +1479,8 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
 <script src="https://cdn.datatables.net/responsive/3.0.8/js/dataTables.responsive.min.js" ></script>
 
 <script>
-    (function($) {
+    
+            (function($) {
     $(document).ready(function() {
        new DataTable('#cart', {
             columnDefs: [{ 
@@ -1512,17 +1509,20 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                             bottom: 'paging'
                         },
             order: [[1, 'asc']],
-            
-            responsive: true
-
-            
-           
+    
+            responsive: true,
+           drawCallback: function() {
+                // Call your custom plugin
+                const api = this.api();
+                api.applyAccessibility();
+            }
         });
         
         
         
     } );
 
+    
     $(document).ready(function() {
     const searchInput = document.getElementById("dt-search-0");
         const clearAll = document.getElementById("clear");
@@ -1535,7 +1535,72 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
      } );
 
      })(jQuery);
+         
 
+
+(function($) {
+    $.fn.dataTable.Api.register('applyAccessibility()', function() {
+        return this.iterator('table', function(settings) {
+             setTimeout(() => {
+            const api = new $.fn.dataTable.Api(settings);
+            const tableBody = api.table().body();
+            
+            // Accessing elements by class name as requested
+            const controls = tableBody.getElementsByClassName('dtr-control');
+
+            for (let i = 0; i < controls.length; i++) {
+                const element = controls[i];
+                const row = element.closest('tr');
+                
+                // 1. Initial Attributes (Role and Aria)
+                if (!element.hasAttribute('role')) {
+                    const title = row ? row.cells[0].innerText.trim() : "row";
+                    element.setAttribute('role', 'button');
+                    element.setAttribute('aria-label', `View details for ${title}`);
+                    element.setAttribute('aria-expanded', 'false');
+                }
+
+                // 2. Add Keyboard and Click listeners
+                if (!element.dataset.accBound) {
+                    const updateAria = () => {
+                        
+                        setTimeout(() => {
+                            const isExpanded = row.classList.contains('dtr-expanded');
+                            element.setAttribute('aria-expanded', isExpanded.toString());
+                        }, 50);
+                    };
+
+                    // Update aria-expanded on click
+                    element.addEventListener('click', updateAria);
+
+                    // Listen for Spacebar (32) and Enter (13)
+                    element.addEventListener('keydown', function(e) {
+                        const key = e.key || e.keyCode;
+                        
+                        if (key === ' ' || key === 32 ) {
+                            // Prevent Spacebar from scrolling the page
+                            if (key === ' ' || key === 32) {
+                                e.preventDefault();
+                            }
+                            
+                            // Log the activation for debugging
+                            console.log(`Keyboard activated control for: ${element.innerText.trim()}`);
+                            
+                            // Trigger the click event which DataTables is already listening for
+                            element.click();
+                        }
+                    });
+
+                    // Mark as bound to prevent duplicate listeners on redraws
+                    element.dataset.accBound = "true";
+                }
+            }
+            }, 1000);
+        });
+    });
+}(jQuery));
+
+    
 </script>
 
 
@@ -1588,7 +1653,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> jmistler@aslii.com </td>
                 <td> Both </td>
                 <td> $120-$140 per hour/2 hr min </td>
-                <td>  </td>
+                <td> New York City </td>
                 <td> No </td>
                 <td> N/A </td>
                 <td> Yes </td>
@@ -1603,7 +1668,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> bbirnbaum@bisworld.com </td>
                 <td> Both </td>
                 <td> $200 </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> Yes </td>
                 <td> Spanish, French, Arabic, Mandarin, Cantonese, Japanese, and more </td>
                 <td> No </td>
@@ -1618,7 +1683,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> info@captionfirst.com </td>
                 <td> Both </td>
                 <td> Contact for custom quote </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> Yes </td>
                 <td> Publishes information in multiple languages; 100+ foreign-language captioners </td>
                 <td> No </td>
@@ -1633,7 +1698,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> info@captionsunlimited.com </td>
                 <td> Both </td>
                 <td> $110-$150/hr (rates vary based on factors like time, location, etc.) </td>
-                <td>  </td>
+                <td> Capital Region, Central NY, Finger Lakes, Long Island, Mid-Hudson, Mohawk Valley, NYC, North Country, Southern Tier, Western NY </td>
                 <td> No </td>
                 <td> N/A </td>
                 <td> Yes </td>
@@ -1648,7 +1713,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> info@globalinterpreting.com </td>
                 <td> Both </td>
                 <td> $135 per hour </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> Yes </td>
                 <td> Various </td>
                 <td> Yes </td>
@@ -1663,7 +1728,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> shelby@inclusiveasl.com </td>
                 <td> Both </td>
                 <td> Dependent on venue/event; approx $125-$175/hr </td>
-                <td>  </td>
+                <td> Central NY, Long Island, New York City </td>
                 <td> Yes </td>
                 <td> Most languages through StreamText </td>
                 <td> Yes </td>
@@ -1678,7 +1743,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> adam@karash.com </td>
                 <td> Both </td>
                 <td> $150-$200 (includes travel, equipment, and delivery) </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> Yes </td>
                 <td> French, German, Spanish </td>
                 <td> No </td>
@@ -1693,7 +1758,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> archives@archivesreporting.com </td>
                 <td> Both </td>
                 <td> Rates vary; based on travel, length of assignment, and complexity </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> Yes </td>
                 <td> Spanish, Portuguese, and French </td>
                 <td> No </td>
@@ -1708,7 +1773,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> flowers@lantanareporting.com </td>
                 <td> Both </td>
                 <td> $150 per hour </td>
-                <td>  </td>
+                <td> N/A </td>
                 <td> Yes </td>
                 <td> The firm provides caption services in nearly every language requested </td>
                 <td> No </td>
@@ -1723,7 +1788,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> info@people-inc.org </td>
                 <td> Remote only </td>
                 <td> N/A </td>
-                <td>  </td>
+                <td> N/A </td>
                 <td> No </td>
                 <td> N/A </td>
                 <td> Yes </td>
@@ -1738,7 +1803,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> sally@professionalreportingservices.com </td>
                 <td> Both </td>
                 <td> $150 per hour; travel expenses added if applicable </td>
-                <td>  </td>
+                <td> Central NY, Finger Lakes, Mid-Hudson Valley, Mohawk Valley, Southern Tier, Western NY </td>
                 <td> Yes </td>
                 <td> Most languages through StreamText; Spanish translation is also available upon request </td>
                 <td> Yes </td>
@@ -1753,7 +1818,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> scott.binney@propiols.com </td>
                 <td> Both </td>
                 <td> $200 per hour </td>
-                <td>  </td>
+                <td> Long Island and New York City </td>
                 <td> Yes </td>
                 <td> N/A </td>
                 <td> No </td>
@@ -1768,7 +1833,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> jmistler@servicebridge.com </td>
                 <td> Both </td>
                 <td> $150 per hour </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> No </td>
                 <td> N/A </td>
                 <td> No </td>
@@ -1783,7 +1848,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> info@silvercenternyc.com </td>
                 <td> Both </td>
                 <td> $140 per hour (2-hour minimum) </td>
-                <td>  </td>
+                <td> New York City </td>
                 <td> Yes </td>
                 <td> Over 100 languages available through StreamText </td>
                 <td> No </td>
@@ -1798,7 +1863,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> mdonatello@transperfect.com </td>
                 <td> Both </td>
                 <td> $150-$250 (plus travel if applicable) </td>
-                <td>  </td>
+                <td> All regions </td>
                 <td> Yes </td>
                 <td> Arabic, Chinese, English, French, German, Italian, Japanese, Korean, Russian, Spanish, and more </td>
                 <td> Yes </td>
@@ -1813,7 +1878,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> jmorgan-vail@vancor.com </td>
                 <td> Remote only </td>
                 <td> N/A </td>
-                <td>  </td>
+                <td> Central Region </td>
                 <td> No </td>
                 <td> N/A </td>
                 <td> No </td>
@@ -1828,7 +1893,7 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
                 <td> info@whitecoatcaptioning.com </td>
                 <td> Both </td>
                 <td> $175-$225/hr; 2-hour minimum </td>
-                <td>  </td>
+                <td> Long Island and New York City </td>
                 <td> Yes </td>
                 <td> Spanish (limited availability) </td>
                 <td> No </td>
@@ -1845,26 +1910,6 @@ html[data-bs-theme="dark"] div.dtr-modal div.dtr-modal-display {
     <p class="nysds-table-disclaimer"><em>This table is for informational purposes only.</em></p>
 
 
-<script>
-  setTimeout(() => {
 
-      // Get the live collection of elements
-const controls = document.getElementsByClassName('dtr-control');
-
-// Convert to an array so we can use forEach, or use a for loop
-for (let i = 0; i < controls.length; i++) {
-    const element = controls[i];
-    
-    // 1. Get the value (text content)
-    const value = element.innerText || element.textContent;
-    
-    // 2. Apply the aria-label
-    element.setAttribute('aria-label', `${value.trim()} click to expand details`);
-    
-   
-}
-  
-}, 1000);
-   
 
 </script>
