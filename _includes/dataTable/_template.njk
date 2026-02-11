@@ -57,8 +57,8 @@
             <tr>
                 <td> {{data.organization_name}} </td>
                 <td> {{data.point_of_contact}} </td>
-                <td> {{data.phone_number}} </td>
-                <td> {{data.email_address}} </td>
+                <td> <a href="tel:{{data.phone_number}} ">{{data.phone_number}}</a> </td>
+                <td> <a href="mailto:{{data.email_address}}">{{data.email_address}}</a> </td>
                 <td> {{data.remote_or_in_person}} </td>
                 <td> {{data.in_person_cart_rates}} </td>
                 <td> {{data.regions_served}} </td>
