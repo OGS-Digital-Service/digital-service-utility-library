@@ -24,7 +24,6 @@ class nysdsBanner extends HTMLElement {
     
     <article id="nysds-hide-this" class="nysds-static-banner">
         <div class="nysds-static-wrap">
-            <div class="nysds-disclaimer"> Machine translations are not perfect and are not intended to replace human translators. Some pages or parts of the content may not be translated accurately due to limitations of the translation software. <a class="nysds-disclaimer-link"href="https://es.ny.gov/web-translation-services">Read the full disclaimer</a></div>
             <div class="nysds-disclaimer" lang="es"> Las traducciones automáticas no son perfectas y no pretenden reemplazar a los traductores humanos. Es posible que algunas páginas o parte del contenido no estén traducidos de forma precisa debido a las limitaciones del software de traducción. <a class="nysds-disclaimer-link" href="https://es.ny.gov/web-translation-services">Lea la exención de responsabilidad completa</a></div>
         </div>
         <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
