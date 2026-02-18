@@ -1,0 +1,27 @@
+params:
+- name: title
+  type: string
+  required: true
+  description: The hero title
+- name: date
+  type: string
+  required: false
+  description: The date of the thing. Optional.
+- name: description
+  type: string
+  required: false
+  description: A description that gets truncated at the limit of X.
+- name: buttons
+  type: array
+  required: false
+  description: the contents of up to two buttons
+  params:
+  - name: buttontext
+    type: string
+    required: false
+  - name: link
+    type: string
+    required: false
+  - name: arialabel
+    type: string
+    required: false
