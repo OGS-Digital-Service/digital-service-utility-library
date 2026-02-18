@@ -117,9 +117,17 @@
 .nysds-close-button {
   background-color: transparent;
   border: none;
-  margin-left: auto;
   min-height: 24px;
+  margin: 0 5% 0 0;
   padding: 28px;
+}
+.nysds-close-button:hover {
+  filter: brightness(0) saturate(100%) invert(73%) sepia(85%) saturate(1288%) hue-rotate(4deg) brightness(103%) contrast(102%);
+  cursor: pointer;
+}
+.nysds-close-button:focus {
+  filter: brightness(0) saturate(100%) invert(73%) sepia(85%) saturate(1288%) hue-rotate(4deg) brightness(103%) contrast(102%);
+  cursor: pointer;
 }
 .nysds-close-icon {
   background: url(data:image/svg+xml,%3Csvg%20aria-hidden%3D%22true%22%20focusable%3D%22false%22%20data-prefix%3D%22fas%22%20data-icon%3D%22times%22%20class%3D%22svg-inline--fa%20fa-times%20fa-w-11%22%20role%3D%22img%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20352%20512%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M242.72%20256l100.07-100.07c12.28-12.28%2012.28-32.19%200-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48%200L176%20189.28%2075.93%2089.21c-12.28-12.28-32.19-12.28-44.48%200L9.21%20111.45c-12.28%2012.28-12.28%2032.19%200%2044.48L109.28%20256%209.21%20356.07c-12.28%2012.28-12.28%2032.19%200%2044.48l22.24%2022.24c12.28%2012.28%2032.2%2012.28%2044.48%200L176%20322.72l100.07%20100.07c12.28%2012.28%2032.2%2012.28%2044.48%200l22.24-22.24c12.28-12.28%2012.28-32.19%200-44.48L242.72%20256z%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E);
@@ -154,13 +162,24 @@
 }
 .nysds-static-wrap {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin: 0 5%;
+    margin: 0 1% 0 5%;
     width: 100%;
 }
 .nysds-disclaimer {
     margin: 0 2%;
+}
+.nysds-disclaimer-link {
+    color: #fff;
+    text-decoration: underline;
+}
+.nysds-disclaimer-link:hover {
+  text-decoration-thickness: 3px;
+}
+.nysds-disclaimer-link:focus{
+  text-decoration-thickness: 3px;
+  
 }
 
 </style>
@@ -191,11 +210,12 @@ class nysdsBanner extends HTMLElement {
     
     <article id="nysds-hide-this" class="nysds-static-banner">
         <div class="nysds-static-wrap">
-            <div class="nysds-disclaimer"> This website has been translated using automated translation technology. No automated translation is perfect, nor is it intended to replace human translators.</div>
-            <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
+            <div class="nysds-disclaimer"> Machine translations are not perfect and are not intended to replace human translators. Some pages or parts of the content may not be translated accurately due to limitations of the translation software. <a class="nysds-disclaimer-link"href="https://es.ny.gov/web-translation-services">Read the full disclaimer</a></div>
+            <div class="nysds-disclaimer" lang="es"> Las traducciones automáticas no son perfectas y no pretenden reemplazar a los traductores humanos. Es posible que algunas páginas o parte del contenido no estén traducidos de forma precisa debido a las limitaciones del software de traducción. <a class="nysds-disclaimer-link" href="https://es.ny.gov/web-translation-services">Lea la exención de responsabilidad completa</a></div>
+        </div>
+        <button id="nysds-close" class="nysds-close-button nysds-close-icon" aria-labelledby="close-button-label">
                 <span class="sr-only" id="close-button-label">Close this notification banner</span>
             </button>
-        </div>
     </article>
       `;
   }
