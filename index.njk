@@ -31,7 +31,7 @@ twitter:
 }}
 
 <p class="text-2xl font-bold my-8 text-center"> We're still in beta so please forgive any component testing in the open! </p>
-
+<div id="contents"></div>
 This is a static website. In the traditional sense, it's "just a website." HTML, CSS, and some javascript are the only things powering this website and design system. As a static website it's generated using the static site generator 11ty/eleventy: a powerful javascript-based jekyll alternative. 
 
 {{ categorytiles({ 
@@ -133,12 +133,25 @@ This is a static website. In the traditional sense, it's "just a website." HTML,
     ]
 })}} 
 
-<div id="search"></div>
+{# <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
         new PagefindUI({ element: "#search", showSubResults: true });
     });
-</script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+    const questionRegion = document.getElementById("contents");
+    console.log(questionRegion)
+    if (questionRegion) {
+        const sectionHeading = document.createElement("h1");
+        sectionHeading.textContent = "NY.gov Feedback Survey";
+        sectionHeading.classList.add("nysds-qualtrics-heading");
+        questionRegion.appendChild(sectionHeading);
+    }
+});
+</script> #}
+
+
 
 
 {{
