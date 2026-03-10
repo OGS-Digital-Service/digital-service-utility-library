@@ -26,7 +26,7 @@
                             bottomEnd: null,
                             bottom: 'paging'
                         },
-            order: [[1, 'asc']],
+            order: [[0, 'asc']],
     
             responsive: true,
            drawCallback: function() {
