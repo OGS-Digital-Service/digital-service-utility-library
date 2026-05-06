@@ -1,0 +1,53 @@
+---
+layout: layout.njk
+title: List labeling
+permalink: "list-label/"
+---
+
+<h1 class="text-3xl font-bold my-8"> {{title}} </h1>
+
+
+<section class="m-8">
+    <h2 class="text-xl font-bold"> This has no label for the ul</h2>
+    <span class="sr-only"> No label here just an sr only </span>
+    <ul class="m-8">
+        <li>First List Item</li>
+        <li>Second List Item</li>
+        <li>Third List Item</li>
+        <li>Fourth List Item</li>
+    </ul>
+</section>
+
+<section class="m-8">
+    <h2 class="text-xl font-bold">This uses an aria-label for the ul </h2>
+    <ul class="m-8" aria-label="list grouping with aria label">
+        <li>First List Item</li>
+        <li>Second List Item</li>
+        <li>Third List Item</li>
+        <li>Fourth List Item</li>
+    </ul>
+</section>
+
+<section class="m-8">
+    <h2 class="text-xl font-bold">This uses an aria-labelledby for the ul</h2>
+    <span class="sr-only" id="list-label">list grouping with aria labelled by</span>
+    <ul class="m-8" aria-labelledby="list-label">
+        <li>First List Item</li>
+        <li>Second List Item</li>
+        <li>Third List Item</li>
+        <li>Fourth List Item</li>
+    </ul>
+</section>
+
+
+<section class="m-8">
+    <h2 class="text-xl font-bold">This uses a title for the ul</h2>
+    <ul class="m-8" title="list grouping using a title">
+        <li>First List Item</li>
+        <li>Second List Item</li>
+        <li>Third List Item</li>
+        <li>Fourth List Item</li>
+    </ul>
+</section>
+
+
