@@ -168,7 +168,15 @@ input {
     <input type="date" id="native-date-styled" class="icon-styled bg-black text-white">
 </div>
 
+<ul>
+    <li> Safari does not support the html native icon for iconpicker, despite being a -webkit- prefix. Very strange. </li>
+    <li> Because of this limitation in safari - no calendar icon is present at all. ex. there isn't a focusable control, good and bad.  </li>
+    <li> Firefox does not care that you want to style the -webkit-calendar-picker-indicator they provide zero way to target this psuedo element. Firefox is the only browser that has this issue and they represent less than 2% of our user base. </li>
+    <li> As usual, everything works as expected in chrome.</li>
+    <li> we could use some selective @supports statements to allow for a fallback of a visual icon, but this isn't great either - semi-hacky approach. </li>
+    <li> we could also use the styling rule to simply attempt to hide the native focusable control using -webkit-calendar-picker-indicator for chrome, leaving the issue present in firefox. </li>
 
+</ul>
     </main>
     <footer class="bg-tertiary-core-blue px-4 py-8 flex flex-col md:flex-row md:items-center items-baseline mt-12">
 <h2 class="dsari nysds-text-22 text-black ml-8 md:ml-16 mr-4 border-solid border-b border-black md:border-none pr-16 md:pr-0"><a href="/" aria-label="NYS Digital Services" class="">NYS Digital Services</a></h2>
