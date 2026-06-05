@@ -1,0 +1,205 @@
+.nysds-search-hero-container {
+    display: flex;
+    justify-content: center;
+}
+
+.nysds-search-hero-container-color {
+    display: flex;
+    justify-content: center;
+    background-color: #d0d0ce;
+}
+
+.nysds-search-hero-container-signup {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.nysds-search-hero-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    max-width: 1160px;
+    border-radius: 0;
+}
+
+.nysds-search-hero-color {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    max-width: 1160px;
+    border-radius: 0;
+    text-align: center;
+}
+
+.nysds-search-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    width: 100%;
+    border-radius: 0;
+    background-color: #d0d0ce;
+    text-align: center;
+}
+
+.nysds-search-hero-heading-signup {
+    font-size: 24px;
+    line-height: 1.15em;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 800;
+    margin: 0 0 15px 0;
+    padding: 0 20px;
+    min-width: 25%;
+}
+
+.nysds-search-hero-heading {
+    font-size: 36px;
+    line-height: 1.15em;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.nysds-search-description {
+    margin: 15px 0 !important;
+    font-size: 18px;
+}
+
+.nysds-text-white {
+    color: #fff !important;
+}
+
+.nysds-text-black {
+    color: #000;
+}
+
+#nysds-service-search-input {
+    padding: 15px;
+    font-size: 1.1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+}
+
+#nysds-service-search-input-signup {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+}
+
+#nysds-service-search-input:focus {
+    outline: 2px #FACE00 solid;
+    box-shadow:inset 0 0 0 4px
+}
+
+#nysds-service-search-input-signup:focus {
+    outline: 2px #FACE00 solid;
+    box-shadow:inset 0 0 0 4px
+}
+
+#nysds-service-search-submit {
+    font-size: 1.3rem;
+    border:none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #154973;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 25px 0 25px;
+}
+
+#nysds-service-search-submit:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+#nysds-service-search-submit:focus {
+    background-color: #000;
+    color: #fff;
+    outline: 2px #FACE00 solid;
+} 
+
+.nysds-search-container {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.nysds-search-container-signup {
+    display: flex;
+    width: 100%;
+}
+
+#nysds-service-search-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nysds-search-box {
+    display: flex;
+    width: 100%;
+    border: 2px solid #62666A;
+    border-radius: 5px;
+}
+
+/* tablet */
+@media (min-width: 768px) {
+    .nysds-search-hero {
+        padding: 60px 35px;
+    }
+}
+
+
+/* desktop */
+@media (min-width: 1024px) {
+    .nysds-search-hero-container {
+        height: 512px;
+        justify-content: flex-start;
+    }
+    .nysds-search-hero-signup {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 25px 15px;
+        width: 100%;
+        max-width: 1160px;
+        border-radius: 0;
+    }
+
+
+    .nysds-search-hero {
+        align-items: flex-start;
+        width: 580px;
+        padding: 50px;
+        border-radius: 15px;
+        margin: 0 60px;
+        align-self: center;
+        background: #fff;
+        text-align: left !important;
+    }
+
+    .nysds-search-hero-heading-signup { 
+        margin: 0;
+    }
+
+
+    #nysds-service-search-form {
+        justify-content: flex-start;
+    }
+}

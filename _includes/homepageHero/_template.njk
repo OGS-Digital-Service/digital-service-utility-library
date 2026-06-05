@@ -1,0 +1,104 @@
+{% if params.variant == "colorHero" %}
+<section class="nysds-search-hero-container-color" id="nysds-search-hero">
+    <div class="nysds-search-hero-color">
+        <h1 class="nysds-search-hero-heading nysds-text-{{params.color}}">
+            {{params.heading}}
+        </h1>
+        {% if params.description %}
+        <p class="nysds-search-description nysds-text-{{params.color}}">
+            {{params.description}}
+        </p>
+        {%endif%}
+        <div class="nysds-search-container">
+            <form id="nysds-service-search-form">
+                <label for="nysds-service-search-input" class="sr-only">
+                    Search All Services
+                </label>
+                <div class="nysds-search-box">
+                    <input 
+                        id="nysds-service-search-input"
+                        placeholder="Search All Services" 
+                        size="8" 
+                        type="search" 
+                        enterkeyhint="search"
+                    >
+                    <button type="submit" id="nysds-service-search-submit"> 
+                    <span class="sr-only">  Search all state services </span>
+                        <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                    </button>  
+                </div>  
+            </form>
+        </div> 
+    </div>
+</section>
+{% endif %}
+{% if params.variant == "imageHero" %}
+<style>
+.nysds-search-background-image {
+    background-image: url('{{params.image}}');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+</style>
+<section class="nysds-search-hero-container nysds-search-background-image" id="nysds-search-hero">
+    <div class="nysds-search-hero">
+        <h1 class="nysds-search-hero-heading nysds-text-{{params.color}}">
+            {{params.heading}}
+        </h1>
+        <p class="nysds-search-description nysds-text-{{params.color}}">
+            {{params.description}}
+        </p>
+        <div class="nysds-search-container">
+            <form id="nysds-service-search-form">
+                <label for="nysds-service-search-input" class="sr-only">
+                    Search All Services
+                </label>
+                <div class="nysds-search-box">
+                    <input 
+                        id="nysds-service-search-input"
+                        placeholder="Search All Services" 
+                        size="8" 
+                        type="search" 
+                        enterkeyhint="search"
+                    >
+                    <button type="submit" id="nysds-service-search-submit"> 
+                    <span class="sr-only">  Search all state services </span>
+                        <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                    </button>  
+                </div>  
+            </form>
+        </div>
+    </div>
+</section>
+{% endif %}
+{% if params.variant == "signUp" %}
+<section class="nysds-search-hero-container-signup" id="nysds-search-hero">
+    <div class="nysds-search-hero-signup">
+        <h2 class="nysds-search-hero-heading-signup nysds-text-{{params.color}}">
+            {{params.heading}}
+        </h2>
+       
+        <div class="nysds-search-container-signup">
+            <form id="nysds-service-search-form">
+                <label for="nysds-service-search-input-signup" class="sr-only">
+                    Search All Services
+                </label>
+                <div class="nysds-search-box">
+                    <input 
+                        id="nysds-service-search-input-signup"
+                        placeholder="Search All Services" 
+                        size="8" 
+                        type="search" 
+                        enterkeyhint="search"
+                    >
+                    <button type="submit" id="nysds-service-search-submit"> 
+                    <span class="sr-only">  Search all state services </span>
+                        <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
+                    </button>  
+                </div>  
+            </form>
+        </div>
+    </div>
+</section>
+{% endif %}
