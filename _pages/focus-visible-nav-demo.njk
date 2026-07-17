@@ -1,0 +1,59 @@
+---
+layout: layout.njk
+title: Focus visible nav demo
+permalink: "focus-visible/"
+---
+
+
+
+<style>
+
+    </style>
+
+
+    <section class="">
+        <nav class="">
+            <ul class="">
+                <li class="">
+                    <h3 class="">
+                        <button class=""> This is a nav item using :focus-visible</button>
+                    </h3>  
+                    <div class="">
+                        This is the dropdown menu
+                    </div>  
+                </li>
+                <li class="">
+                    <h3 class="">
+                        <button class=""> This is a nav item using :focus</button>
+                    </h3>  
+                    <div class="">
+                        This is the dropdown menu
+                    </div>  
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+
+{# Mimic the nav design from devbox1 - doesnt have to be exact
+
+JS
+- when the button is clicked or activated with a keyboard the menu below becomes visible
+
+
+Styling
+- use :focus-visible and outline for the first example, which should do what we did the the actual nav item as in focus is only visible after keyboard use not clicks
+- use :focus and outline for the second one, to demonstrate the difference
+
+Button size
+- use flex & flex-grow or some other similar css properties to ensure that the button is always nearly the same size as the list item
+- hover and focus styling should be on the button, not the li
+
+
+
+
+
+
+ #}
+
+
